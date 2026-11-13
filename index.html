@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kompas Strażnika</title>
+<meta name="theme-color" content="#14213d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Kompas SM">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3Z" fill="currentColor" opacity=".18"/><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3Z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m12 7 2 5-2 5-2-5 2-5Z" fill="currentColor"/></svg>
+    <div><strong>Kompas Strażnika</strong><small id="baza-info">baza: …</small></div>
+  </div>
+  <span class="badge warn" title="Wersja testowa">v0.4.1</span>
+</header>
+
+<main id="view" tabindex="-1"></main>
+
+<nav class="tabs" aria-label="Moduły">
+  <a href="#mandaty" data-tab="mandaty"><svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>Mandaty</a>
+  <a href="#znaki" data-tab="znaki"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M7 12h10"/></svg>Znaki</a>
+  <a href="#szukaj" data-tab="szukaj" class="center"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>Szukaj</a>
+  <a href="#nowy" data-tab="nowy"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v5c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V6l-8-3Z"/></svg>Uprawnienia</a>
+  <a href="#wiecej" data-tab="wiecej"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></svg>Więcej</a>
+</nav>
+
+<div id="sheet" class="sheet" hidden>
+  <div class="sheet-backdrop" data-close></div>
+  <article class="sheet-body" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+    <button class="sheet-close" data-close aria-label="Zamknij">✕</button>
+    <div id="sheet-content"></div>
+  </article>
+</div>
+
+<div id="start" class="start" hidden role="dialog" aria-modal="true" aria-labelledby="start-title">
+  <div class="start-in">
+    <svg class="start-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3Z" fill="currentColor" opacity=".18"/><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3Z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="m12 7 2 5-2 5-2-5 2-5Z" fill="currentColor"/></svg>
+    <h1 id="start-title">Kompas Strażnika</h1>
+    <p class="lead">Ściągawka prawna dla grupy szkoleniowej Straży Miejskiej. Szybko sprawdzisz, <b>czy możesz ukarać</b>, <b>na jakiej podstawie</b> i <b>ile wynosi mandat</b>.</p>
+    <ul class="start-list">
+      <li><b>Szukaj</b> – wpisz artykuł, znak albo zwykłe słowa, np. „piwo w parku”.</li>
+      <li><b>Mandaty</b> – wykroczenia z kwotami z taryfikatora i mandatownika.</li>
+      <li><b>Znaki</b> – znaki i oznakowanie, za które SM może karać.</li>
+      <li><b>Uprawnienia</b> – legitymowanie, ŚPB, pierwsze kroki nowego strażnika.</li>
+      <li>Działa <b>bez internetu</b> po pierwszym otwarciu.</li>
+    </ul>
+    <h2>Jak czytać wynik</h2>
+    <div class="legend">
+      <div><span class="verdict tak">✓ SM może ukarać</span></div>
+      <div><span class="verdict zalezy">± Zależy</span> <span class="small">– zależy od sprawcy lub sytuacji, czytaj warunki</span></div>
+      <div><span class="verdict nie">✕ Poza uprawnieniami SM</span></div>
+      <div><span class="badge warn">Sprawdź i powiedz mi</span> <span class="small">– czeka na potwierdzenie</span></div>
+    </div>
+    <p class="small muted">Nieoficjalne narzędzie szkoleniowe, nie porada prawna i nie źródło urzędowe. Każdy wpis porównano z ustawą lub rozporządzeniem. Przed interwencją sprawdź aktualny tekst aktu – decyzja należy do Ciebie.</p>
+    <button class="btn primary" id="start-ok">Zaczynamy</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

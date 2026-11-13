@@ -1,0 +1,5749 @@
+{
+ "wersja": "0.4",
+ "dataBazy": "2026-11-13",
+ "zasada": "Każde twierdzenie porównano z tekstem aktu (Dz.U., ISAP/ELI, teksty ujednolicone Kancelarii Sejmu). Czego nie dało się potwierdzić w akcie, oznaczono „Sprawdź i powiedz mi”.",
+ "zrodla": {
+  "kw": {
+   "nazwa": "Kodeks wykroczeń – t.j. Dz.U. 2026 poz. 1372 (stan na 23.09.2026)",
+   "url": "https://eli.gov.pl/api/acts/DU/2026/1372/text/T/D20261372L.pdf"
+  },
+  "kpw": {
+   "nazwa": "Kodeks postępowania w sprawach o wykroczenia – t.j. Dz.U. 2026 poz. 1336",
+   "url": "https://eli.gov.pl/api/acts/DU/2026/1336/text/T/D20261336L.pdf"
+  },
+  "rozpSM": {
+   "nazwa": "Rozp. MSWiA w sprawie wykroczeń, za które strażnicy są uprawnieni do nakładania grzywien – t.j. Dz.U. 2026 poz. 167",
+   "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000167"
+  },
+  "rozpSM2026": {
+   "nazwa": "Rozp. MSWiA z 24.08.2026 zmieniające wykaz wykroczeń SM – Dz.U. 2026 poz. 1148 (w życiu od 15.09.2026)",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/1148/text.pdf"
+  },
+  "taryfA": {
+   "nazwa": "Taryfikator – tabela A w brzmieniu z Dz.U. 2012 poz. 527",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2012/527/text.pdf"
+  },
+  "taryfA2021": {
+   "nazwa": "Taryfikator – zmiana tabeli A, Dz.U. 2021 poz. 556",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2021/556/text.html"
+  },
+  "taryfB": {
+   "nazwa": "Taryfikator – tabela B, Dz.U. 2021 poz. 2484",
+   "url": "https://eli.gov.pl/eli/DU/2021/2484/ogl/pol/pdf"
+  },
+  "taryfB2023": {
+   "nazwa": "Taryfikator – zmiana tabeli B, Dz.U. 2023 poz. 1256",
+   "url": "https://eli.gov.pl/api/acts/DU/2023/1256/text.html"
+  },
+  "pord": {
+   "nazwa": "Prawo o ruchu drogowym – tekst ujednolicony Kancelarii Sejmu (t.j. Dz.U. 2024 poz. 1251 ze zm.)",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/1997/602/text/U/D19970602Lj.pdf"
+  },
+  "znaki": {
+   "nazwa": "Rozp. w sprawie znaków i sygnałów drogowych – t.j. Dz.U. 2019 poz. 2310",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2019/2310/text.html"
+  },
+  "usg": {
+   "nazwa": "Ustawa o strażach gminnych – t.j. Dz.U. 2021 poz. 1763",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2021/1763/text/T/D20211763L.pdf"
+  },
+  "uwt": {
+   "nazwa": "Ustawa o wychowaniu w trzeźwości i przeciwdziałaniu alkoholizmowi – t.j. Dz.U. 2023 poz. 2151",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2023/2151/text.html"
+  },
+  "uozt": {
+   "nazwa": "Ustawa o ochronie zdrowia przed następstwami używania tytoniu – t.j. Dz.U. 2026 poz. 1214",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/1214/text/T/D20261214L.pdf"
+  },
+  "spb": {
+   "nazwa": "Ustawa o środkach przymusu bezpośredniego i broni palnej – t.j. Dz.U. 2026 poz. 244",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/244/text.pdf"
+  },
+  "rozpLeg": {
+   "nazwa": "Rozp. RM z 18.12.2019 w sprawie wykonywania niektórych czynności przez strażników – Dz.U. 2019 poz. 2484",
+   "url": "https://eli.gov.pl/api/acts/DU/2019/2484/text.html"
+  },
+  "ucpg": {
+   "nazwa": "Ustawa o utrzymaniu czystości i porządku w gminach – t.j. Dz.U. 2025 poz. 733 (tekst ujednolicony)",
+   "url": "https://eli.gov.pl/api/acts/DU/2025/733/text/U/D20250733Lj.pdf"
+  },
+  "oz": {
+   "nazwa": "Ustawa o ochronie zwierząt – tekst ujednolicony (t.j. Dz.U. 2023 poz. 1580 ze zm.)",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/1997/724/text/U/D19970724Lj.pdf"
+  },
+  "dowody": {
+   "nazwa": "Ustawa o dowodach osobistych – t.j. Dz.U. 2025 poz. 1753",
+   "url": "https://eli.gov.pl/api/acts/DU/2025/1753/text/O/D20251753.pdf"
+  },
+  "odpady": {
+   "nazwa": "Ustawa o odpadach – t.j. Dz.U. 2023 poz. 1587 (jest nowszy t.j. 2026 poz. 1328)",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2023/1587/text.html"
+  },
+  "zp": {
+   "nazwa": "Ustawa o zdrowiu publicznym – zmiana Dz.U. 2025 poz. 1698 (art. 12p, 18d; od 1.01.2026)",
+   "url": "https://eli.gov.pl/api/acts/DU/2025/1698/text/T/D20251698L.pdf"
+  },
+  "mandatownik": {
+   "nazwa": "Mandatownik grupy – oficjalne zestawienie, stan wrzesień 2022 (wersja papierowa; „lp. M” = numeracja mandatownika)",
+   "url": ""
+  }
+ },
+ "wpisy": [
+  {
+   "id": "kw145",
+   "kat": "porzadek",
+   "tytul": "Zaśmiecanie miejsca publicznego",
+   "potoczne": [
+    "śmieci",
+    "zaśmiecanie",
+    "niedopałek",
+    "pet",
+    "papierek",
+    "zanieczyszczanie"
+   ],
+   "podstawa": "art. 145 § 1 k.w.",
+   "opis": "Zanieczyszczanie lub zaśmiecanie obszaru kolejowego albo miejsc dostępnych dla publiczności (m.in. droga, ulica, plac, ogród, trawnik).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 1 pkt 1 rozp. MSWiA – „art. 145 § 1”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 500,
+    "lp": "art. 145 § 1 k.w. + art. 96 § 1 k.p.w.",
+    "uwaga": "Kodeks: grzywna nie niższa niż 500 zł. Limit mandatu: do 500 zł. Taryfikator (tab. A lp. 19) wciąż podaje 50–500 zł."
+   },
+   "sprawdzono": [
+    "k.w. art. 145 § 1: „podlega karze grzywny nie niższej niż 500 złotych”",
+    "k.w. art. 145 § 2: usiłowanie, podżeganie i pomocnictwo są karalne",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg z art. 9 § 1 k.w.: do 1000 zł)",
+    "Taryfikator tab. A lp. 19: art. 145 k.w. – od 50 do 500 zł",
+    "Rozp. MSWiA § 2 ust. 1 pkt 1: „art. 145 § 1”",
+    "Mandatownik (IX 2022) tab. A lp. 19: art. 145 – 500 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "taryfA",
+    "rozpSM",
+    "mandatownik"
+   ],
+   "praktyka": "Potwierdzone przez grupę (13.11.2026): mandat 500 zł – minimum z art. 145 § 1 k.w."
+  },
+  {
+   "id": "kw51",
+   "kat": "porzadek",
+   "tytul": "Zakłócanie spokoju, porządku, spoczynku nocnego",
+   "potoczne": [
+    "hałas",
+    "cisza nocna",
+    "awantura",
+    "głośna muzyka",
+    "impreza",
+    "krzyki",
+    "zgorszenie"
+   ],
+   "podstawa": "art. 51 § 1 k.w. (§ 2 – czyn o charakterze chuligańskim lub pod wpływem alkoholu)",
+   "opis": "Zakłócenie spokoju, porządku publicznego, spoczynku nocnego albo wywołanie zgorszenia w miejscu publicznym.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 1 pkt 1 rozp. MSWiA – „art. 51 § 1 i 2”"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 100,
+    "max": 500,
+    "lp": "tab. A lp. 1 (art. 51 § 1 i 2)",
+    "uwaga": "Kodeks od 2.01.2026: przy § 2 grzywna nie niższa niż 1000 zł (zmiana: Dz.U. 2025 poz. 1818). Taryfikator nie został do tego dostosowany."
+   },
+   "sprawdzono": [
+    "k.w. art. 51 § 1: kara aresztu, ograniczenia wolności albo grzywny",
+    "k.w. art. 51 § 2: grzywna nie niższa niż 1000 zł",
+    "Taryfikator tab. A lp. 1: art. 51 § 1 i 2 – od 100 do 500 zł",
+    "Rozp. MSWiA § 2 ust. 1 pkt 1: „art. 51 § 1 i 2”",
+    "Przypis do art. 51 § 2 w t.j. k.w.: zmiana przez art. 2 pkt 1 ustawy z 7.11.2025 (Dz.U. poz. 1818), w życiu od 2.01.2026",
+    "Mandatownik lp. 1: art. 51 – od 100 do 500 zł (stan IX 2022, przed zmianą art. 51 § 2 od 2.01.2026)"
+   ],
+   "sprawdz": [
+    "Praktyka 100–500 zł za § 2 jest sprzeczna z obecnym art. 51 § 2 k.w. (grzywna nie niższa niż 1000 zł od 2.01.2026). Sprawdź i powiedz mi, czy przełożony lub instrukcja jednostki potwierdza 100–500 zł mimo tej zmiany."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "taryfA",
+    "rozpSM",
+    "mandatownik"
+   ],
+   "praktyka": "Według grupy (13.11.2026): za § 2 mandat 100–500 zł wg taryfikatora."
+  },
+  {
+   "id": "kw140",
+   "kat": "porzadek",
+   "tytul": "Nieobyczajny wybryk",
+   "potoczne": [
+    "sikanie",
+    "oddawanie moczu",
+    "obnażanie"
+   ],
+   "podstawa": "art. 140 k.w.",
+   "opis": "Publiczne dopuszczenie się nieobyczajnego wybryku.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 1 pkt 1 rozp. MSWiA – „art. 140”"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 50,
+    "max": 100,
+    "lp": "tab. A lp. 17"
+   },
+   "sprawdzono": [
+    "k.w. art. 140: areszt, ograniczenie wolności, grzywna do 1500 zł albo nagana",
+    "Taryfikator tab. A lp. 17: od 50 do 100 zł",
+    "Rozp. MSWiA § 2 ust. 1 pkt 1: „art. 140”"
+   ],
+   "sprawdz": [
+    "Potoczne hasła („sikanie”, „obnażanie”) to moje przykłady, nie tekst ustawy. Sprawdź i powiedz mi, czy tak kwalifikujecie te czyny."
+   ],
+   "zrodla": [
+    "kw",
+    "taryfA",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw141",
+   "kat": "porzadek",
+   "tytul": "Słowa nieprzyzwoite, nieprzyzwoity napis lub rysunek",
+   "potoczne": [
+    "przekleństwa",
+    "wulgaryzmy",
+    "przeklinanie",
+    "bluzgi"
+   ],
+   "podstawa": "art. 141 k.w.",
+   "opis": "Umieszczenie w miejscu publicznym nieprzyzwoitego ogłoszenia, napisu lub rysunku albo używanie słów nieprzyzwoitych.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 1 pkt 1 rozp. MSWiA – „art. 141”"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 50,
+    "max": 100,
+    "lp": "tab. A lp. 18"
+   },
+   "sprawdzono": [
+    "k.w. art. 141: ograniczenie wolności, grzywna do 1500 zł albo nagana",
+    "Taryfikator tab. A lp. 18: od 50 do 100 zł",
+    "Rozp. MSWiA § 2 ust. 1 pkt 1: „art. 141”"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "taryfA",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "uwt431",
+   "kat": "porzadek",
+   "tytul": "Spożywanie alkoholu w miejscu publicznym",
+   "potoczne": [
+    "piwo w parku",
+    "picie alkoholu",
+    "alkohol na ulicy",
+    "wódka"
+   ],
+   "podstawa": "art. 43¹ ust. 1 u.w.t.p.a. w zw. z art. 14 ust. 2a",
+   "opis": "Spożywanie napojów alkoholowych w miejscu publicznym, poza miejscami przeznaczonymi do spożycia na miejscu w punktach sprzedaży.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 1 pkt 3 rozp. MSWiA – „art. 43¹ ust. 1 i 2”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. A lp. 77"
+   },
+   "warunki": [
+    "Rada gminy może uchwałą wprowadzić odstępstwo od zakazu w określonym miejscu publicznym (art. 14 ust. 2b). Sprawdź uchwały Wrocławia.",
+    "Usiłowanie jest karalne (art. 43¹ ust. 2)."
+   ],
+   "sprawdzono": [
+    "u.w.t.p.a. art. 14 ust. 2a: zakaz spożywania w miejscu publicznym, z wyjątkiem miejsc przeznaczonych do spożycia na miejscu w punktach sprzedaży",
+    "u.w.t.p.a. art. 14 ust. 2b: rada gminy może uchwałą wprowadzić odstępstwo",
+    "u.w.t.p.a. art. 43¹ ust. 1: „podlega karze grzywny”; ust. 2: usiłowanie karalne",
+    "Taryfikator tab. A lp. 77: art. 43¹ ust. 1 – 100 zł",
+    "Rozp. MSWiA § 2 ust. 1 pkt 3: „art. 43¹ ust. 1 i 2”"
+   ],
+   "sprawdz": [
+    "Tekst jednolity ustawy jest z 2023 r., a później ustawę zmieniano (m.in. Dz.U. 2026 poz. 875). Sprawdź i powiedz mi, czy te zmiany dotknęły art. 14 ust. 2a–2b lub art. 43¹."
+   ],
+   "zrodla": [
+    "uwt",
+    "taryfA",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "uozt13",
+   "kat": "porzadek",
+   "tytul": "Palenie tytoniu lub e-papierosa w miejscu zakazanym",
+   "potoczne": [
+    "papieros",
+    "palenie",
+    "e-papieros",
+    "przystanek",
+    "plac zabaw",
+    "fajka"
+   ],
+   "podstawa": "art. 13 ust. 2 u.o.z.t. w zw. z art. 5 ust. 1",
+   "opis": "Palenie wyrobów tytoniowych, nowatorskich wyrobów tytoniowych lub papierosów elektronicznych wbrew zakazowi z art. 5 (m.in. przystanki komunikacji publicznej – pkt 8, ogólnodostępne miejsca zabaw dzieci – pkt 10).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 1 pkt 4 rozp. MSWiA – „art. 13 ust. 1 i 2”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie ma pozycji za samo palenie (lp. 84 dotyczy braku informacji o zakazie). Ustawa: grzywna do 500 zł. Limit mandatu: 500 zł (art. 96 § 1 k.p.w.)."
+   },
+   "sprawdzono": [
+    "u.o.z.t. art. 13 ust. 2: „podlega karze grzywny do 500 zł”",
+    "u.o.z.t. art. 5 ust. 1 pkt 8 (przystanki) i pkt 10 (miejsca zabaw dzieci); zakaz obejmuje papierosy elektroniczne",
+    "Taryfikator tab. A: brak wiersza za palenie; lp. 84 – brak informacji o zakazie (150 zł)",
+    "Rozp. MSWiA § 2 ust. 1 pkt 4: „art. 13 ust. 1 i 2”"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "uozt",
+    "taryfA",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw77",
+   "kat": "porzadek",
+   "tytul": "Niezachowanie ostrożności przy trzymaniu zwierzęcia",
+   "potoczne": [
+    "pies bez smyczy",
+    "pies bez kagańca",
+    "pies",
+    "zwierzę"
+   ],
+   "podstawa": "art. 77 § 1 k.w. (gdy zachowanie zwierzęcia zagraża życiu lub zdrowiu: § 2)",
+   "opis": "Niezachowanie zwykłych lub nakazanych środków ostrożności przy trzymaniu zwierzęcia.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 1 pkt 1 rozp. MSWiA – „art. 77‒79”"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 50,
+    "max": 250,
+    "lp": "tab. A lp. 5 (§ 1)",
+    "uwaga": "Przy § 2: 500 zł (tab. A lp. 5a)."
+   },
+   "sprawdzono": [
+    "k.w. art. 77 § 1: ograniczenie wolności, grzywna do 1000 zł albo nagana",
+    "k.w. art. 77 § 2: ograniczenie wolności, grzywna albo nagana",
+    "Taryfikator tab. A lp. 5: od 50 do 250 zł; lp. 5a (§ 2): 500 zł – Dz.U. 2021 poz. 556",
+    "Rozp. MSWiA § 2 ust. 1 pkt 1: „art. 77‒79”"
+   ],
+   "sprawdz": [
+    "„Nakazane” środki ostrożności mogą wynikać z regulaminu utrzymania czystości i porządku we Wrocławiu. Nie sprawdziłem go jeszcze. Sprawdź i powiedz mi, którą uchwałę stosujecie."
+   ],
+   "zrodla": [
+    "kw",
+    "taryfA2021",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw117",
+   "kat": "porzadek",
+   "tytul": "Nieutrzymanie czystości i porządku na nieruchomości",
+   "potoczne": [
+    "brud na posesji",
+    "nieodśnieżony chodnik",
+    "sanitarne"
+   ],
+   "podstawa": "art. 117 § 1 k.w.",
+   "opis": "Niewykonywanie obowiązku utrzymania czystości i porządku na nieruchomości albo poleceń właściwych organów w tym zakresie.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 1 pkt 1 rozp. MSWiA – „art. 117”"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 100,
+    "max": 250,
+    "lp": "tab. A lp. 16"
+   },
+   "sprawdzono": [
+    "k.w. art. 117 § 1: grzywna do 1500 zł albo nagana",
+    "Taryfikator tab. A lp. 16: od 100 do 250 zł – Dz.U. 2021 poz. 556",
+    "Rozp. MSWiA § 2 ust. 1 pkt 1: „art. 117”"
+   ],
+   "sprawdz": [
+    "Hasło „nieodśnieżony chodnik” to mój przykład. Obowiązek może wynikać z ustawy o utrzymaniu czystości i porządku w gminach, której jeszcze nie sprawdziłem. Sprawdź i powiedz mi, jak to kwalifikujecie."
+   ],
+   "zrodla": [
+    "kw",
+    "taryfA2021",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "pord47",
+   "kat": "parkowanie",
+   "tytul": "Postój na chodniku niezgodnie z przepisami",
+   "potoczne": [
+    "parkowanie na chodniku",
+    "auto na chodniku",
+    "1,5 m"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 47 PoRD",
+   "opis": "Zatrzymanie lub postój na chodniku wbrew art. 47 PoRD. Dopuszczalny jest m.in. tylko pojazd do 2,5 t i tylko gdy zostaje co najmniej 1,5 m chodnika dla pieszych.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 2 rozp. MSWiA (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 163"
+   },
+   "warunki": [
+    "Gdy nie ma kierującego: możesz żądać od właściciela lub posiadacza wskazania, komu powierzył pojazd (art. 129b ust. 3 pkt 7 PoRD)."
+   ],
+   "sprawdzono": [
+    "PoRD art. 47: pojazd do 2,5 t, chodnik dla pieszych nie węższy niż 1,5 m",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a: przepisy o zatrzymaniu i postoju",
+    "k.w. art. 97: grzywna do 3000 zł albo nagana",
+    "Taryfikator tab. B lp. 163: art. 47 – 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w."
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "pord",
+    "kw",
+    "taryfB",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "pord49-przejscie",
+   "kat": "parkowanie",
+   "tytul": "Zatrzymanie na przejściu dla pieszych lub 10 m przed nim",
+   "potoczne": [
+    "parkowanie na pasach",
+    "przejście",
+    "zebra",
+    "przejazd rowerowy"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 49 ust. 1 pkt 2 PoRD",
+   "opis": "Zatrzymanie pojazdu na przejściu dla pieszych lub przejeździe dla rowerów albo w odległości mniejszej niż 10 m przed nimi.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 2 rozp. MSWiA + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 100,
+    "max": 300,
+    "lp": "tab. B lp. 166"
+   },
+   "sprawdzono": [
+    "PoRD art. 49 ust. 1 pkt 2: zakaz na przejściu dla pieszych / przejeździe dla rowerów i 10 m przed nimi",
+    "Taryfikator tab. B lp. 166: art. 49 ust. 1 pkt 2 – 100–300 zł",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a; rozp. MSWiA § 2 ust. 2"
+   ],
+   "sprawdz": [
+    "Taryfikator podaje widełki 100–300 zł bez wskazania, od czego zależy kwota. Sprawdź i powiedz mi, jaką praktykę przyjęła Twoja jednostka."
+   ],
+   "zrodla": [
+    "pord",
+    "taryfB",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "pord49-rower",
+   "kat": "parkowanie",
+   "tytul": "Zatrzymanie na drodze lub pasie dla rowerów",
+   "potoczne": [
+    "parkowanie na ścieżce rowerowej",
+    "ddr",
+    "pas rowerowy"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 49 ust. 1 pkt 11 PoRD",
+   "opis": "Zatrzymanie pojazdu (innego niż rower) na drodze dla pieszych i rowerów, drodze dla rowerów lub pasie ruchu dla rowerów.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 2 rozp. MSWiA + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 175"
+   },
+   "sprawdzono": [
+    "PoRD art. 49 ust. 1 pkt 11",
+    "Taryfikator tab. B lp. 175: 100 zł",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a; rozp. MSWiA § 2 ust. 2"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "pord",
+    "taryfB",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "pord49-przystanek",
+   "kat": "parkowanie",
+   "tytul": "Zatrzymanie bliżej niż 15 m od przystanku",
+   "potoczne": [
+    "przystanek autobusowy",
+    "przystanek tramwajowy",
+    "zatoka"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 49 ust. 1 pkt 9 PoRD",
+   "opis": "Zatrzymanie w odległości mniejszej niż 15 m od słupka lub tablicy oznaczającej przystanek. Przy przystanku z zatoką zakaz obejmuje całą długość zatoki.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 2 rozp. MSWiA + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 173"
+   },
+   "sprawdzono": [
+    "PoRD art. 49 ust. 1 pkt 9",
+    "Taryfikator tab. B lp. 173: 100 zł",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a; rozp. MSWiA § 2 ust. 2"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "pord",
+    "taryfB",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "pord49-strefa",
+   "kat": "parkowanie",
+   "tytul": "Postój w strefie zamieszkania poza wyznaczonym miejscem",
+   "potoczne": [
+    "strefa zamieszkania",
+    "osiedle"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 49 ust. 2 pkt 4 PoRD",
+   "opis": "Postój pojazdu w strefie zamieszkania w innym miejscu niż wyznaczone w tym celu.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 2 rozp. MSWiA + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 179"
+   },
+   "sprawdzono": [
+    "PoRD art. 49 ust. 2 pkt 4",
+    "Taryfikator tab. B lp. 179: 100 zł",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a; rozp. MSWiA § 2 ust. 2"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "pord",
+    "taryfB",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "koperta",
+   "kat": "parkowanie",
+   "tytul": "Postój na miejscu dla osoby niepełnosprawnej",
+   "potoczne": [
+    "koperta",
+    "miejsce dla inwalidy",
+    "niepełnosprawny",
+    "karta parkingowa"
+   ],
+   "znaki": [
+    "D-18a",
+    "T-29",
+    "P-24",
+    "P-20",
+    "P-18"
+   ],
+   "podstawa": "art. 92 § 1 k.w.",
+   "opis": "Niestosowanie się do znaku D-18/D-18a/D-18b z tabliczką T-29 albo do oznakowania P-18/P-20 z P-24 (miejsce dla pojazdu osoby niepełnosprawnej).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 2 rozp. MSWiA (art. 92 § 1, art. 96b k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 800,
+    "lp": "tab. B lp. 287–288",
+    "uwaga": "Gdy dodatkowo sprawca posługuje się kartą parkingową bez uprawnienia (art. 96b w zb. z art. 92 § 1 k.w.): 1200 zł (lp. 254–255)."
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 287 (§ 52 ust. 4 lub 6 w zw. z § 2 ust. 4 rozp. o znakach): 800 zł",
+    "Taryfikator tab. B lp. 288 (§ 90 ust. 2/4 i § 92): 800 zł; lp. 254–255: 1200 zł",
+    "Rozp. o znakach: § 52 ust. 4 – D-18a; § 52 ust. 6 – T-29 pod D-18/D-18a/D-18b; § 90 ust. 2 – P-18; § 90 ust. 4 – P-20; § 92 – P-24",
+    "k.w. art. 96b: posługiwanie się kartą parkingową bez uprawnienia – grzywna do 2000 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 i art. 96b k.w."
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "znaki",
+    "kw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "b35",
+   "kat": "znaki",
+   "tytul": "B-35 „zakaz postoju” – niestosowanie się",
+   "potoczne": [
+    "zakaz postoju",
+    "parkowanie pod zakazem"
+   ],
+   "znaki": [
+    "B-35"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (znak: § 28 ust. 1 rozp. o znakach)",
+   "opis": "Postój pojazdu w zasięgu znaku B-35.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 2 rozp. MSWiA + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 265"
+   },
+   "sprawdzono": [
+    "Rozp. o znakach § 28 ust. 1: B-35 „zakaz postoju”",
+    "Taryfikator tab. B lp. 265 (§ 28 ust. 1): 100 zł",
+    "k.w. art. 92 § 1: grzywna albo nagana",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w."
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "znaki",
+    "taryfB",
+    "kw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "b36",
+   "kat": "znaki",
+   "tytul": "B-36 „zakaz zatrzymywania się” – niestosowanie się",
+   "potoczne": [
+    "zakaz zatrzymywania",
+    "zakaz stawania"
+   ],
+   "znaki": [
+    "B-36"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (znak: § 28 ust. 2 rozp. o znakach)",
+   "opis": "Zatrzymanie pojazdu w zasięgu znaku B-36.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 2 rozp. MSWiA + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 266"
+   },
+   "sprawdzono": [
+    "Rozp. o znakach § 28 ust. 2: B-36 „zakaz zatrzymywania się”",
+    "Taryfikator tab. B lp. 266 (§ 28 ust. 2): 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w."
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "znaki",
+    "taryfB",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "b39",
+   "kat": "znaki",
+   "tytul": "B-39 „strefa ograniczonego postoju” – niestosowanie się",
+   "potoczne": [
+    "strefa ograniczonego postoju",
+    "strefa postoju"
+   ],
+   "znaki": [
+    "B-39"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (znak: § 29 rozp. o znakach)",
+   "opis": "Naruszenie zasad strefy ograniczonego postoju (B-39; koniec strefy – B-40).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 2 rozp. MSWiA + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 268"
+   },
+   "sprawdzono": [
+    "Rozp. o znakach § 29: B-39, koniec strefy B-40",
+    "Taryfikator tab. B lp. 268 (§ 29): 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w."
+   ],
+   "sprawdz": [
+    "Nieopłacony postój w strefie płatnej to według mnie opłata dodatkowa z ustawy o drogach publicznych, a nie wykroczenie. Tej ustawy nie sprawdziłem. Sprawdź i powiedz mi."
+   ],
+   "zrodla": [
+    "znaki",
+    "taryfB",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "b1",
+   "kat": "znaki",
+   "tytul": "B-1 „zakaz ruchu w obu kierunkach” – wjazd",
+   "potoczne": [
+    "zakaz ruchu",
+    "wjazd w deptak"
+   ],
+   "znaki": [
+    "B-1"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (znak: § 16 ust. 1 rozp. o znakach)",
+   "opis": "Kierujący pojazdem nie stosuje się do zakazu ruchu w obu kierunkach.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "art. 129b ust. 2 pkt 1 PoRD (wprost) + § 2 ust. 2 rozp. MSWiA"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 20,
+    "max": 5000,
+    "lp": "lp. M 287",
+    "uwaga": "Mandatownik nie podaje stałej stawki – kwota od 20 do 5000 zł (granice grzywny i limit mandatu dla rozdziału XI)."
+   },
+   "warunki": [
+    "To jedyny przypadek, w którym SM kontroluje kierującego pojazdem niezależnie od postoju (art. 129b ust. 2 pkt 1 PoRD)."
+   ],
+   "sprawdzono": [
+    "Rozp. o znakach § 16 ust. 1: B-1 „zakaz ruchu w obu kierunkach”",
+    "PoRD art. 129b ust. 2 pkt 1: kontrola kierującego niestosującego się do zakazu ruchu w obu kierunkach",
+    "Taryfikator tab. B: brak wiersza dla B-1 (lp. 256 obejmuje § 18 = B-3, B-3a, B-4, B-6, B-7)",
+    "k.w. rozdział XI obejmuje art. 84–103a (w tym art. 92)",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Mandatownik lp. 287: B-1 – brak stałej stawki, 20–5000 zł"
+   ],
+   "sprawdz": [
+    "Bez stawki w taryfikatorze kwotę ustala strażnik w granicach ustawy. Sprawdź i powiedz mi, czy Twoja jednostka ma wytyczne co do kwoty za B-1."
+   ],
+   "zrodla": [
+    "znaki",
+    "pord",
+    "taryfB",
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "b2",
+   "kat": "znaki",
+   "tytul": "B-2 „zakaz wjazdu” – wjazd mimo zakazu",
+   "potoczne": [
+    "zakaz wjazdu",
+    "jazda pod prąd",
+    "jednokierunkowa"
+   ],
+   "znaki": [
+    "B-2"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (znak: § 17 ust. 1 rozp. o znakach)",
+   "opis": "Wjazd pojazdem pod znak B-2 od strony jego ustawienia.",
+   "sm": {
+    "moze": "nie",
+    "podstawa": "Art. 129b ust. 2 PoRD nie daje SM kontroli kierującego pojazdem silnikowym za B-2. Właściwa jest Policja.",
+    "wyjatek": "Wobec rowerzysty, osoby na hulajnodze elektrycznej lub UTO, motorowerzysty: TAK (art. 129b ust. 2 pkt 2 lit. b PoRD)."
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 20,
+    "max": 5000,
+    "lp": "lp. M 288",
+    "uwaga": "Mandatownik nie podaje stałej stawki – kwota od 20 do 5000 zł."
+   },
+   "sprawdzono": [
+    "Rozp. o znakach § 17 ust. 1: B-2 „zakaz wjazdu”",
+    "PoRD art. 129b ust. 2: pkt 1 tylko zakaz ruchu w obu kierunkach; pkt 2 lit. b – motorowery, rowery, hulajnogi elektryczne, UTO, pojazdy zaprzęgowe",
+    "Taryfikator tab. B: brak wiersza dla B-2",
+    "Mandatownik lp. 288: B-2 – brak stałej stawki, 20–5000 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "znaki",
+    "pord",
+    "taryfB",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "b3",
+   "kat": "znaki",
+   "tytul": "B-3, B-3a, B-4, B-6, B-7 – wjazd mimo zakazu",
+   "potoczne": [
+    "zakaz wjazdu pojazdów silnikowych",
+    "wjazd do parku",
+    "zakaz wjazdu autobusów",
+    "zakaz wjazdu motocykli"
+   ],
+   "znaki": [
+    "B-3",
+    "B-3a",
+    "B-4",
+    "B-6",
+    "B-7"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (znaki: § 18 ust. 1–3, 6–8 rozp. o znakach)",
+   "opis": "Kierujący pojazdem nie stosuje się do zakazu wjazdu B-3, B-3a, B-4, B-6 lub B-7.",
+   "sm": {
+    "moze": "nie",
+    "podstawa": "Poza art. 129b ust. 2 PoRD wobec kierującego pojazdem silnikowym. Właściwa jest Policja.",
+    "wyjatek": "Jeśli pojazd stoi i naruszone są przepisy o postoju, wchodzi art. 129b ust. 2 pkt 2 lit. a PoRD."
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 250,
+    "lp": "tab. B lp. 256 (kwota dla organów uprawnionych)"
+   },
+   "sprawdzono": [
+    "Rozp. o znakach § 18 ust. 1 – B-3, ust. 2 – B-3a, ust. 3 – B-4, ust. 6 – B-6, ust. 7 – B-7",
+    "Taryfikator tab. B lp. 256 (§ 18 ust. 1–3, 6–8): 250 zł",
+    "PoRD art. 129b ust. 2"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "znaki",
+    "taryfB",
+    "pord"
+   ]
+  },
+  {
+   "id": "pieszy-poza",
+   "kat": "piesi",
+   "tytul": "Pieszy: wejście na jezdnię bezpośrednio przed jadący pojazd",
+   "potoczne": [
+    "wtargnięcie",
+    "przechodzenie poza pasami",
+    "pieszy"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 14 pkt 1 lit. a PoRD",
+   "opis": "Wejście na jezdnię bezpośrednio przed jadący pojazd poza przejściem dla pieszych (na przejściu: lp. 7).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 2 rozp. MSWiA + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 200,
+    "lp": "tab. B lp. 8",
+    "uwaga": "Na przejściu dla pieszych: 150 zł (lp. 7)."
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 7 (150 zł) i lp. 8 (200 zł) – art. 14 pkt 1 lit. a PoRD",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c: ruch pieszych",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w."
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "pord",
+    "taryfB",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "pieszy-telefon",
+   "kat": "piesi",
+   "tytul": "Pieszy: telefon podczas przechodzenia przez jezdnię",
+   "potoczne": [
+    "telefon na pasach",
+    "smartfon",
+    "pieszy z telefonem"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 14 pkt 8 PoRD",
+   "opis": "Korzystanie z telefonu lub innego urządzenia elektronicznego podczas wchodzenia lub przechodzenia przez jezdnię, drogę dla rowerów lub torowisko (także na przejściu), w sposób ograniczający obserwację.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 2 rozp. MSWiA + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 300,
+    "lp": "tab. B lp. 18"
+   },
+   "sprawdzono": [
+    "PoRD art. 14 pkt 8",
+    "Taryfikator tab. B lp. 18: 300 zł",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "pord",
+    "taryfB",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "rower-chodnik",
+   "kat": "rowery",
+   "tytul": "Rower / hulajnoga elektryczna / UTO po chodniku",
+   "potoczne": [
+    "rower na chodniku",
+    "hulajnoga na chodniku",
+    "UTO",
+    "e-hulajnoga"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 33 ust. 5, art. 33a ust. 2 lub art. 33b ust. 2 PoRD",
+   "opis": "Korzystanie z chodnika lub drogi dla pieszych wbrew przepisom.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 2 rozp. MSWiA + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 200,
+    "lp": "tab. B lp. 135",
+    "uwaga": "Gdy jazda chodnikiem jest dozwolona: prędkość niezbliżona do pieszego albo nieustąpienie pieszemu (art. 33 ust. 6 / 33c) albo utrudnianie ruchu pieszemu – 300 zł (lp. 136–138)."
+   },
+   "warunki": [
+    "Rowerzysta może wyjątkowo jechać chodnikiem (art. 33 ust. 5 PoRD), gdy: opiekuje się osobą do 10 lat kierującą rowerem; chodnik ma co najmniej 2 m przy drodze z dopuszczalną prędkością ponad 50 km/h i brak drogi lub pasa dla rowerów; warunki pogodowe zagrażają bezpieczeństwu na jezdni.",
+    "Wtedy musi jechać z prędkością zbliżoną do pieszego, zachować szczególną ostrożność i ustępować pieszym (art. 33 ust. 6)."
+   ],
+   "sprawdzono": [
+    "PoRD art. 33 ust. 5 i 6",
+    "Taryfikator tab. B lp. 135: 200 zł; lp. 136–138: 300 zł",
+    "PoRD art. 129b ust. 2 pkt 2 lit. b"
+   ],
+   "sprawdz": [
+    "Zasad dla hulajnóg elektrycznych i UTO (art. 33a, 33b, 33c PoRD) nie przeczytałem w całości. Sprawdź i powiedz mi, czy chcesz osobny wpis dla hulajnóg."
+   ],
+   "zrodla": [
+    "pord",
+    "taryfB",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw97a",
+   "kat": "znaki",
+   "tytul": "Przejazd kolejowy – naruszenie zasad (art. 97a k.w.)",
+   "potoczne": [
+    "przejazd kolejowy",
+    "zapory",
+    "rogatki",
+    "szlaban"
+   ],
+   "podstawa": "art. 97a k.w.",
+   "opis": "Naruszenie zakazów na przejeździe kolejowym: objeżdżanie opuszczonych zapór lub półzapór, wjazd na przejazd, gdy opuszczanie zostało rozpoczęte lub podnoszenie nie zakończone, wejście lub wjazd za sygnalizator przy sygnale czerwonym (pkt 1), wjazd na przejazd, gdy po drugiej stronie nie ma miejsca do kontynuowania jazdy (pkt 2).",
+   "sm": {
+    "moze": "czesc",
+    "podstawa": "§ 2 ust. 1 pkt 1 rozp. MSWiA – art. 97a dodany od 15.09.2026 (Dz.U. 2026 poz. 1148)",
+    "wyjatek": "Wobec pieszego, kierującego kolumną pieszych lub poganiacza – tak (art. 129b ust. 2 pkt 2 lit. c PoRD). Wobec kierowcy samochodu – niepotwierdzone, zobacz pytanie niżej."
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 2000,
+    "recydywa": 4000,
+    "lp": "tab. B lp. 16, 104, 106",
+    "uwaga": "Lp. 104 (objeżdżanie zapór) i lp. 106 (brak miejsca za przejazdem): 2000 zł, w recydywie 4000 zł (art. 38 § 2 k.w.). Lp. 16 (wejście przy czerwonym sygnale przez kierującego kolumną pieszych lub poganiacza): 2000 zł. Limit mandatu dla rozdziału XI: 5000 zł."
+   },
+   "sprawdzono": [
+    "k.w. art. 97a: areszt, ograniczenie wolności albo grzywna nie niższa niż 2000 zł",
+    "Taryfikator tab. B lp. 104 i 106 (art. 97a pkt 1 i 2): 2000 / 4000 zł; lp. 16: 2000 zł",
+    "Przypis taryfikatora: kwota po ukośniku to mandat w trybie art. 38 § 2 k.w.",
+    "Dz.U. 2026 poz. 1148 § 1 pkt 1 lit. b: dodanie „art. 97a” do wykazu SM (od 15.09.2026)",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – do 5000 zł",
+    "Mandatownik lp. 109–111: 2000 zł, w recydywie 4000 zł (pogrubione)"
+   ],
+   "sprawdz": [
+    "Rozporządzenie daje SM mandat za art. 97a, a według podręcznika sprawcą może być każdy uczestnik ruchu. Art. 129b ust. 2 PoRD nie pozwala jednak SM kontrolować kierującego samochodem (poza B-1). Sprawdź i powiedz mi, czy wobec kierowcy samochodu działacie sami, czy wzywacie Policję."
+   ],
+   "zrodla": [
+    "kw",
+    "taryfB",
+    "rozpSM2026",
+    "kpw",
+    "pord",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "kw49",
+   "kat": "porzadek",
+   "tytul": "Lekceważenie Narodu, Państwa, symboli narodowych",
+   "potoczne": [
+    "godło",
+    "flaga",
+    "hymn",
+    "znieważenie"
+   ],
+   "podstawa": "art. 49 § 1–2 k.w.",
+   "opis": "Publiczne, demonstracyjne lekceważenie Narodu, Państwa lub ich konstytucyjnych organów (§ 1); naruszenie przepisów o godle, barwach i hymnie (§ 2).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 49”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 49 § 1–2 k.w.: kara aresztu albo grzywny (§ 2 – ta sama kara)",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 49",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw50",
+   "kat": "porzadek",
+   "tytul": "Nieopuszczenie zbiegowiska publicznego",
+   "potoczne": [
+    "zbiegowisko",
+    "tłum",
+    "rozejść się"
+   ],
+   "podstawa": "art. 50 k.w.",
+   "opis": "Niezastosowanie się do wezwania do opuszczenia zbiegowiska publicznego.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 50”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 50 k.w.: kara aresztu albo grzywny",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 50",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw52",
+   "kat": "porzadek",
+   "tytul": "Naruszenia przy zgromadzeniach",
+   "potoczne": [
+    "zgromadzenie",
+    "demonstracja",
+    "manifestacja"
+   ],
+   "podstawa": "art. 52 § 2–3 k.w.",
+   "opis": "Przeszkadzanie zgromadzeniu, jego nielegalne organizowanie lub bezprawne zajmowanie miejsca (§ 2); niezapewnienie zgodnego z prawem przebiegu zgromadzenia lub niepodporządkowanie się poleceniom (§ 3).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 52 § 2 i 3 pkt 2‒3”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 52 § 2–3 k.w.: § 2: ograniczenie wolności albo grzywna; § 3: grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 52 § 2 i 3 pkt 2‒3",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: rozporządzenie obejmuje „art. 52 § 2 i 3 pkt 2–3”. Nie przeczytałem dosłownie punktów § 3, więc nie wiem, których zachowań dotyczy ograniczenie do pkt 2–3."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw54",
+   "kat": "porzadek",
+   "tytul": "Naruszenie przepisów porządkowych w miejscach publicznych",
+   "potoczne": [
+    "przepisy porządkowe",
+    "regulamin parku",
+    "zakaz wstępu"
+   ],
+   "podstawa": "art. 54 k.w.",
+   "opis": "Naruszenie wydanych z upoważnienia ustawy przepisów porządkowych o zachowaniu się w miejscach publicznych.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 54”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 54 k.w.: grzywna do 500 złotych albo kara nagany",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 54",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: art. 54 wymaga konkretnego przepisu porządkowego (np. uchwały Wrocławia). Które przepisy stosujecie najczęściej? Dodam je do prawa miejscowego."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw55",
+   "kat": "porzadek",
+   "tytul": "Kąpiel w miejscu zabronionym",
+   "potoczne": [
+    "kąpiel",
+    "pływanie",
+    "zakaz kąpieli",
+    "fontanna"
+   ],
+   "podstawa": "art. 55 k.w.",
+   "opis": "Kąpiel w miejscu, w którym jest to zabronione.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 55”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 55 k.w.: grzywna do 250 złotych albo kara nagany",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 55",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw56",
+   "kat": "porzadek",
+   "tytul": "Zbiórka publiczna bez zgłoszenia",
+   "potoczne": [
+    "zbiórka",
+    "puszka",
+    "kwesta",
+    "zbieranie pieniędzy"
+   ],
+   "podstawa": "art. 56 § 1 k.w.",
+   "opis": "Organizowanie lub prowadzenie zbiórki publicznej bez zgłoszenia albo niezgodnie z nim.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 56 § 1”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 56 § 1 k.w.: kara grzywny",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 56 § 1",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw58",
+   "kat": "porzadek",
+   "tytul": "Żebranie w miejscu publicznym",
+   "potoczne": [
+    "żebranie",
+    "żebrak",
+    "proszenie o pieniądze"
+   ],
+   "podstawa": "art. 58 § 1 k.w.",
+   "opis": "Żebranie w miejscu publicznym przez osobę mającą środki egzystencji lub zdolną do pracy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 58 § 1”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 58 § 1 k.w.: ograniczenie wolności, grzywna do 1500 złotych albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 58 § 1",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu",
+    "k.w. art. 58 § 2 (natarczywie lub oszukańczo): areszt albo ograniczenie wolności – poza uprawnieniem SM"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw601",
+   "kat": "porzadek",
+   "tytul": "Działalność gospodarcza bez zgłoszenia, koncesji, zezwolenia",
+   "potoczne": [
+    "handel bez zezwolenia",
+    "działalność bez wpisu",
+    "nielegalny handel"
+   ],
+   "podstawa": "art. 60¹ § 1–3 i § 4 pkt 1 k.w.",
+   "opis": "Prowadzenie działalności bez wymaganego zgłoszenia, wpisu, koncesji lub zezwolenia (§ 1); brak zgłoszenia zmian danych (§ 2); wprowadzanie towaru bez wymaganych oznaczeń (§ 3).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 60¹ § 1‒3 i § 4 pkt 1”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 60¹ § 1–3 i § 4 pkt 1 k.w.: § 1–2: ograniczenie wolności albo grzywna; § 3: grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 60¹ § 1‒3 i § 4 pkt 1",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: czego dotyczy § 4 pkt 1 (przewodnicy, hotelarstwo, turystyka – nie przeczytałem dosłownie)?"
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw603",
+   "kat": "porzadek",
+   "tytul": "Sprzedaż poza miejscem wyznaczonym przez gminę",
+   "potoczne": [
+    "handel uliczny",
+    "sprzedaż na ulicy",
+    "stragan",
+    "handel obwoźny"
+   ],
+   "podstawa": "art. 60³ § 1 k.w.",
+   "opis": "Sprzedaż na terenie gminy poza miejscem wyznaczonym przez gminę.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 60³ § 1”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 60³ § 1 k.w.: kara grzywny",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 60³ § 1",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu",
+    "k.w. art. 60³ § 2: przepadek towarów (bez odrębnej kary)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: jaka uchwała Wrocławia wyznacza miejsca handlu? Dodam ją do prawa miejscowego."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw63a",
+   "kat": "porzadek",
+   "tytul": "Ogłoszenia lub napisy bez zgody zarządcy",
+   "potoczne": [
+    "plakat",
+    "ogłoszenie",
+    "graffiti",
+    "naklejki",
+    "reklama na słupie"
+   ],
+   "podstawa": "art. 63a § 1 k.w.",
+   "opis": "Umieszczanie w miejscu publicznym ogłoszeń, plakatów, afiszy, napisów lub rysunków bez zgody zarządzającego.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 63a § 1”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 63a § 1 k.w.: ograniczenie wolności albo grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 63a § 1",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu",
+    "k.w. art. 63a § 2: przepadek i nawiązka do 1500 zł (bez odrębnej kary)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw65",
+   "kat": "instytucje",
+   "tytul": "Wprowadzenie w błąd co do tożsamości / odmowa danych",
+   "potoczne": [
+    "fałszywe dane",
+    "nie chce podać danych",
+    "odmowa legitymowania"
+   ],
+   "podstawa": "art. 65 § 1–2 k.w.",
+   "opis": "Umyślne wprowadzenie w błąd organu uprawnionego do legitymowania co do tożsamości lub danych osobowych (§ 1); niewydanie wbrew obowiązkowi informacji lub dokumentów (§ 2).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 65”"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 200,
+    "max": 500,
+    "lp": "tab. A lp. 3"
+   },
+   "sprawdzono": [
+    "k.w. art. 65 § 1–2 k.w.: ograniczenie wolności albo grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 65",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A lp. 3: art. 65 § 1 i 2 – od 200 do 500 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "taryfA"
+   ]
+  },
+  {
+   "id": "kw65a",
+   "kat": "instytucje",
+   "tytul": "Utrudnianie czynności służbowych (niewykonanie poleceń)",
+   "potoczne": [
+    "nie wykonuje poleceń",
+    "utrudnianie interwencji",
+    "przeszkadza"
+   ],
+   "podstawa": "art. 65a k.w.",
+   "opis": "Umyślne uniemożliwianie lub istotne utrudnianie czynności służbowej przez niewykonanie poleceń funkcjonariusza.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 65a (od 15.09.2026)”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 65a k.w.: areszt, ograniczenie wolności albo grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 65a (od 15.09.2026)",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu",
+    "Dz.U. 2026 poz. 1148 § 1 pkt 1 lit. a: dodanie „art. 65a”"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: art. 65a wymienia służby, których polecenia chroni (np. Policja, Żandarmeria). Nie przeczytałem dosłownie, czy obejmuje strażnika gminnego."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw66",
+   "kat": "instytucje",
+   "tytul": "Fałszywy alarm, blokowanie numeru alarmowego",
+   "potoczne": [
+    "fałszywe zgłoszenie",
+    "112",
+    "dowcip telefoniczny"
+   ],
+   "podstawa": "art. 66 § 1 k.w.",
+   "opis": "Wprowadzenie w błąd służb fałszywą informacją albo blokowanie numeru alarmowego.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 66 § 1”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 66 § 1 k.w.: areszt, ograniczenie wolności albo grzywna do 1500 zł",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 66 § 1",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu",
+    "k.w. art. 66 § 2: nawiązka do 1000 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw67",
+   "kat": "instytucje",
+   "tytul": "Uszkodzenie lub usunięcie ogłoszenia",
+   "potoczne": [
+    "zerwanie ogłoszenia",
+    "zrywanie plakatów",
+    "obwieszczenie"
+   ],
+   "podstawa": "art. 67 § 1–2 k.w.",
+   "opis": "Umyślne uszkodzenie lub usunięcie ogłoszenia instytucji państwowej, samorządowej lub społecznej (§ 1); afisza lub plakatu instytucji artystycznej, rozrywkowej lub sportowej (§ 2).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 67”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 150,
+    "lp": "tab. A lp. 4 (§ 1)"
+   },
+   "sprawdzono": [
+    "k.w. art. 67 § 1–2 k.w.: § 1: areszt albo grzywna; § 2: grzywna do 1000 zł albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 67",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A lp. 4: art. 67 § 1 – 150 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "taryfA"
+   ]
+  },
+  {
+   "id": "kw72",
+   "kat": "bezpieczenstwo",
+   "tytul": "Niezabezpieczenie miejsca niebezpiecznego",
+   "potoczne": [
+    "dziura",
+    "wykop",
+    "niezabezpieczony",
+    "otwarta studzienka"
+   ],
+   "podstawa": "art. 72 k.w.",
+   "opis": "Niedopełnienie obowiązku zabezpieczenia miejsca niebezpiecznego dla życia lub zdrowia.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 72”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 72 k.w.: areszt albo grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 72",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw74",
+   "kat": "bezpieczenstwo",
+   "tytul": "Niszczenie znaków lub ogrodzeń ostrzegawczych",
+   "potoczne": [
+    "zniszczona taśma",
+    "ogrodzenie budowy",
+    "znak ostrzegawczy"
+   ],
+   "podstawa": "art. 74 § 1 k.w.",
+   "opis": "Niszczenie, uszkadzanie lub usuwanie znaków albo ogrodzeń ostrzegających przed niebezpieczeństwem.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 74 § 1”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 74 § 1 k.w.: areszt, ograniczenie wolności albo grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 74 § 1",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw75",
+   "kat": "bezpieczenstwo",
+   "tytul": "Wystawianie przedmiotów, wylewanie płynów bez ostrożności",
+   "potoczne": [
+    "doniczka na parapecie",
+    "wylewanie wody z balkonu",
+    "rzucanie z okna"
+   ],
+   "podstawa": "art. 75 § 1 k.w.",
+   "opis": "Brak należytej ostrożności przy wystawianiu lub zawieszaniu przedmiotów albo wylewaniu płynów, wyrzucaniu przedmiotów.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 75 § 1”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 75 § 1 k.w.: grzywna do 500 złotych albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 75 § 1",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu",
+    "k.w. art. 75 § 2 (złośliwość lub swawola): poza uprawnieniem SM"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw78",
+   "kat": "bezpieczenstwo",
+   "tytul": "Drażnienie lub płoszenie zwierzęcia",
+   "potoczne": [
+    "drażnienie psa",
+    "płoszenie konia",
+    "prowokowanie zwierzęcia"
+   ],
+   "podstawa": "art. 78 k.w.",
+   "opis": "Drażnienie lub płoszenie zwierzęcia, przez co staje się ono niebezpieczne.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 77‒79”"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 250,
+    "max": 500,
+    "lp": "tab. A lp. 6"
+   },
+   "sprawdzono": [
+    "k.w. art. 78 k.w.: ograniczenie wolności, grzywna do 1000 złotych albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 77‒79",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A lp. 6: art. 78 – od 250 do 500 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "taryfA"
+   ]
+  },
+  {
+   "id": "kw79",
+   "kat": "bezpieczenstwo",
+   "tytul": "Nieoświetlenie miejsc dostępnych dla publiczności",
+   "potoczne": [
+    "ciemna klatka",
+    "brak oświetlenia",
+    "zgaszone światło"
+   ],
+   "podstawa": "art. 79 § 1–2 k.w.",
+   "opis": "Zaniechanie wbrew obowiązkowi oświetlenia miejsca dostępnego dla publiczności (§ 1); gaszenie oświetlenia ze złośliwości lub swawoli (§ 2).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 77‒79”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 79 § 1–2 k.w.: § 1: grzywna do 250 zł albo nagana; § 2: grzywna do 500 zł",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 77‒79",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw80",
+   "kat": "bezpieczenstwo",
+   "tytul": "Zabronione czynności na wałach przeciwpowodziowych",
+   "potoczne": [
+    "wał przeciwpowodziowy",
+    "jazda po wale",
+    "kopanie w wale"
+   ],
+   "podstawa": "art. 80 § 1–2 k.w.",
+   "opis": "Jazda, orka, kopanie i inne zabronione czynności na wałach lub w ich pobliżu (§ 1); naruszenie innych ograniczeń korzystania z wałów (§ 2).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 80 § 1 i 2”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 80 § 1–2 k.w.: grzywna albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 80 § 1 i 2",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw81",
+   "kat": "bezpieczenstwo",
+   "tytul": "Niszczenie urządzeń ochronnych brzegów, wydm",
+   "potoczne": [
+    "wydmy",
+    "umocnienia brzegowe",
+    "chodzenie po wydmach"
+   ],
+   "podstawa": "art. 81 k.w.",
+   "opis": "Niszczenie urządzeń i roślinności chroniących brzegi wód morskich lub śródlądowych.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 81”"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 50,
+    "max": 500,
+    "lp": "tab. A lp. 7–14 (zależnie od czynu)"
+   },
+   "sprawdzono": [
+    "k.w. art. 81 k.w.: grzywna do 1000 złotych albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 81",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A lp. 7–14: roślinność 100, płotki 100, chrust 100, chodzenie po wydmach 50, ogrodzenia 200, biwakowanie 300, tablice 100, umocnienia 500 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "taryfA"
+   ]
+  },
+  {
+   "id": "kw82",
+   "kat": "bezpieczenstwo",
+   "tytul": "Ogień w lesie, wypalanie traw",
+   "potoczne": [
+    "ognisko w lesie",
+    "palenie w lesie",
+    "wypalanie traw",
+    "grill w lesie"
+   ],
+   "podstawa": "art. 82 § 3–4 k.w.",
+   "opis": "Rozniecanie ognia lub palenie tytoniu na terenach leśnych bez zgody (§ 3); wypalanie traw lub pozostałości roślinnych wbrew zasadom (§ 4).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 82 § 3 i 4”"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 50,
+    "max": 500,
+    "lp": "tab. A lp. 15 (art. 82 § 1–5)"
+   },
+   "sprawdzono": [
+    "k.w. art. 82 § 3–4 k.w.: areszt, ograniczenie wolności albo grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 82 § 3 i 4",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A lp. 15: art. 82 § 1–5 – od 50 do 500 zł",
+    "k.p.w. art. 96 § 1ad obejmuje też art. 82 § 1–5 – limit do 5000 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "taryfA"
+   ]
+  },
+  {
+   "id": "kw82a",
+   "kat": "bezpieczenstwo",
+   "tytul": "Utrudnianie działań ratowniczych",
+   "potoczne": [
+    "blokowanie dojazdu straży",
+    "utrudnianie akcji",
+    "droga pożarowa"
+   ],
+   "podstawa": "art. 82a § 2 k.w.",
+   "opis": "Utrudnianie działań ratowniczych, w szczególności dojazdu do zagrożonych obiektów.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 82a § 2”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 82a § 2 k.w.: areszt, grzywna albo nagana (ta sama kara co § 1)",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 82a § 2",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw84",
+   "kat": "komunikacja",
+   "tytul": "Nieoznakowanie przeszkody lub robót na drodze",
+   "potoczne": [
+    "roboty drogowe",
+    "przeszkoda na drodze",
+    "brak oznakowania"
+   ],
+   "podstawa": "art. 84 k.w.",
+   "opis": "Brak oznakowania przeszkody, urządzenia lub robót zagrażających bezpieczeństwu ruchu.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 84”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Stawki z tab. B nie sprawdziłem (poza lp. 181: oznakowanie postoju po awarii – 150 zł)."
+   },
+   "sprawdzono": [
+    "k.w. art. 84 k.w.: areszt albo grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 84",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Taryfikator tab. B lp. 181: art. 84 lub 91 – brak oznakowania postoju po awarii lub wypadku – 150 zł"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: czy mandatownik podaje stawkę z taryfikatora (tab. B) dla tego wykroczenia? Nie przeczytałem całej tabeli B."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw85",
+   "kat": "komunikacja",
+   "tytul": "Samowolne ustawianie, usuwanie, zasłanianie znaków",
+   "potoczne": [
+    "przestawiony znak",
+    "zasłonięty znak",
+    "usunięty słupek",
+    "znak turystyczny"
+   ],
+   "podstawa": "art. 85 § 1–2 k.w.",
+   "opis": "Samowolne ustawianie, usuwanie, niszczenie lub zasłanianie znaków i urządzeń ostrzegawczych (§ 1) oraz znaków turystycznych (§ 2).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 85 § 1 i 2”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 400,
+    "lp": "lp. M 261"
+   },
+   "sprawdzono": [
+    "k.w. art. 85 § 1–2 k.w.: areszt, ograniczenie wolności albo grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 85 § 1 i 2",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Mandatownik lp. 261: art. 85 – 400 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "kw85a",
+   "kat": "komunikacja",
+   "tytul": "Znakowanie drogi wewnętrznej niezgodne z przepisami",
+   "potoczne": [
+    "droga wewnętrzna",
+    "znaki na osiedlu",
+    "parking prywatny"
+   ],
+   "podstawa": "art. 85a k.w.",
+   "opis": "Naruszenie przepisów o znakowaniu dróg wewnętrznych (§ 1); zlecenie wadliwego znakowania (§ 2).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 85a”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 85a k.w.: kara grzywny",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 85a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: w zdjęciach mandatownika nie znalazłem wiersza dla tego artykułu. Jeśli go ma, podaj lp. i kwotę."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw86a",
+   "kat": "rowery",
+   "tytul": "Rower / hulajnoga / UTO: prędkość i pierwszeństwo pieszych na chodniku",
+   "potoczne": [
+    "rowerzysta potrącił pieszego",
+    "za szybko po chodniku",
+    "hulajnoga nie ustąpiła"
+   ],
+   "podstawa": "art. 86a k.w.",
+   "opis": "Kierujący rowerem, hulajnogą elektryczną lub UTO na chodniku lub drodze dla pieszych nie jedzie z prędkością zbliżoną do pieszego albo nie ustępuje mu.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 86a”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 300,
+    "lp": "tab. B lp. 136–137"
+   },
+   "sprawdzono": [
+    "k.w. art. 86a k.w.: grzywna albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 86a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Taryfikator tab. B lp. 136–137: art. 86a – 300 zł; lp. 22–23 (urządzenie wspomagające ruch): 200 zł",
+    "PoRD art. 129b ust. 2 pkt 2 lit. b i c"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw86b",
+   "kat": "komunikacja",
+   "tytul": "Rower (pojazd niemechaniczny) wzdłuż chodnika lub po przejściu",
+   "potoczne": [
+    "rower po pasach",
+    "rower po przejściu",
+    "rower wzdłuż chodnika",
+    "przejazd rowerem po zebrze"
+   ],
+   "podstawa": "art. 86b § 2 k.w.",
+   "opis": "Kierujący pojazdem innym niż mechaniczny (np. rowerem) łamie zakaz jazdy wzdłuż dróg dla pieszych lub po przejściach dla pieszych (art. 86b § 1 pkt 5 w zw. z § 2). Rozporządzenie daje SM mandat tylko za ten punkt.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 86b § 2 za czyny określone w § 1 pkt 5”"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 50,
+    "max": 100,
+    "lp": "lp. M 54"
+   },
+   "sprawdzono": [
+    "k.w. art. 86b § 2 k.w.: grzywna albo nagana (§ 1 – pojazd mechaniczny: grzywna nie niższa niż 1500 zł)",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 86b § 2 za czyny określone w § 1 pkt 5",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "k.w. art. 86b § 1 pkt 5: złamanie zakazu jazdy wzdłuż dróg dla pieszych lub po przejściach dla pieszych",
+    "Mandatownik lp. 54: art. 86b § 2 – od 50 do 100 zł"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: w mandatowniku przy lp. 52–54 jest kilka wierszy dla art. 86b § 2. Czy 50–100 zł (lp. 54) to właściwy wiersz dla roweru jadącego wzdłuż chodnika lub po przejściu?"
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "kw88",
+   "kat": "komunikacja",
+   "tytul": "Brak wymaganego oświetlenia pojazdu",
+   "potoczne": [
+    "rower bez świateł",
+    "jazda bez świateł",
+    "nieoświetlony rower"
+   ],
+   "podstawa": "art. 88 k.w.",
+   "opis": "Jazda albo pozostawienie pojazdu na drodze bez wymaganego oświetlenia.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 – „art. 88”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 182–185 (pojazdy)"
+   },
+   "sprawdzono": [
+    "k.w. art. 88 k.w.: kara grzywny",
+    "Rozp. MSWiA § 2 ust. 2: art. 88",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Taryfikator tab. B lp. 182 (zmierzch–świt): 300 zł; lp. 183–184: 100 zł; lp. 185 (tunel): 200 zł – dotyczą kierujących pojazdami",
+    "Mandatownik: art. 88 – lp. 199–202 (pojazdy) i lp. 128"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: stawkę z lp. M 128 (jeśli dotyczy roweru bez oświetlenia). Wierszy 199–202 i 128 nie odczytałem w całości. Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "kw89",
+   "kat": "komunikacja",
+   "tytul": "Dziecko do 7 lat bez opieki na drodze",
+   "potoczne": [
+    "dziecko na jezdni",
+    "dziecko samo na ulicy"
+   ],
+   "podstawa": "art. 89 k.w.",
+   "opis": "Dopuszczenie, by małoletni do lat 7 przebywał na drodze lub torowisku bez opieki.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 89”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 89 k.w.: grzywna albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 89",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: w zdjęciach mandatownika nie znalazłem wiersza dla tego artykułu. Jeśli go ma, podaj lp. i kwotę."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw90",
+   "kat": "komunikacja",
+   "tytul": "Tamowanie lub utrudnianie ruchu",
+   "potoczne": [
+    "blokowanie drogi",
+    "utrudnianie ruchu",
+    "stanie na jezdni"
+   ],
+   "podstawa": "art. 90 k.w.",
+   "opis": "Tamowanie lub utrudnianie ruchu na drodze publicznej, w strefie zamieszkania lub strefie ruchu (§ 1). Kierujący pojazdem mechanicznym (§ 2): grzywna nie niższa niż 500 zł.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 – „art. 90”"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 100,
+    "max": 300,
+    "lp": "tab. B lp. 128, 132, 138 (rowery), 24, 27 (UTO)"
+   },
+   "sprawdzono": [
+    "k.w. art. 90 k.w.: § 1: ograniczenie wolności albo grzywna; § 2: ograniczenie wolności albo grzywna nie niższa niż 500 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 90",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Taryfikator tab. B: lp. 128 – 100 zł; lp. 132 – 200 zł; lp. 138 – 300 zł; lp. 24 i 27 – 200 zł; lp. 302 (§ 2): nie niższa niż 500 zł"
+   ],
+   "sprawdz": [
+    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw91",
+   "kat": "komunikacja",
+   "tytul": "Zanieczyszczanie drogi, pozostawienie przeszkody",
+   "potoczne": [
+    "błoto na jezdni",
+    "rozsypany ładunek",
+    "przedmiot na drodze"
+   ],
+   "podstawa": "art. 91 k.w.",
+   "opis": "Zanieczyszczanie drogi albo pozostawianie na niej przedmiotów lub zwierząt stwarzających zagrożenie.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 91”"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 50,
+    "max": 200,
+    "lp": "lp. M 270"
+   },
+   "sprawdzono": [
+    "k.w. art. 91 k.w.: grzywna do 1500 złotych albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 91",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Mandatownik lp. 270: art. 91 – od 50 do 200 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "kw94",
+   "kat": "komunikacja",
+   "tytul": "Prowadzenie pojazdu bez uprawnień (inny niż mechaniczny) / niedopuszczonego",
+   "potoczne": [
+    "rower bez karty rowerowej",
+    "dziecko na hulajnodze",
+    "pojazd bez rejestracji"
+   ],
+   "podstawa": "art. 94 § 1a i 2 k.w.",
+   "opis": "Prowadzenie na drodze pojazdu innego niż mechaniczny bez wymaganych uprawnień (§ 1a); prowadzenie pojazdu niedopuszczonego do ruchu (§ 2).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 – „art. 94 § 1a i 2”"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 200,
+    "max": 1500,
+    "lp": "lp. M 257 (§ 1a), 272 (§ 2)",
+    "uwaga": "§ 1a: 200 zł (lp. M 257). § 2: mandatownik podaje 20–1500 zł (lp. M 272)."
+   },
+   "sprawdzono": [
+    "k.w. art. 94 § 1a i 2 k.w.: § 1a: nagana albo grzywna do 1500 zł; § 2: areszt, ograniczenie wolności albo grzywna nie niższa niż 1500 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 94 § 1a i 2",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Mandatownik lp. 257: art. 94 § 1a – 200 zł",
+    "Mandatownik lp. 272: art. 94 § 2 – od 20 do 1500 zł"
+   ],
+   "sprawdz": [
+    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi).",
+    "Sprawdź i powiedz mi: przy § 2 mandatownik (IX 2022) podaje 20–1500 zł, a obecny art. 94 § 2 k.w. przewiduje grzywnę nie niższą niż 1500 zł. Czy przy § 2 stosujecie 1500 zł?"
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "kw95",
+   "kat": "komunikacja",
+   "tytul": "Brak wymaganych dokumentów przy prowadzeniu pojazdu",
+   "potoczne": [
+    "brak karty rowerowej przy sobie",
+    "brak dokumentów"
+   ],
+   "podstawa": "art. 95 k.w.",
+   "opis": "Prowadzenie pojazdu bez wymaganych dokumentów przy sobie (§ 1); po upływie ważności tymczasowego prawa jazdy (§ 2).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 – „art. 95”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "lp. M 258",
+    "uwaga": "50 zł za każdy brakujący dokument, łącznie najwyżej 250 zł."
+   },
+   "sprawdzono": [
+    "k.w. art. 95 k.w.: grzywna do 250 złotych albo nagana",
+    "Rozp. MSWiA § 2 ust. 2: art. 95",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Mandatownik lp. 258: art. 95 – 50 zł za każdy dokument, razem do 250 zł"
+   ],
+   "sprawdz": [
+    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "kw96",
+   "kat": "komunikacja",
+   "tytul": "Dopuszczenie do prowadzenia osoby bez uprawnień / niewskazanie kierującego",
+   "potoczne": [
+    "niewskazanie kierującego",
+    "kto prowadził",
+    "pożyczył auto"
+   ],
+   "podstawa": "art. 96 § 1 pkt 2 i § 3 k.w.",
+   "opis": "Dopuszczenie do prowadzenia pojazdu osoby bez wymaganych uprawnień (§ 1 pkt 2); niewskazanie na żądanie organu, komu powierzono pojazd (§ 3).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 96 § 3 (ust. 1) i art. 96 § 1 pkt 2 (ust. 2)”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "lp": "lp. M 263 (§ 1 pkt 2), 266–269 (§ 3)",
+    "uwaga": "§ 1 pkt 2: mandatownik 300 zł (lp. M 263). § 3: stawka zależy od czynu, którego dotyczy żądanie (lp. M 266–269 – min. 4000 / 2000 zł albo podwójna stawka, nie mniej niż 800 / 500 zł)."
+   },
+   "sprawdzono": [
+    "k.w. art. 96 § 1 pkt 2 i § 3 k.w.: § 1 pkt 2: ograniczenie wolności albo grzywna nie niższa niż 1000 zł; § 3: grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 96 § 3 (ust. 1) i art. 96 § 1 pkt 2 (ust. 2)",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "PoRD art. 129b ust. 3 pkt 7: żądanie wskazania, komu powierzono pojazd",
+    "Mandatownik lp. 263: art. 96 § 1 pkt 2 – 300 zł",
+    "Mandatownik lp. 266–269: art. 96 § 3 – stawki zależne od czynu"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: przy § 1 pkt 2 mandatownik (IX 2022) podaje 300 zł, a obecny art. 96 § 1 k.w. przewiduje grzywnę nie niższą niż 1000 zł. Którą kwotę stosujecie?",
+    "Sprawdź i powiedz mi: lp. M 266–269 odczytałem skrótowo. Potwierdź, który wiersz dotyczy którego przypadku (4000 / 2000 / podwójna stawka min. 800 / 500 zł)."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "kw96c",
+   "kat": "komunikacja",
+   "tytul": "Wjazd do strefy czystego transportu",
+   "potoczne": [
+    "SCT",
+    "strefa czystego transportu",
+    "wjazd do strefy"
+   ],
+   "podstawa": "art. 96c k.w.",
+   "opis": "Niestosowanie się do zakazu wjazdu do strefy czystego transportu.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 – „art. 96c”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 96c k.w.: grzywna do 500 złotych",
+    "Rozp. MSWiA § 2 ust. 2: art. 96c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "PoRD art. 129b ust. 2 pkt 2 lit. d"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: czy we Wrocławiu działa SCT i jaką stawkę podaje mandatownik?"
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw99",
+   "kat": "komunikacja",
+   "tytul": "Niszczenie drogi lub urządzeń drogowych",
+   "potoczne": [
+    "zniszczony słupek",
+    "uszkodzona droga",
+    "zasłony odśnieżne"
+   ],
+   "podstawa": "art. 99 § 1 pkt 2–3 k.w.",
+   "opis": "Niszczenie lub uszkadzanie drogi publicznej, urządzeń drogowych albo usuwanie zasłon odśnieżnych (pkt 1 i 4 uchylone).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 99 § 1 pkt 2 i 3”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 300,
+    "lp": "lp. M 262 (pkt 2)"
+   },
+   "sprawdzono": [
+    "k.w. art. 99 § 1 pkt 2–3 k.w.: grzywna albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 99 § 1 pkt 2 i 3",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Mandatownik lp. 262: art. 99 § 1 pkt 2 – 300 zł"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: który czyn to pkt 2, a który pkt 3? Odczytałem je tylko łącznie."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "kw100",
+   "kat": "komunikacja",
+   "tytul": "Zaorywanie, zwężanie pasa drogowego, wypas w pasie",
+   "potoczne": [
+    "zaorany pas drogi",
+    "wypas przy drodze",
+    "rów przydrożny"
+   ],
+   "podstawa": "art. 100 k.w.",
+   "opis": "Zaorywanie lub zwężanie pasa drogowego, uszkadzanie rowów, wypas zwierząt w pasie drogowym i podobne czyny.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 100‒102”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "lp. M 275 (wypas w pasie drogowym)",
+    "uwaga": "Inne czyny z art. 100: w mandatowniku nie odczytałem stawki."
+   },
+   "sprawdzono": [
+    "k.w. art. 100 k.w.: grzywna do 1000 złotych albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 100‒102",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Mandatownik lp. 275: art. 100 pkt 4 (wypas) – 50 zł"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: stawki dla pozostałych punktów art. 100 (zaorywanie, zwężanie, rowy)."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "kw101",
+   "kat": "komunikacja",
+   "tytul": "Nieoczyszczanie drogi poza miastem",
+   "potoczne": [
+    "błoto na drodze",
+    "nieodśnieżona droga gruntowa"
+   ],
+   "podstawa": "art. 101 k.w.",
+   "opis": "Uchylanie się od obowiązku oczyszczania drogi twardej z błota, kurzu, śniegu lub lodu poza miastami.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 100‒102”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 200,
+    "lp": "lp. M 277"
+   },
+   "sprawdzono": [
+    "k.w. art. 101 k.w.: grzywna do 1000 złotych albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 100‒102",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Mandatownik lp. 277: art. 101 – 200 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "kw102",
+   "kat": "komunikacja",
+   "tytul": "Nieutrzymanie zjazdu z drogi",
+   "potoczne": [
+    "zjazd z drogi",
+    "przepust",
+    "wjazd na posesję"
+   ],
+   "podstawa": "art. 102 k.w.",
+   "opis": "Uchylanie się od obowiązku utrzymania zjazdu z drogi publicznej do przyległej nieruchomości.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 100‒102”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 200,
+    "lp": "lp. M 276"
+   },
+   "sprawdzono": [
+    "k.w. art. 102 k.w.: grzywna do 1000 złotych albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 100‒102",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Mandatownik lp. 276: art. 102 – 200 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ]
+  },
+  {
+   "id": "kw104",
+   "kat": "osoba",
+   "tytul": "Nakłanianie do żebrania",
+   "potoczne": [
+    "dziecko żebrze",
+    "zmuszanie do żebrania"
+   ],
+   "podstawa": "art. 104 k.w.",
+   "opis": "Skłanianie do żebrania małoletniego, osoby bezradnej lub zależnej.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 104”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 104 k.w.: areszt, ograniczenie wolności albo grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 104",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw106",
+   "kat": "osoba",
+   "tytul": "Narażenie dziecka do 7 lat lub osoby bezradnej",
+   "potoczne": [
+    "dziecko w aucie",
+    "dziecko w upale",
+    "pozostawione dziecko"
+   ],
+   "podstawa": "art. 106 k.w.",
+   "opis": "Dopuszczenie do przebywania małoletniego do lat 7 albo osoby niezdolnej do obrony w warunkach niebezpiecznych dla zdrowia.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 106”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 106 k.w.: grzywna albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 106",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw108",
+   "kat": "osoba",
+   "tytul": "Szczucie psem człowieka",
+   "potoczne": [
+    "szczucie psem",
+    "poszczuł psa"
+   ],
+   "podstawa": "art. 108 k.w.",
+   "opis": "Szczucie człowieka psem.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 108”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 108 k.w.: ograniczenie wolności, grzywna albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 108",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw109",
+   "kat": "osoba",
+   "tytul": "Zanieczyszczanie wody",
+   "potoczne": [
+    "zanieczyszczona woda",
+    "basen",
+    "poidło"
+   ],
+   "podstawa": "art. 109 k.w.",
+   "opis": "Zanieczyszczanie wody do spożycia (§ 1), wody do pojenia zwierząt (§ 2), wody w pływalni lub kąpielisku (§ 3).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 109”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 109 k.w.: § 1: grzywna albo nagana; § 2–3: grzywna do 1500 zł albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 109",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw138d",
+   "kat": "osoba",
+   "tytul": "Przewodnik bez kwalifikacji",
+   "potoczne": [
+    "przewodnik górski",
+    "fałszywy przewodnik"
+   ],
+   "podstawa": "art. 138d § 1 k.w.",
+   "opis": "Przewodnik górski podający nieprawdziwie swoje kwalifikacje na danym obszarze.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 138d § 1”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 138d § 1 k.w.: ograniczenie wolności albo grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 138d § 1",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw143",
+   "kat": "porzadek",
+   "tytul": "Złośliwe uszkadzanie urządzeń użytku publicznego",
+   "potoczne": [
+    "zniszczona ławka",
+    "wandalizm",
+    "uszkodzony kosz",
+    "zegar"
+   ],
+   "podstawa": "art. 143 § 1 k.w.",
+   "opis": "Złośliwe utrudnianie lub uniemożliwianie korzystania z urządzeń użytku publicznego, np. przez ich uszkodzenie.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 143 § 1”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 143 § 1 k.w.: areszt, ograniczenie wolności albo grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 143 § 1",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw144",
+   "kat": "porzadek",
+   "tytul": "Niszczenie roślinności, deptanie trawników",
+   "potoczne": [
+    "deptanie trawnika",
+    "zniszczony krzew",
+    "łamanie gałęzi",
+    "pies na trawniku"
+   ],
+   "podstawa": "art. 144 § 1–2 k.w.",
+   "opis": "Niszczenie roślinności na terenach publicznych, deptanie trawników poza miejscami do rekreacji (§ 1); niszczenie zadrzewień przydrożnych, ochronnych lub żywopłotów (§ 2).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 144 § 1 i 2”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 144 § 1–2 k.w.: § 1: grzywna do 1000 zł albo nagana; § 2: areszt, ograniczenie wolności albo grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 144 § 1 i 2",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw151",
+   "kat": "lesne",
+   "tytul": "Wypas lub przeganianie zwierząt po cudzym gruncie",
+   "potoczne": [
+    "wypas",
+    "krowy w lesie",
+    "przeganianie"
+   ],
+   "podstawa": "art. 151 § 1–3 k.w.",
+   "opis": "Wypas lub przeganianie zwierząt gospodarskich przez cudze grunty, gdzie jest to zakazane (§ 1); na gruncie zasianym, zalesionym, w młodniku (§ 2); przez wodę zamkniętą i zarybioną (§ 3).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 151 § 1‒3”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 151 § 1–3 k.w.: § 1: grzywna do 500 zł albo nagana; § 2–3: grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 151 § 1‒3",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu",
+    "k.w. art. 151 § 4: ściganie na żądanie pokrzywdzonego"
+   ],
+   "sprawdz": [
+    "Ściganie na żądanie pokrzywdzonego (§ 4). Sprawdź i powiedz mi: jak to dokumentujecie przy mandacie?"
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw153",
+   "kat": "lesne",
+   "tytul": "Zbieranie w cudzym lesie wbrew zakazowi",
+   "potoczne": [
+    "grzyby",
+    "mech",
+    "kora",
+    "żywica"
+   ],
+   "podstawa": "art. 153 § 1 k.w.",
+   "opis": "Wydobywanie żywicy, zdzieranie kory, zbieranie mchu, grzybów itp. w cudzym lesie wbrew zakazowi.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 153 § 1”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 153 § 1 k.w.: grzywna do 250 złotych albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 153 § 1",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw154",
+   "kat": "lesne",
+   "tytul": "Wydobywanie piasku, wyrzucanie odpadów na cudzy grunt",
+   "potoczne": [
+    "piasek",
+    "glina",
+    "śmieci na polu",
+    "wyrzucanie gruzu"
+   ],
+   "podstawa": "art. 154 § 1–2 k.w.",
+   "opis": "Wydobywanie piasku, gliny, torfu lub kopanie dołów na cudzym gruncie (§ 1); wyrzucanie kamieni, odpadów lub nieczystości na cudzy grunt polny (§ 2).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 154 § 1 i 2”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Przy § 2 minimum ustawowe (500 zł) równa się limitowi mandatu, więc mandat wynosi 500 zł."
+   },
+   "sprawdzono": [
+    "k.w. art. 154 § 1–2 k.w.: § 1: grzywna do 1000 zł albo nagana; § 2: grzywna nie niższa niż 500 złotych",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 154 § 1 i 2",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: czy za § 2 stosujecie 500 zł (jak przy art. 145)?"
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw157",
+   "kat": "lesne",
+   "tytul": "Nieopuszczenie cudzego lasu, pola, łąki",
+   "potoczne": [
+    "nie chce wyjść",
+    "teren prywatny",
+    "łąka"
+   ],
+   "podstawa": "art. 157 § 1 k.w.",
+   "opis": "Niezastosowanie się do żądania osoby uprawnionej i nieopuszczenie lasu, pola lub łąki.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 157 § 1”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 157 § 1 k.w.: grzywna do 500 złotych lub nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 157 § 1",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu",
+    "k.w. art. 157 § 2: ściganie na żądanie pokrzywdzonego"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw161",
+   "kat": "lesne",
+   "tytul": "Wjazd pojazdem do lasu w miejscu niedozwolonym",
+   "potoczne": [
+    "quad w lesie",
+    "auto w lesie",
+    "motocykl w lesie"
+   ],
+   "podstawa": "art. 161 k.w.",
+   "opis": "Wjazd pojazdem silnikowym lub motorowerem do cudzego lasu w miejscu zakazanym albo pozostawienie go w miejscu do tego nieprzeznaczonym.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 161”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 161 k.w.: kara grzywny",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 161",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw162",
+   "kat": "lesne",
+   "tytul": "Zaśmiecanie lasu",
+   "potoczne": [
+    "śmieci w lesie",
+    "dzikie wysypisko",
+    "odpady w lesie"
+   ],
+   "podstawa": "art. 162 § 1 k.w.",
+   "opis": "Zanieczyszczanie gleby lub wody w lasach albo zaśmiecanie lasu odpadami.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 162 § 1”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Minimum ustawowe 500 zł równa się limitowi mandatu, więc mandat wynosi 500 zł. Zakopywanie lub składowanie odpadów w lesie (§ 2: co najmniej 1000 zł) jest poza uprawnieniem SM."
+   },
+   "sprawdzono": [
+    "k.w. art. 162 § 1 k.w.: ograniczenie wolności albo grzywna nie niższa niż 500 złotych",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 162 § 1",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: czy stosujecie 500 zł (jak przy art. 145)?"
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw166",
+   "kat": "lesne",
+   "tytul": "Pies puszczony luzem w lesie",
+   "potoczne": [
+    "pies w lesie",
+    "pies bez smyczy w lesie"
+   ],
+   "podstawa": "art. 166 k.w.",
+   "opis": "Puszczanie psa luzem w lesie, z wyjątkami (polowanie, szkolenie, akcje ratownicze).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 166”"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "k.w. art. 166 k.w.: grzywna albo nagana",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 166",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "pieszy-chodnik",
+   "kat": "piesi",
+   "tytul": "Pieszy: niekorzystanie z chodnika lub pobocza",
+   "potoczne": [
+    "pieszy jezdnią",
+    "chodzenie po jezdni"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 11 ust. 1 PoRD",
+   "opis": "Pieszy nie korzysta z chodnika, drogi dla pieszych lub pobocza.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "tab. B lp. 1"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 1: 50 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pieszy-strona",
+   "kat": "piesi",
+   "tytul": "Pieszy: zła strona drogi lub obok siebie",
+   "potoczne": [
+    "pieszy lewą stroną",
+    "idą obok siebie"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 11 ust. 2–3 PoRD",
+   "opis": "Chodzenie po niewłaściwej stronie pobocza lub jezdni (lp. 2) albo obok siebie zamiast jeden za drugim (lp. 3).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "tab. B lp. 2–3"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 2–3: 50 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pieszy-ddr",
+   "kat": "piesi",
+   "tytul": "Pieszy na drodze dla rowerów",
+   "potoczne": [
+    "pieszy na ścieżce rowerowej"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 11 ust. 4 PoRD",
+   "opis": "Naruszenie zasad ruchu pieszych na drodze dla rowerów.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "tab. B lp. 4"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 4: 50 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pieszy-odblask",
+   "kat": "piesi",
+   "tytul": "Pieszy bez elementów odblaskowych",
+   "potoczne": [
+    "odblask",
+    "pieszy w nocy"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 11 ust. 4a PoRD",
+   "opis": "Brak elementów odblaskowych po zmierzchu poza obszarem zabudowanym.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 5"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 5: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pieszy-przejscie",
+   "kat": "piesi",
+   "tytul": "Pieszy: niekorzystanie z przejścia dla pieszych",
+   "potoczne": [
+    "przechodzenie poza pasami",
+    "nie na pasach"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 13 PoRD",
+   "opis": "Niekorzystanie z przejścia dla pieszych przy wchodzeniu lub przechodzeniu przez jezdnię.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "tab. B lp. 6"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 6: 50 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pieszy-zza",
+   "kat": "piesi",
+   "tytul": "Pieszy: wejście zza pojazdu lub przeszkody",
+   "potoczne": [
+    "wyszedł zza autobusu",
+    "zza samochodu"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 14 pkt 1 lit. b PoRD",
+   "opis": "Wejście na jezdnię zza pojazdu lub przeszkody ograniczającej widoczność.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 200,
+    "lp": "tab. B lp. 9"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 9: 200 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pieszy-widocznosc",
+   "kat": "piesi",
+   "tytul": "Pieszy: przechodzenie w miejscu o ograniczonej widoczności",
+   "potoczne": [
+    "zakręt",
+    "ograniczona widoczność"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 14 pkt 2 PoRD",
+   "opis": "Przechodzenie przez jezdnię w miejscu o ograniczonej widoczności.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 50,
+    "max": 100,
+    "lp": "tab. B lp. 10–11",
+    "uwaga": "Obszar zabudowany: 50 zł (lp. 10); niezabudowany: 100 zł (lp. 11)."
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 10–11: 50–100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pieszy-zwalnianie",
+   "kat": "piesi",
+   "tytul": "Pieszy: zatrzymywanie się lub bieganie na jezdni",
+   "potoczne": [
+    "bieganie przez jezdnię",
+    "stoi na pasach"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 14 pkt 3–4 PoRD",
+   "opis": "Zwalnianie lub zatrzymywanie się bez potrzeby (lp. 12) albo przebieganie przez jezdnię (lp. 13).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "tab. B lp. 12–13"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 12–13: 50 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pieszy-torowisko",
+   "kat": "piesi",
+   "tytul": "Pieszy: chodzenie po torowisku",
+   "potoczne": [
+    "tory tramwajowe",
+    "chodzenie po torach"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 14 pkt 5 PoRD",
+   "opis": "Chodzenie po torowisku.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "tab. B lp. 14"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 14: 50 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pieszy-zapory",
+   "kat": "piesi",
+   "tytul": "Pieszy: wejście na torowisko przy zaporach",
+   "potoczne": [
+    "zapory",
+    "szlaban",
+    "przejazd kolejowy pieszy"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 14 pkt 6 PoRD",
+   "opis": "Wejście na torowisko przy opuszczonych lub opuszczanych zaporach albo półzaporach.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 2000,
+    "lp": "tab. B lp. 15"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 15: 2000 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [
+    "Kwota 2000 zł przekracza ogólny limit 500 zł, ale art. 97 jest w rozdziale XI k.w., więc limit wynosi 5000 zł (art. 96 § 1ad k.p.w.). Sprawdź i powiedz mi, czy tak to stosujecie."
+   ],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pieszy-barierki",
+   "kat": "piesi",
+   "tytul": "Pieszy: przechodzenie przez barierki",
+   "potoczne": [
+    "barierki",
+    "przeskakiwanie barierek"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 14 pkt 7 PoRD",
+   "opis": "Przechodzenie przez jezdnię w miejscu, gdzie urządzenia zabezpieczające oddzielają drogę dla pieszych od jezdni.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "tab. B lp. 17"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 17: 50 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pieszy-znaki",
+   "kat": "piesi",
+   "tytul": "Pieszy: niestosowanie się do znaków dla pieszych",
+   "potoczne": [
+    "znak dla pieszych"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (§ 30 lub § 39 w zw. z § 40 rozp. o znakach)",
+   "opis": "Niestosowanie się do znaków drogowych dotyczących ruchu pieszych.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 92 § 1 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "tab. B lp. 19"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 19: 50 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pieszy-czerwone",
+   "kat": "piesi",
+   "tytul": "Pieszy: wejście na przejście przy czerwonym świetle",
+   "potoczne": [
+    "czerwone światło",
+    "przejście na czerwonym"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (§ 98 ust. 2 pkt 2 rozp. o znakach, S-5)",
+   "opis": "Wejście na przejście dla pieszych przy czerwonym sygnale (S-5).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 92 § 1 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 200,
+    "lp": "tab. B lp. 294"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 294: 200 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pieszy-droga",
+   "kat": "piesi",
+   "tytul": "Korzystanie z drogi niezgodnie z przeznaczeniem",
+   "potoczne": [
+    "zabawa na jezdni",
+    "rolki na jezdni"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 45 ust. 1 pkt 4 PoRD",
+   "opis": "Korzystanie z drogi w sposób niezgodny z jej przeznaczeniem.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "tab. B lp. 33"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 33: 50 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "uto-poza",
+   "kat": "rowery",
+   "tytul": "Urządzenie wspomagające ruch poza chodnikiem / DDR",
+   "potoczne": [
+    "rolki",
+    "deskorolka",
+    "urządzenie wspomagające"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 15a ust. 1 PoRD",
+   "opis": "Osoba na urządzeniu wspomagającym ruch porusza się poza chodnikiem, drogą dla pieszych lub drogą dla rowerów.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 20",
+    "uwaga": "Brak ruchu prawostronnego na DDR: 50 zł (lp. 21)."
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 20: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "uto-alkohol",
+   "kat": "rowery",
+   "tytul": "Urządzenie wspomagające ruch po alkoholu",
+   "potoczne": [
+    "rolki pijany",
+    "po alkoholu"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 15a ust. 7 pkt 1 PoRD",
+   "opis": "Poruszanie się na urządzeniu wspomagającym ruch w stanie nietrzeźwości lub po użyciu alkoholu.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 200,
+    "lp": "tab. B lp. 28"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 28: 200 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. c",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: przy stanie nietrzeźwości może wchodzić inna kwalifikacja niż art. 97. Jak to rozgraniczacie?"
+   ],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "rower-ddr",
+   "kat": "rowery",
+   "tytul": "Rower: niekorzystanie z drogi lub pasa dla rowerów",
+   "potoczne": [
+    "rower jezdnią",
+    "jazda obok ścieżki"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 33 ust. 1 PoRD",
+   "opis": "Niekorzystanie z wyznaczonej drogi lub pasa dla rowerów.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 127"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 127: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. b",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "rower-pieszy-ddr",
+   "kat": "rowery",
+   "tytul": "Rower: nieustąpienie pieszemu na drodze dla pieszych i rowerów",
+   "potoczne": [
+    "ciąg pieszo-rowerowy"
+   ],
+   "podstawa": "art. 90 § 1 k.w. w zw. z art. 33 ust. 1 PoRD",
+   "opis": "Nieustąpienie pierwszeństwa pieszemu na drodze dla pieszych i rowerów.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 90 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 128"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 128: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 90 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. b",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "rower-sluza",
+   "kat": "rowery",
+   "tytul": "Rower: nieopuszczenie śluzy rowerowej",
+   "potoczne": [
+    "śluza rowerowa"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 33 ust. 1a PoRD",
+   "opis": "Nieopuszczenie śluzy rowerowej, mimo możliwości jazdy w zamierzonym kierunku.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 129"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 129: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. b",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "rower-dziecko",
+   "kat": "rowery",
+   "tytul": "Rower: przewożenie dziecka niezgodnie z przepisami",
+   "potoczne": [
+    "dziecko na rowerze",
+    "fotelik rowerowy"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 33 ust. 2 PoRD",
+   "opis": "Naruszenie zasad przewożenia dziecka do 7 lat na dodatkowym siodełku.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "tab. B lp. 130"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 130: 50 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. b",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "rower-obok",
+   "kat": "rowery",
+   "tytul": "Rower: jazda obok innego uczestnika ruchu",
+   "potoczne": [
+    "jazda obok siebie",
+    "rowerzyści obok"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 33 ust. 3 pkt 1 PoRD",
+   "opis": "Jazda po jezdni obok innego uczestnika ruchu.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "tab. B lp. 131",
+    "uwaga": "Gdy utrudnia ruch (art. 90 § 1): 200 zł (lp. 132)."
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 131: 50 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. b",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "rower-kierownica",
+   "kat": "rowery",
+   "tytul": "Rower: jazda bez trzymania kierownicy",
+   "potoczne": [
+    "bez trzymanki",
+    "nogi z pedałów"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 33 ust. 3 pkt 2 PoRD",
+   "opis": "Jazda bez trzymania co najmniej jedną ręką kierownicy lub bez nóg na pedałach.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "tab. B lp. 133"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 133: 50 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. b",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "rower-czepianie",
+   "kat": "rowery",
+   "tytul": "Rower / hulajnoga: czepianie się pojazdów",
+   "potoczne": [
+    "czepianie się",
+    "holowanie roweru"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 33 ust. 3 pkt 3 PoRD",
+   "opis": "Czepianie się pojazdów przez rowerzystę, użytkownika hulajnogi lub motorowerzystę.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 134"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 134: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. b",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "rower-kolumna",
+   "kat": "rowery",
+   "tytul": "Wjeżdżanie między rowery jadące w kolumnie",
+   "potoczne": [
+    "kolumna rowerów"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 32 ust. 6 PoRD",
+   "opis": "Wjeżdżanie między rowery, wózki rowerowe lub hulajnogi jadące w kolumnie.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 200,
+    "lp": "tab. B lp. 210"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 210: 200 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. b",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "rower-c13",
+   "kat": "rowery",
+   "tytul": "C-13 „droga dla rowerów” – niestosowanie się",
+   "potoczne": [
+    "C-13",
+    "droga dla rowerów znak"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (§ 37 ust. 1 rozp. o znakach)",
+   "opis": "Niestosowanie się do znaku C-13 „droga dla rowerów”.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 92 § 1 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 270"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 270: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. b",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ],
+   "znaki": [
+    "C-13"
+   ]
+  },
+  {
+   "id": "post-46-1",
+   "kat": "parkowanie",
+   "tytul": "Zatrzymanie pojazdu niewidocznego lub utrudniającego ruch",
+   "potoczne": [
+    "zatrzymanie za zakrętem",
+    "utrudnia ruch"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 46 ust. 1 PoRD",
+   "opis": "Zatrzymanie pojazdu w miejscu, gdzie nie jest widoczny z dostatecznej odległości lub utrudnia ruch.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 100,
+    "max": 300,
+    "lp": "tab. B lp. 160"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 160: 100–300 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "post-46-2",
+   "kat": "parkowanie",
+   "tytul": "Zatrzymanie z dala od krawędzi jezdni",
+   "potoczne": [
+    "krzywo zaparkowany",
+    "daleko od krawężnika"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 46 ust. 2 PoRD",
+   "opis": "Zatrzymanie na jezdni nie przy jej krawędzi lub nie równolegle do niej.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 161"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 161: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "post-46-3",
+   "kat": "parkowanie",
+   "tytul": "Postój na jezdni poza obszarem zabudowanym",
+   "potoczne": [
+    "postój poza miastem"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 46 ust. 3 PoRD",
+   "opis": "Postój poza obszarem zabudowanym bez umieszczenia pojazdu poza jezdnią, gdy to możliwe.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 150,
+    "max": 300,
+    "lp": "tab. B lp. 162"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 162: 150–300 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "post-tunel",
+   "kat": "parkowanie",
+   "tytul": "Brak odstępu w tunelu",
+   "potoczne": [
+    "tunel"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 47a PoRD",
+   "opis": "Brak wymaganego odstępu od poprzedzającego pojazdu przy zatrzymaniu w tunelu.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 164"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 164: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "post-skrzyzowanie",
+   "kat": "parkowanie",
+   "tytul": "Zatrzymanie na przejeździe, skrzyżowaniu lub bliżej niż 10 m",
+   "potoczne": [
+    "parkowanie na skrzyżowaniu",
+    "przy skrzyżowaniu"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 49 ust. 1 pkt 1 PoRD",
+   "opis": "Zatrzymanie na przejeździe kolejowym lub tramwajowym, na skrzyżowaniu albo bliżej niż 10 m od nich.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 300,
+    "lp": "tab. B lp. 165"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 165: 300 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "post-most",
+   "kat": "parkowanie",
+   "tytul": "Zatrzymanie w tunelu, na moście, wiadukcie",
+   "potoczne": [
+    "most",
+    "wiadukt"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 49 ust. 1 pkt 3 PoRD",
+   "opis": "Zatrzymanie w tunelu, na moście lub wiadukcie.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 200,
+    "lp": "tab. B lp. 167"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 167: 200 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "post-linia",
+   "kat": "parkowanie",
+   "tytul": "Zatrzymanie przy linii ciągłej lub krawędziowej",
+   "potoczne": [
+    "linia ciągła",
+    "linia krawędziowa"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 49 ust. 1 pkt 4–5 PoRD",
+   "opis": "Zatrzymanie przy linii ciągłej (lp. 168) albo obok linii krawędziowej (lp. 169).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 168–169"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 168–169: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "post-znak",
+   "kat": "parkowanie",
+   "tytul": "Zatrzymanie zasłaniające znak lub sygnał",
+   "potoczne": [
+    "zasłania znak"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 49 ust. 1 pkt 6 PoRD",
+   "opis": "Zatrzymanie w pobliżu znaku lub sygnału, który pojazd zasłania.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 170"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 170: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "post-lewa",
+   "kat": "parkowanie",
+   "tytul": "Zatrzymanie przy lewej krawędzi lub na pasie między jezdniami",
+   "potoczne": [
+    "pod prąd",
+    "lewa strona",
+    "pas zieleni"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 49 ust. 1 pkt 7–8 PoRD",
+   "opis": "Zatrzymanie przy lewej krawędzi jezdni (lp. 171) albo na pasie między jezdniami (lp. 172).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 171–172"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 171–172: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "post-wysepka",
+   "kat": "parkowanie",
+   "tytul": "Zatrzymanie przy wysepce",
+   "potoczne": [
+    "wysepka"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 49 ust. 1 pkt 10 PoRD",
+   "opis": "Zatrzymanie bliżej niż 15 m od punktu krańcowego wysepki przy jednopasowej jezdni.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 174"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 174: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "post-wjazd",
+   "kat": "parkowanie",
+   "tytul": "Postój utrudniający wjazd lub wyjazd",
+   "potoczne": [
+    "zastawiona brama",
+    "zastawiony wyjazd",
+    "blokuje auto"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 49 ust. 2 pkt 1–2 PoRD",
+   "opis": "Postój utrudniający wjazd lub wyjazd (lp. 176) albo dostęp do innego prawidłowo zaparkowanego pojazdu (lp. 177).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 176–177"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 176–177: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "post-przejazd",
+   "kat": "parkowanie",
+   "tytul": "Postój przy przejeździe kolejowym",
+   "potoczne": [
+    "przejazd kolejowy postój"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 49 ust. 2 pkt 3 PoRD",
+   "opis": "Postój przed lub za przejazdem kolejowym do słupka z jedną kreską.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 178"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 178: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "post-ciezki",
+   "kat": "parkowanie",
+   "tytul": "Postój pojazdu ciężkiego lub długiego w terenie zabudowanym",
+   "potoczne": [
+    "tir na osiedlu",
+    "ciężarówka"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 49 ust. 2 pkt 5 PoRD",
+   "opis": "Postój w obszarze zabudowanym pojazdem lub zespołem ciężkim albo długim (wg art. 49 ust. 2 pkt 5).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 200,
+    "max": 300,
+    "lp": "tab. B lp. 180"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 180: 200–300 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "b37",
+   "kat": "znaki",
+   "tytul": "B-37 / B-38 „zakaz postoju w dni…” – niestosowanie się",
+   "potoczne": [
+    "zakaz postoju w dni"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (§ 28 ust. 6 rozp. o znakach)",
+   "opis": "Postój wbrew znakowi B-37 lub B-38.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 92 § 1 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 267"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 267: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ],
+   "znaki": [
+    "B-37",
+    "B-38"
+   ]
+  },
+  {
+   "id": "d18",
+   "kat": "znaki",
+   "tytul": "D-18 / D-18a / D-18b „parking” – niestosowanie się",
+   "potoczne": [
+    "parking",
+    "miejsce zastrzeżone"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (§ 52 ust. 1–5 rozp. o znakach)",
+   "opis": "Niestosowanie się do znaków D-18, D-18a, D-18b (bez tabliczki T-29).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 92 § 1 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 286"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 286: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ],
+   "znaki": [
+    "D-18",
+    "D-18b"
+   ]
+  },
+  {
+   "id": "d19",
+   "kat": "znaki",
+   "tytul": "D-19 „postój taksówek” – niestosowanie się",
+   "potoczne": [
+    "postój taxi",
+    "taksówki"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (§ 53 rozp. o znakach)",
+   "opis": "Postój na stanowisku dla taksówek wbrew znakowi D-19.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 92 § 1 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 289"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 289: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ],
+   "znaki": [
+    "D-19"
+   ]
+  },
+  {
+   "id": "p18",
+   "kat": "znaki",
+   "tytul": "P-18 / P-19 – stanowisko i linia postojowa",
+   "potoczne": [
+    "stanowisko postojowe",
+    "poza liniami"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (§ 90 ust. 2–3 rozp. o znakach)",
+   "opis": "Niestosowanie się do oznakowania P-18 lub P-19.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 92 § 1 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 292"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 292: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ],
+   "znaki": [
+    "P-18",
+    "P-19"
+   ]
+  },
+  {
+   "id": "p20",
+   "kat": "znaki",
+   "tytul": "P-20 „koperta” (bez P-24) – niestosowanie się",
+   "potoczne": [
+    "koperta zwykła",
+    "zastrzeżone stanowisko"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (§ 90 ust. 4 rozp. o znakach)",
+   "opis": "Postój na stanowisku P-20 zastrzeżonym dla określonego rodzaju pojazdów (bez P-24).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 92 § 1 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 293"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 293: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ],
+   "znaki": [
+    "P-20"
+   ]
+  },
+  {
+   "id": "p17",
+   "kat": "znaki",
+   "tytul": "P-17 linia przystankowa",
+   "potoczne": [
+    "linia przystankowa",
+    "zatoka autobusowa"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (§ 90 ust. 1 rozp. o znakach)",
+   "opis": "Niestosowanie się do oznakowania P-17.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 92 § 1 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 279"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 279: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: czy SM kontroluje P-17 tylko przy zatrzymaniu lub postoju? Tak to rozumiem z art. 129b ust. 2 pkt 2 lit. a."
+   ],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ],
+   "znaki": [
+    "P-17"
+   ]
+  },
+  {
+   "id": "p21",
+   "kat": "znaki",
+   "tytul": "P-21 powierzchnia wyłączona",
+   "potoczne": [
+    "powierzchnia wyłączona",
+    "kreski"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (§ 90 ust. 5 rozp. o znakach)",
+   "opis": "Niestosowanie się do oznakowania P-21.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 92 § 1 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. B lp. 281"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 281: 100 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: czy SM karze za P-21 tylko przy zatrzymaniu lub postoju? Wjazd na P-21 w ruchu nie mieści się w art. 129b."
+   ],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ],
+   "znaki": [
+    "P-21"
+   ]
+  },
+  {
+   "id": "karta",
+   "kat": "znaki",
+   "tytul": "Karta parkingowa bez uprawnienia + znak zakazu",
+   "potoczne": [
+    "karta parkingowa",
+    "cudza karta"
+   ],
+   "podstawa": "art. 96b w zb. z art. 92 § 1 k.w.",
+   "opis": "Posługiwanie się kartą parkingową bez uprawnienia przy niestosowaniu się do znaku.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 96b k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 500,
+    "max": 1200,
+    "lp": "tab. B lp. 250–255",
+    "uwaga": "B-3/B-3a/B-4: 650; B-10: 500; B-35/B-37/B-38: 500; B-39: 500; D-18 z T-29: 1200; P-18/P-20 z P-24: 1200 zł."
+   },
+   "sprawdzono": [
+    "Taryfikator tab. B lp. 250–255: 500–1200 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 96b k.w.",
+    "PoRD art. 129b ust. 2 pkt 2 lit. a",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [
+    "Wiersze z B-3 i B-10 dotyczą wjazdu, a nie postoju. Sprawdź i powiedz mi, czy SM stosuje je tylko przy postoju."
+   ],
+   "zrodla": [
+    "taryfB",
+    "pord",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "ucpg-chodnik",
+   "kat": "szczegolne",
+   "tytul": "Nieuprzątnięcie chodnika (błoto, śnieg, lód)",
+   "potoczne": [
+    "odśnieżanie",
+    "śnieg na chodniku",
+    "lód",
+    "gołoledź"
+   ],
+   "podstawa": "art. 10 ust. 2 u.c.p.g. w zw. z art. 5 ust. 1 pkt 4",
+   "opis": "Właściciel nieruchomości nie usuwa błota, śniegu i lodu z drogi dla pieszych położonej przy granicy nieruchomości (wyjątek: płatny postój lub parkowanie).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 5"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. A lp. 22"
+   },
+   "sprawdzono": [
+    "u.c.p.g. art. 5 ust. 1 pkt 4",
+    "u.c.p.g. art. 10 ust. 2: „podlega karze grzywny”",
+    "Taryfikator tab. A lp. 22: 100 zł",
+    "Rozp. MSWiA § 2 ust. 1 pkt 5",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Za niewykonanie obowiązku z art. 5 ust. 1 wójt może też wydać decyzję (art. 5 ust. 7). Sprawdź i powiedz mi, czy to wpływa na Waszą praktykę mandatową."
+   ],
+   "zrodla": [
+    "ucpg",
+    "taryfA",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "ucpg-pojemniki",
+   "kat": "szczegolne",
+   "tytul": "Brak pojemników na odpady, niezbieranie odpadów",
+   "potoczne": [
+    "kosze na śmieci",
+    "pojemniki",
+    "odpady na posesji"
+   ],
+   "podstawa": "art. 10 ust. 2 u.c.p.g. w zw. z art. 5 ust. 1 pkt 1",
+   "opis": "Niewyposażenie nieruchomości w pojemniki lub worki na odpady komunalne albo niezbieranie odpadów powstałych na nieruchomości.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 5"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "tab. A lp. 20–21"
+   },
+   "sprawdzono": [
+    "u.c.p.g. art. 5 ust. 1 pkt 1",
+    "u.c.p.g. art. 10 ust. 2: „podlega karze grzywny”",
+    "Taryfikator tab. A lp. 20–21: 100 zł",
+    "Rozp. MSWiA § 2 ust. 1 pkt 5",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "ucpg",
+    "taryfA",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "ucpg-regulamin",
+   "kat": "szczegolne",
+   "tytul": "Naruszenie regulaminu utrzymania czystości i porządku",
+   "potoczne": [
+    "regulamin gminy",
+    "psie kupy",
+    "sprzątanie po psie"
+   ],
+   "podstawa": "art. 10 ust. 2a u.c.p.g.",
+   "opis": "Niewykonywanie obowiązków określonych w regulaminie utrzymania czystości i porządku w gminie.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 5"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "u.c.p.g. art. 10 ust. 2a: „podlega karze grzywny”",
+    "Rozp. MSWiA § 2 ust. 1 pkt 5",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: regulamin Wrocławia (np. sprzątanie po psie) – dodam go do prawa miejscowego, gdy wskażesz uchwałę."
+   ],
+   "zrodla": [
+    "ucpg",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "ucpg-deklaracja",
+   "kat": "szczegolne",
+   "tytul": "Niezłożenie deklaracji o opłacie za odpady / kompostownik",
+   "potoczne": [
+    "deklaracja śmieciowa",
+    "kompostownik"
+   ],
+   "podstawa": "art. 10 ust. 2b–2c u.c.p.g.",
+   "opis": "Niezłożenie deklaracji o wysokości opłaty za gospodarowanie odpadami (ust. 2b); brak zadeklarowanego kompostownika lub niekompostowanie bioodpadów (ust. 2c).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 5"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "u.c.p.g. art. 10 ust. 2b i 2c: „podlega karze grzywny”",
+    "Utrudnianie kontroli (ust. 2d) jest poza zakresem SM (rozporządzenie: ust. 1–2c)",
+    "Rozp. MSWiA § 2 ust. 1 pkt 5",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "ucpg",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "ucpg-zezwolenie",
+   "kat": "szczegolne",
+   "tytul": "Działalność w zakresie odpadów / porządku bez zezwolenia",
+   "potoczne": [
+    "wywóz nieczystości bez zezwolenia",
+    "szambo"
+   ],
+   "podstawa": "art. 10 ust. 1 u.c.p.g.",
+   "opis": "Prowadzenie bez wymaganego zezwolenia działalności z art. 7 u.c.p.g.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 5"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "u.c.p.g. art. 10 ust. 1: „podlega karze aresztu lub karze grzywny”",
+    "Rozp. MSWiA § 2 ust. 1 pkt 5",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "ucpg",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "oz-pies",
+   "kat": "szczegolne",
+   "tytul": "Pies puszczony bez kontroli i oznakowania; inne zakazy",
+   "potoczne": [
+    "pies luzem",
+    "pies bez nadzoru",
+    "targ zwierząt",
+    "psy na łańcuchu"
+   ],
+   "podstawa": "art. 37 ust. 1 u.o.z. w zw. z art. 9, 10a ust. 1–3, 25",
+   "opis": "Naruszenie obowiązków utrzymującego zwierzę domowe (art. 9); zakazy z art. 10a ust. 1–3 (m.in. handel zwierzętami na targowiskach, puszczanie psów bez kontroli i oznakowania); obowiązki wobec potrąconego zwierzęcia (art. 25).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 6"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "u.o.z. art. 37 ust. 1: „podlega karze aresztu albo grzywny”",
+    "Rozp. obejmuje z art. 37 ust. 1 tylko czyny z art. 9, 10a ust. 1–3 i 25",
+    "Rozp. MSWiA § 2 ust. 1 pkt 6",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Art. 9 ust. 2–3 (uwięź) zmieni brzmienie 28.07.2027 r. Sprawdź i powiedz mi, czy wpisać obecny limit 12 godzin na uwięzi dziennie."
+   ],
+   "zrodla": [
+    "oz",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "oz-agresywny",
+   "kat": "szczegolne",
+   "tytul": "Pies rasy agresywnej bez zezwolenia; nabywanie zwierząt na targowisku",
+   "potoczne": [
+    "rasa agresywna",
+    "pitbull",
+    "amstaff"
+   ],
+   "podstawa": "art. 37a ust. 1, art. 37e ust. 1 u.o.z.",
+   "opis": "Hodowla lub trzymanie psa rasy uznanej za agresywną bez zezwolenia (art. 37a ust. 1); nabywanie zwierząt domowych wbrew zakazowi (art. 37e ust. 1).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 6"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "u.o.z. art. 37a ust. 1: „podlega karze aresztu lub grzywny”",
+    "u.o.z. art. 37e ust. 1: „podlega karze grzywny”",
+    "Rozp. MSWiA § 2 ust. 1 pkt 6",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "oz",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "uwt45",
+   "kat": "szczegolne",
+   "tytul": "Brak informacji o szkodliwości alkoholu w punkcie sprzedaży",
+   "potoczne": [
+    "sklep z alkoholem",
+    "informacja o szkodliwości"
+   ],
+   "podstawa": "art. 45 pkt 2 u.w.t.p.a.",
+   "opis": "Nieuwidocznienie w punkcie sprzedaży informacji o szkodliwości spożywania alkoholu.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 3"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 150,
+    "lp": "tab. A lp. 78"
+   },
+   "sprawdzono": [
+    "Taryfikator tab. A lp. 78: 150 zł",
+    "Rozp. MSWiA § 2 ust. 1 pkt 3",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: sankcja z art. 45 u.w.t.p.a. – nie przeczytałem jej dosłownie."
+   ],
+   "zrodla": [
+    "uwt",
+    "taryfA",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "uozt13-1",
+   "kat": "szczegolne",
+   "tytul": "Sprzedaż wyrobów tytoniowych, e-papierosów niezgodnie z przepisami",
+   "potoczne": [
+    "sprzedaż papierosów nieletnim",
+    "e-papierosy dzieciom",
+    "brak informacji o zakazie palenia"
+   ],
+   "podstawa": "art. 13 ust. 1 u.o.z.t.",
+   "opis": "Wprowadzanie do obrotu lub udostępnianie wyrobów tytoniowych, woreczków nikotynowych, e-papierosów wbrew art. 6; brak informacji o zakazie sprzedaży lub palenia.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 4"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 100,
+    "max": 500,
+    "lp": "tab. A lp. 79–84"
+   },
+   "sprawdzono": [
+    "u.o.z.t. art. 13 ust. 1: „podlega karze grzywny do 2000 zł”",
+    "Taryfikator tab. A (Dz.U. 2021 poz. 556): lp. 79–80 – 500; lp. 81–82 – 100; lp. 83–84 – 150 zł",
+    "Rozp. MSWiA § 2 ust. 1 pkt 4",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "uozt",
+    "taryfA2021",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "dowody79",
+   "kat": "szczegolne",
+   "tytul": "Uchylanie się od posiadania dowodu osobistego, zatrzymanie cudzego",
+   "potoczne": [
+    "brak dowodu",
+    "cudzy dowód",
+    "wymiana dowodu"
+   ],
+   "podstawa": "art. 79 ustawy o dowodach osobistych",
+   "opis": "Uchylanie się od obowiązku posiadania lub wymiany dowodu osobistego; zatrzymywanie bez podstawy cudzego dowodu; niezwrócenie dowodu po utracie obywatelstwa.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 16"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "Ustawa o dowodach osobistych art. 79 pkt 1–3: „podlega karze ograniczenia wolności albo karze grzywny”",
+    "Rozp. MSWiA § 2 ust. 1 pkt 16",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "dowody",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "odpady191",
+   "kat": "szczegolne",
+   "tytul": "Spalanie odpadów poza instalacją",
+   "potoczne": [
+    "palenie śmieci",
+    "spalanie odpadów",
+    "dym z komina",
+    "ognisko ze śmieci"
+   ],
+   "podstawa": "art. 191 ustawy o odpadach (w zw. z art. 155)",
+   "opis": "Termiczne przekształcanie odpadów poza spalarnią lub współspalarnią.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 18"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "Ustawa o odpadach art. 191: „podlega karze aresztu albo grzywny”",
+    "Rozp. MSWiA § 2 ust. 1 pkt 18",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Odczytałem t.j. z 2023 r., a jest nowszy (Dz.U. 2026 poz. 1328). Sprawdź i powiedz mi, czy art. 191 się nie zmienił."
+   ],
+   "zrodla": [
+    "odpady",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "odpady-inne",
+   "kat": "szczegolne",
+   "tytul": "Postępowanie z odpadami wbrew ustawie (art. 171, 177, 188)",
+   "potoczne": [
+    "odpady",
+    "skup złomu",
+    "zbieranie odpadów"
+   ],
+   "podstawa": "art. 171, 177, 188 ustawy o odpadach",
+   "opis": "Postępowanie z odpadami wbrew art. 16 (art. 171); zbieranie odpadów bez wymaganej umowy (art. 177); naruszenia w punkcie skupu metali (art. 188).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 18"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "Ustawa o odpadach art. 171, 177, 188: „podlega karze aresztu albo grzywny”",
+    "Rozp. MSWiA § 2 ust. 1 pkt 18",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Odczytałem t.j. z 2023 r., a jest nowszy (Dz.U. 2026 poz. 1328). Sprawdź i powiedz mi, czy te przepisy się nie zmieniły."
+   ],
+   "zrodla": [
+    "odpady",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "zp18d",
+   "kat": "szczegolne",
+   "tytul": "Sprzedaż napojów energetycznych nieletnim, w szkole, w automacie",
+   "potoczne": [
+    "energetyk",
+    "napój energetyczny",
+    "red bull",
+    "tauryna",
+    "kofeina"
+   ],
+   "podstawa": "art. 18d ust. 1–2 ustawy o zdrowiu publicznym w zw. z art. 12p ust. 1",
+   "opis": "Sprzedaż napojów z dodatkiem kofeiny lub tauryny osobom poniżej 18 lat, na terenie jednostek systemu oświaty lub w automatach (ust. 1); kierownik punktu, który przez brak nadzoru dopuścił do tego (ust. 2).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 18a (od 15.09.2026)"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+   },
+   "sprawdzono": [
+    "Ustawa o zdrowiu publicznym art. 12p ust. 1 pkt 1–3 i art. 18d ust. 1–2: „podlega karze grzywny do 2000 zł” (Dz.U. 2025 poz. 1698, od 1.01.2026)",
+    "Dz.U. 2026 poz. 1148: dodanie pkt 18a",
+    "Rozp. MSWiA § 2 ust. 1 pkt 18a (od 15.09.2026)",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "zp",
+    "rozpSM2026",
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "kp-xii",
+   "kat": "szczegolne",
+   "tytul": "Przepisy wprowadzające Kodeks pracy – art. XII § 2",
+   "potoczne": [
+    "kodeks pracy"
+   ],
+   "podstawa": "art. XII § 2 przepisów wprowadzających Kodeks pracy",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 2"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 2",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "pos",
+   "kat": "szczegolne",
+   "tytul": "Prawo ochrony środowiska – art. 331a, 334, 343",
+   "potoczne": [
+    "ochrona środowiska",
+    "hałas",
+    "emisja",
+    "uchwała antysmogowa"
+   ],
+   "podstawa": "art. 331a, 334, 343 POŚ",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 7"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 7",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "miary",
+   "kat": "szczegolne",
+   "tytul": "Prawo o miarach – art. 26 ust. 1 pkt 2",
+   "potoczne": [
+    "waga",
+    "przyrząd pomiarowy"
+   ],
+   "podstawa": "art. 26 ust. 1 pkt 2 Prawa o miarach",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 8"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 8",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "transport",
+   "kat": "szczegolne",
+   "tytul": "Transport drogowy / publiczny transport zbiorowy",
+   "potoczne": [
+    "przewóz osób",
+    "rozkład jazdy",
+    "przystanek"
+   ],
+   "podstawa": "art. 92 ust. 1 ustawy o transporcie drogowym w zakresie art. 28 ust. 4 ustawy o publicznym transporcie zbiorowym",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 9"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 9",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "zabytki",
+   "kat": "szczegolne",
+   "tytul": "Ochrona zabytków – art. 112 ust. 1–2",
+   "potoczne": [
+    "zabytek",
+    "tablica zabytku"
+   ],
+   "podstawa": "art. 112 ust. 1 i 2 ustawy o ochronie zabytków",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 10"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 10",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "weter",
+   "kat": "szczegolne",
+   "tytul": "Zwierzęta towarzyszące podróżnym – art. 85 ust. 1a pkt 2",
+   "potoczne": [
+    "paszport zwierzęcia",
+    "przemieszczanie zwierząt"
+   ],
+   "podstawa": "art. 85 ust. 1a pkt 2 ustawy z 11.03.2004 r. o wymaganiach weterynaryjnych…",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 11 (nowe brzmienie od 15.09.2026)"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 11 (nowe brzmienie od 15.09.2026)",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "recykling",
+   "kat": "szczegolne",
+   "tytul": "Recykling pojazdów – art. 48",
+   "potoczne": [
+    "wrak",
+    "porzucony pojazd",
+    "demontaż"
+   ],
+   "podstawa": "art. 48 ustawy o recyklingu pojazdów wycofanych z eksploatacji",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 13"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 13",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "uzdrowiska",
+   "kat": "szczegolne",
+   "tytul": "Uzdrowiska – art. 50 pkt 5",
+   "potoczne": [
+    "strefa uzdrowiskowa"
+   ],
+   "podstawa": "art. 50 pkt 5 w zw. z art. 38a ust. 1 pkt 4 ustawy o lecznictwie uzdrowiskowym",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 14"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 14",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "ceeb",
+   "kat": "szczegolne",
+   "tytul": "Termomodernizacja / CEEB – art. 27h ust. 1",
+   "potoczne": [
+    "deklaracja CEEB",
+    "źródło ciepła",
+    "piec",
+    "kopciuch"
+   ],
+   "podstawa": "art. 27h ust. 1 ustawy o wspieraniu termomodernizacji i remontów oraz o CEEB",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 14a"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 14a",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "geodezja",
+   "kat": "szczegolne",
+   "tytul": "Prawo geodezyjne – art. 48 ust. 1a",
+   "potoczne": [
+    "numer porządkowy",
+    "tabliczka z numerem"
+   ],
+   "podstawa": "art. 48 ust. 1a Prawa geodezyjnego i kartograficznego",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 14b"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 14b",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "baterie",
+   "kat": "szczegolne",
+   "tytul": "Baterie i akumulatory – art. 78",
+   "potoczne": [
+    "zużyte baterie"
+   ],
+   "podstawa": "art. 78 ustawy o bateriach i akumulatorach",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 15"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 15",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "wybory",
+   "kat": "szczegolne",
+   "tytul": "Kodeks wyborczy – art. 494, 495, 498",
+   "potoczne": [
+    "plakaty wyborcze",
+    "agitacja",
+    "cisza wyborcza"
+   ],
+   "podstawa": "art. 494, 495, 498 Kodeksu wyborczego",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 17"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 17",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "zsee",
+   "kat": "szczegolne",
+   "tytul": "Zużyty sprzęt elektryczny – art. 95–96",
+   "potoczne": [
+    "elektrośmieci",
+    "stara lodówka"
+   ],
+   "podstawa": "art. 95 i 96 ustawy o zużytym sprzęcie elektrycznym i elektronicznym",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 19"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 19",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "wodne",
+   "kat": "szczegolne",
+   "tytul": "Prawo wodne – art. 478 pkt 2, 5, 6, 8",
+   "potoczne": [
+    "woda",
+    "rzeka",
+    "kąpielisko",
+    "ścieki"
+   ],
+   "podstawa": "art. 478 pkt 2, 5, 6 i 8 Prawa wodnego",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 20"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 20",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "zakazenia",
+   "kat": "szczegolne",
+   "tytul": "Zakażenia i choroby zakaźne – art. 50 pkt 2 (w zakresie art. 22 ust. 1 pkt 2)",
+   "potoczne": [
+    "dezynsekcja",
+    "deratyzacja",
+    "szczury"
+   ],
+   "podstawa": "art. 50 pkt 2 ustawy o zapobieganiu oraz zwalczaniu zakażeń… w zakresie art. 22 ust. 1 pkt 2",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 14c (od 15.09.2026)"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 14c (od 15.09.2026)",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "maloletni",
+   "kat": "szczegolne",
+   "tytul": "Standardy ochrony małoletnich – art. 23b ust. 1",
+   "potoczne": [
+    "standardy ochrony małoletnich",
+    "szkoła",
+    "klub sportowy"
+   ],
+   "podstawa": "art. 23b ust. 1 ustawy o przeciwdziałaniu zagrożeniom przestępczością na tle seksualnym i ochronie małoletnich",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 19a (od 15.09.2026)"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 19a (od 15.09.2026)",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "obrona",
+   "kat": "szczegolne",
+   "tytul": "Zakaz fotografowania obiektów – art. 683a ust. 1",
+   "potoczne": [
+    "zakaz fotografowania",
+    "jednostka wojskowa",
+    "dron nad obiektem"
+   ],
+   "podstawa": "art. 683a ust. 1 ustawy o obronie Ojczyzny",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 20a (od 15.09.2026)"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 20a (od 15.09.2026)",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "zdrowiezw",
+   "kat": "szczegolne",
+   "tytul": "Zdrowie zwierząt – art. 102 ust. 1",
+   "potoczne": [
+    "szczepienie psa",
+    "wścieklizna"
+   ],
+   "podstawa": "art. 102 ust. 1 ustawy z 21.11.2025 r. o zdrowiu zwierząt",
+   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 20b (od 15.09.2026)"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Do uzupełnienia."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 20b (od 15.09.2026)",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+   ],
+   "zrodla": [
+    "rozpSM",
+    "kpw"
+   ]
+  },
+  {
+   "id": "karta-sama",
+   "kat": "znaki",
+   "tytul": "Karta parkingowa użyta bez uprawnienia (bez znaku zakazu)",
+   "potoczne": [
+    "cudza karta",
+    "karta po zmarłym",
+    "karta inwalidzka"
+   ],
+   "podstawa": "art. 96b k.w.",
+   "opis": "Posługiwanie się kartą parkingową przez osobę nieuprawnioną, bez naruszenia innego znaku.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 + art. 129b ust. 2 pkt 2 PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 400,
+    "lp": "lp. M 279"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. 279: art. 96b – 400 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "kw",
+    "rozpSM",
+    "pord",
+    "kpw"
+   ]
+  },
+  {
+   "id": "b41",
+   "kat": "piesi",
+   "tytul": "B-41 „zakaz ruchu pieszych” – niestosowanie się",
+   "potoczne": [
+    "zakaz ruchu pieszych",
+    "B-41"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (B-41)",
+   "opis": "Pieszy idzie mimo znaku B-41.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 + art. 129b ust. 2 pkt 2 PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "lp. M 308"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. 308: B-41 – 50 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "kw",
+    "rozpSM",
+    "pord",
+    "kpw"
+   ],
+   "znaki": [
+    "B-41"
+   ]
+  },
+  {
+   "id": "c16",
+   "kat": "piesi",
+   "tytul": "C-16 „droga dla pieszych” – niestosowanie się",
+   "potoczne": [
+    "droga dla pieszych",
+    "C-16",
+    "rower na drodze dla pieszych"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (C-16)",
+   "opis": "Niestosowanie się do znaku C-16 „droga dla pieszych”.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 + art. 129b ust. 2 pkt 2 PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "lp. M 313"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. 313: C-16 – 50 zł"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "kw",
+    "rozpSM",
+    "pord",
+    "kpw"
+   ],
+   "znaki": [
+    "C-16"
+   ]
+  },
+  {
+   "id": "kw97-znaki",
+   "kat": "komunikacja",
+   "tytul": "Samowolne umieszczenie znaku lub urządzenia na drodze (art. 97 k.w.)",
+   "potoczne": [
+    "samowolny znak",
+    "własny znak",
+    "słupek bez zgody"
+   ],
+   "podstawa": "art. 97 k.w.",
+   "opis": "Samowolne umieszczanie znaków lub urządzeń na drodze (wg opisu w mandatowniku).",
+   "sm": {
+    "moze": "czesc",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.)",
+    "wyjatek": "Do potwierdzenia, czy czyn mieści się w art. 129b ust. 2 PoRD."
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "lp. M 271"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. 271: art. 97 – 100 zł"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: który przepis PoRD wskazuje lp. M 271? Bez niego nie umiem potwierdzić, że SM ma tu uprawnienie (art. 97 tylko w zakresie art. 129b ust. 2 PoRD)."
+   ],
+   "zrodla": [
+    "mandatownik",
+    "kw",
+    "rozpSM",
+    "pord",
+    "kpw"
+   ]
+  },
+  {
+   "id": "kw64",
+   "kat": "porzadek",
+   "tytul": "Art. 64 k.w. – uchylony",
+   "potoczne": [],
+   "podstawa": "Art. 64 k.w.",
+   "opis": "Przepis jest w spisie treści podręcznika, ale w obecnym tekście k.w. jest uchylony.",
+   "sm": {
+    "moze": "nie",
+    "podstawa": "Nie ma go w rozp. MSWiA § 2"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "SM nie nakłada mandatu."
+   },
+   "sprawdzono": [
+    "k.w. t.j. Dz.U. 2026 poz. 1372: art. 64 – (uchylony)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "kw116",
+   "kat": "porzadek",
+   "tytul": "Art. 116 k.w. – poza uprawnieniem SM",
+   "potoczne": [],
+   "podstawa": "Art. 116 k.w.",
+   "opis": "Przepis jest w spisie treści podręcznika, ale rozporządzenie o SM go nie wymienia.",
+   "sm": {
+    "moze": "nie",
+    "podstawa": "Nie ma go w rozp. MSWiA § 2"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "SM nie nakłada mandatu."
+   },
+   "sprawdzono": [
+    "Rozp. MSWiA § 2 ust. 1 pkt 1: brak art. 116"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: dlaczego art. 116 jest w podręczniku? Może dotyczy innej służby albo starszego stanu prawnego."
+   ],
+   "zrodla": [
+    "kw",
+    "rozpSM"
+   ]
+  }
+ ],
+ "kafle": [
+  {
+   "id": "usg12",
+   "sekcja": "nowy",
+   "tytul": "Uprawnienia strażnika (art. 12 ust. 1 u.s.g.)",
+   "potoczne": [
+    "uprawnienia",
+    "co mi wolno",
+    "prawa strażnika"
+   ],
+   "punkty": [
+    "pkt 1: pouczenia, zwracanie uwagi, ostrzeganie, inne środki oddziaływania wychowawczego",
+    "pkt 2: legitymowanie osób w uzasadnionych przypadkach w celu ustalenia tożsamości",
+    "pkt 3: ujęcie osoby stwarzającej w sposób oczywisty bezpośrednie zagrożenie dla życia, zdrowia lub mienia i niezwłoczne doprowadzenie jej do najbliższej jednostki Policji",
+    "pkt 3a: kontrola osobista i przeglądanie bagażu – przy uzasadnionym podejrzeniu czynu zabronionego lub w związku z pkt 3 (tryb: ust. 1c–1m)",
+    "pkt 3b: sprawdzenie prewencyjne osób doprowadzanych (art. 11 ust. 1 pkt 7)",
+    "pkt 4: nakładanie grzywien w postępowaniu mandatowym",
+    "pkt 5: czynności wyjaśniające, wnioski o ukaranie, oskarżanie przed sądem, środki odwoławcze (k.p.w.)",
+    "pkt 6: usuwanie pojazdów i blokowanie kół (na zasadach PoRD)",
+    "pkt 7: wydawanie poleceń w granicach niezbędnych do czynności z pkt 1–6",
+    "pkt 8: żądanie niezbędnej pomocy od instytucji państwowych i samorządowych",
+    "pkt 9: w nagłych przypadkach zwracanie się o pomoc do podmiotów i osób (na zasadach ustawy o Policji)",
+    "pkt 10: uchylony"
+   ],
+   "sprawdzono": [
+    "u.s.g. (t.j. Dz.U. 2021 poz. 1763) art. 12 ust. 1 pkt 1–10"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "usg"
+   ]
+  },
+  {
+   "id": "pord129b",
+   "sekcja": "nowy",
+   "tytul": "Kontrola ruchu drogowego przez SM (art. 129b PoRD)",
+   "potoczne": [
+    "129b",
+    "kontrola drogowa",
+    "czy mogę zatrzymać auto"
+   ],
+   "punkty": [
+    "ust. 2 pkt 1: kierujący pojazdem niestosujący się do zakazu ruchu w obu kierunkach (B-1)",
+    "ust. 2 pkt 2 lit. a: przepisy o zatrzymaniu i postoju",
+    "lit. b: motorowery, rowery, wózki rowerowe, hulajnogi elektryczne, UTO, pojazdy zaprzęgowe, jazda wierzchem, pędzenie zwierząt",
+    "lit. c: ruch pieszych i osób na urządzeniach wspomagających ruch",
+    "lit. d: strefy czystego transportu (uchwała rady gminy)",
+    "lit. e: nacisk osi",
+    "ust. 3: zatrzymanie, sprawdzenie dokumentów i danych w CEP/CEK, legitymowanie, wiążące polecenia, żądanie wskazania kierującego (pkt 7), ustalenie tożsamości z RDO (pkt 8), czynności przy nacisku osi (pkt 9–11)"
+   ],
+   "sprawdzono": [
+    "PoRD art. 129b ust. 2 i 3 – tekst ujednolicony Kancelarii Sejmu"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "pord"
+   ]
+  },
+  {
+   "id": "mandat-limity",
+   "sekcja": "nowy",
+   "tytul": "Mandat karny: limity i warunki",
+   "potoczne": [
+    "ile maksymalnie",
+    "limit mandatu",
+    "art 96 kpw",
+    "upoważnienie",
+    "odmowa mandatu"
+   ],
+   "punkty": [
+    "Limit ogólny: do 500 zł, przy zbiegu (art. 9 § 1 k.w.) do 1000 zł (art. 96 § 1 k.p.w.)",
+    "Art. 82 § 1–5 i rozdział XI k.w. (art. 84–103a, ruch drogowy): do 5000 zł, przy zbiegu 6000 zł (art. 96 § 1ad)",
+    "Mandatu nie nakłada się, gdy trzeba orzec środek karny lub w przypadku z art. 10 § 1 k.w. (art. 96 § 2)",
+    "Kiedy można (art. 97 § 1): pkt 1 – schwytanie na gorącym uczynku lub bezpośrednio po; pkt 3 – stwierdzenie wykroczenia, w szczególności przyrządem kontrolno-pomiarowym lub urządzeniem rejestrującym, gdy nie ma wątpliwości co do sprawcy (pkt 2 uchylony)",
+    "Sprawca może odmówić przyjęcia mandatu (art. 97 § 2). Masz obowiązek pouczyć go o tym prawie i skutkach odmowy (§ 3)",
+    "Przy odmowie przyjęcia mandatu organ występuje do sądu z wnioskiem o ukaranie (art. 99)",
+    "Upoważnienie dla strażnika wydaje komendant, dla komendanta – prezydent miasta na wniosek komendanta (§ 3 ust. 1 i 1a rozp. MSWiA)"
+   ],
+   "sprawdzono": [
+    "k.p.w. (t.j. Dz.U. 2026 poz. 1336) art. 96 § 1, § 1ad, § 2; art. 97 § 1–3; art. 99",
+    "k.w. rozdział XI = art. 84–103a",
+    "Rozp. MSWiA § 3 ust. 1 i 1a"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "kpw",
+    "kw",
+    "rozpSM"
+   ]
+  },
+  {
+   "id": "legitymowanie",
+   "sekcja": "nowy",
+   "tytul": "Legitymowanie: jak przeprowadzić",
+   "potoczne": [
+    "legitymowanie",
+    "dowód osobisty",
+    "ustalenie tożsamości"
+   ],
+   "punkty": [
+    "Podstawa: art. 12 ust. 1 pkt 2 u.s.g.; tryb: rozp. RM z 18.12.2019",
+    "Wezwij do okazania dokumentu (§ 3 ust. 1) i sprawdź, czy dane w dokumencie odpowiadają osobie (§ 3 ust. 2)",
+    "Dokumenty (§ 2 ust. 1): dowód osobisty, paszport, zagraniczny dokument tożsamości, dokument elektroniczny, inny dokument ze zdjęciem i numerem lub serią; także dane z rejestrów albo oświadczenie innej osoby o ustalonej tożsamości (wtedy sprawdź dane w rejestrach – § 2 ust. 2)",
+    "Możesz odstąpić od legitymowania osoby znanej ci osobiście (§ 2 ust. 3)",
+    "Notatnik (§ 4 ust. 1): imiona, nazwisko, adres; PESEL (albo data i miejsce urodzenia oraz imiona rodziców); rodzaj i cechy dokumentu; czas, miejsce, podstawa faktyczna, inne istotne informacje, sposób zakończenia. Może być w formie elektronicznej (§ 4 ust. 2)"
+   ],
+   "sprawdzono": [
+    "Rozp. RM z 18.12.2019 (Dz.U. 2019 poz. 2484) § 2–§ 4"
+   ],
+   "sprawdz": [
+    "W poprzedniej wersji wpisałem „podaj stanowisko, imię i nazwisko oraz przyczynę”. Tego obowiązku nie ma w rozp. z 2019 r. Sprawdź i powiedz mi, czy wynika z innego przepisu albo z regulaminu Twojej jednostki."
+   ],
+   "zrodla": [
+    "usg",
+    "rozpLeg"
+   ]
+  },
+  {
+   "id": "spb-katalog",
+   "sekcja": "spb",
+   "tytul": "Środki przymusu bezpośredniego dla SM",
+   "potoczne": [
+    "śpb",
+    "kajdanki",
+    "gaz",
+    "paralizator",
+    "pałka",
+    "siła fizyczna",
+    "siatka"
+   ],
+   "punkty": [
+    "Siła fizyczna: techniki transportowe, techniki obrony, techniki obezwładnienia (art. 12 ust. 1 pkt 1 lit. a, b, d u. ŚPB)",
+    "Kajdanki zakładane na ręce (pkt 2 lit. a)",
+    "Pałka służbowa (pkt 7)",
+    "Pies służbowy (pkt 9)",
+    "Ręczne miotacze substancji obezwładniających (pkt 12 lit. a)",
+    "Przedmioty do obezwładniania osób za pomocą energii elektrycznej (pkt 13)",
+    "Siatka obezwładniająca (pkt 5): TYLKO wobec zwierzęcia, którego zachowanie bezpośrednio zagraża życiu lub zdrowiu (art. 14 ust. 3 u.s.g.)",
+    "Zasady: użycie w sposób niezbędny do osiągnięcia celu, proporcjonalnie do zagrożenia, środkiem możliwie najmniej dolegliwym (art. 6 u. ŚPB); możliwie najmniejsza szkoda, zaprzestanie po osiągnięciu celu (art. 7)",
+    "Przed użyciem: wezwanie do zachowania zgodnego z prawem i uprzedzenie o użyciu (art. 34 ust. 1). Wyjątki: bezpośrednie zagrożenie życia, zdrowia lub wolności albo zwłoka grożąca niebezpieczeństwem dla dobra prawnego (art. 34 ust. 2)",
+    "Przypadki użycia: art. 11 pkt 1–6, 8–10 i 12–14 u. ŚPB (art. 14 ust. 1 u.s.g.)"
+   ],
+   "sprawdzono": [
+    "u.s.g. art. 14 ust. 1 i 3",
+    "u. ŚPB (t.j. Dz.U. 2026 poz. 244) art. 6, 7, 12 ust. 1, 34"
+   ],
+   "sprawdz": [
+    "Listy przypadków z art. 11 u. ŚPB ani obowiązków po użyciu środka nie przeczytałem jeszcze dosłownie. Sprawdź i powiedz mi, czy mam je dodać."
+   ],
+   "zrodla": [
+    "usg",
+    "spb"
+   ]
+  }
+ ],
+ "zmiany": [
+  {
+   "data": "2026-10-21",
+   "tytul": "Nowy tekst jednolity Kodeksu wykroczeń",
+   "opis": "Dz.U. 2026 poz. 1372 (stan prawny na 23.09.2026). Baza aplikacji opiera się na tym tekście.",
+   "zrodla": [
+    "kw"
+   ]
+  },
+  {
+   "data": "2026-10-02",
+   "tytul": "Nowy tekst jednolity k.p.w. (obwieszczenie)",
+   "opis": "Dz.U. 2026 poz. 1336. Art. 97 § 1 pkt 2 jest uchylony. Limity mandatów: art. 96.",
+   "zrodla": [
+    "kpw"
+   ]
+  },
+  {
+   "data": "2026-09-15",
+   "tytul": "Nowe wykroczenia w uprawnieniach mandatowych SM",
+   "opis": "Dz.U. 2026 poz. 1148. Dodano: art. 65a k.w. (niewykonanie poleceń funkcjonariusza) i art. 97a k.w. (przejazdy kolejowe); art. 331a Prawa ochrony środowiska; pkt 14c – ustawa o zakażeniach (art. 50 pkt 2 w zakresie art. 22 ust. 1 pkt 2); pkt 18a – ustawa o zdrowiu publicznym (art. 18d ust. 1 i 2); pkt 19a – ochrona małoletnich (art. 23b ust. 1); pkt 20a – ustawa o obronie Ojczyzny (art. 683a ust. 1); pkt 20b – ustawa o zdrowiu zwierząt (art. 102 ust. 1). Skreślono „art. 35 ust. 1” w pkt 9; zastąpiono pkt 11.",
+   "zrodla": [
+    "rozpSM2026"
+   ]
+  },
+  {
+   "data": "2026-02-13",
+   "tytul": "Tekst jednolity rozporządzenia o mandatach SM",
+   "opis": "Dz.U. 2026 poz. 167 – obwieszczenie MSWiA z 9.02.2026.",
+   "zrodla": [
+    "rozpSM"
+   ]
+  }
+ ]
+}
