@@ -1,5 +1,5 @@
 {
- "wersja": "0.4",
+ "wersja": "0.5",
  "dataBazy": "2026-11-13",
  "zasada": "Każde twierdzenie porównano z tekstem aktu (Dz.U., ISAP/ELI, teksty ujednolicone Kancelarii Sejmu). Czego nie dało się potwierdzić w akcie, oznaczono „Sprawdź i powiedz mi”.",
  "zrodla": {
@@ -86,6 +86,10 @@
   "mandatownik": {
    "nazwa": "Mandatownik grupy – oficjalne zestawienie, stan wrzesień 2022 (wersja papierowa; „lp. M” = numeracja mandatownika)",
    "url": ""
+  },
+  "wikimedia": {
+   "nazwa": "Grafiki znaków: Wikimedia Commons (pliki „PL road sign …” i „Znak P-…”) – domena publiczna, art. 4 pkt 2 ustawy o prawie autorskim (urzędowe znaki i symbole)",
+   "url": "https://commons.wikimedia.org/wiki/Category:Diagrams_of_road_signs_of_Poland"
   }
  },
  "wpisy": [
@@ -606,7 +610,8 @@
     "taryfB",
     "znaki",
     "kw",
-    "rozpSM"
+    "rozpSM",
+    "wikimedia"
    ]
   },
   {
@@ -642,7 +647,8 @@
     "znaki",
     "taryfB",
     "kw",
-    "rozpSM"
+    "rozpSM",
+    "wikimedia"
    ]
   },
   {
@@ -676,7 +682,8 @@
    "zrodla": [
     "znaki",
     "taryfB",
-    "rozpSM"
+    "rozpSM",
+    "wikimedia"
    ]
   },
   {
@@ -712,7 +719,8 @@
    "zrodla": [
     "znaki",
     "taryfB",
-    "rozpSM"
+    "rozpSM",
+    "wikimedia"
    ]
   },
   {
@@ -760,7 +768,8 @@
     "kw",
     "kpw",
     "rozpSM",
-    "mandatownik"
+    "mandatownik",
+    "wikimedia"
    ]
   },
   {
@@ -800,7 +809,8 @@
     "znaki",
     "pord",
     "taryfB",
-    "mandatownik"
+    "mandatownik",
+    "wikimedia"
    ]
   },
   {
@@ -841,7 +851,8 @@
    "zrodla": [
     "znaki",
     "taryfB",
-    "pord"
+    "pord",
+    "wikimedia"
    ]
   },
   {
@@ -3655,7 +3666,8 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
+    "kpw",
+    "wikimedia"
    ],
    "znaki": [
     "C-13"
@@ -4119,7 +4131,8 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
+    "kpw",
+    "wikimedia"
    ],
    "znaki": [
     "B-37",
@@ -4156,7 +4169,8 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
+    "kpw",
+    "wikimedia"
    ],
    "znaki": [
     "D-18",
@@ -4193,7 +4207,8 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
+    "kpw",
+    "wikimedia"
    ],
    "znaki": [
     "D-19"
@@ -4229,7 +4244,8 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
+    "kpw",
+    "wikimedia"
    ],
    "znaki": [
     "P-18",
@@ -4266,7 +4282,8 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
+    "kpw",
+    "wikimedia"
    ],
    "znaki": [
     "P-20"
@@ -4304,7 +4321,8 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
+    "kpw",
+    "wikimedia"
    ],
    "znaki": [
     "P-17"
@@ -4342,7 +4360,8 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
+    "kpw",
+    "wikimedia"
    ],
    "znaki": [
     "P-21"
@@ -5430,7 +5449,8 @@
     "kw",
     "rozpSM",
     "pord",
-    "kpw"
+    "kpw",
+    "wikimedia"
    ],
    "znaki": [
     "B-41"
@@ -5465,7 +5485,8 @@
     "kw",
     "rozpSM",
     "pord",
-    "kpw"
+    "kpw",
+    "wikimedia"
    ],
    "znaki": [
     "C-16"
@@ -5745,5 +5766,33 @@
     "rozpSM"
    ]
   }
+ ],
+ "znakiGrafiki": [
+  "B-1",
+  "B-2",
+  "B-3",
+  "B-35",
+  "B-36",
+  "B-37",
+  "B-38",
+  "B-39",
+  "B-3a",
+  "B-4",
+  "B-41",
+  "B-6",
+  "B-7",
+  "C-13",
+  "C-16",
+  "D-18",
+  "D-18a",
+  "D-18b",
+  "D-19",
+  "P-17",
+  "P-18",
+  "P-19",
+  "P-20",
+  "P-21",
+  "P-24",
+  "T-29"
  ]
 }

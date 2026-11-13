@@ -72,7 +72,9 @@
     nie: '<span class="verdict nie">✕ Poza uprawnieniami SM</span>',
     zalezy: '<span class="verdict zalezy">± Zależy – zobacz warunki</span>'
   })[smState(w)];
-  const signBadge = code => `<span class="sign${/^[PDT]/.test(code) ? ' p' : ''}">${esc(code)}</span>`;
+  const signBadge = code => (DB.znakiGrafiki || []).includes(code)
+    ? `<span class="signimg"><img src="icons/znaki/${esc(code)}.svg" alt="Znak ${esc(code)}" loading="lazy"><small>${esc(code)}</small></span>`
+    : `<span class="sign${/^[PDT]/.test(code) ? ' p' : ''}">${esc(code)}</span>`;
   const openQ = x => (x.sprawdz || []).length;
   const statusBadge = x => openQ(x)
     ? `<span class="badge warn">Sprawdź i powiedz mi (${openQ(x)})</span>`
