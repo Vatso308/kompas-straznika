@@ -1,5 +1,5 @@
 {
- "wersja": "0.5",
+ "wersja": "0.5.1",
  "dataBazy": "2026-11-13",
  "zasada": "Każde twierdzenie porównano z tekstem aktu (Dz.U., ISAP/ELI, teksty ujednolicone Kancelarii Sejmu). Czego nie dało się potwierdzić w akcie, oznaczono „Sprawdź i powiedz mi”.",
  "zrodla": {
@@ -330,15 +330,15 @@
   {
    "id": "kw77",
    "kat": "porzadek",
-   "tytul": "Niezachowanie ostrożności przy trzymaniu zwierzęcia",
+   "tytul": "Niezachowanie ostrożności przy trzymaniu zwierzęcia (art. 77 § 1)",
    "potoczne": [
     "pies bez smyczy",
     "pies bez kagańca",
     "pies",
     "zwierzę"
    ],
-   "podstawa": "art. 77 § 1 k.w. (gdy zachowanie zwierzęcia zagraża życiu lub zdrowiu: § 2)",
-   "opis": "Niezachowanie zwykłych lub nakazanych środków ostrożności przy trzymaniu zwierzęcia.",
+   "podstawa": "art. 77 § 1 k.w.",
+   "opis": "Niezachowanie zwykłych lub nakazanych środków ostrożności przy trzymaniu zwierzęcia. Gdy zwierzę swoim zachowaniem stwarza niebezpieczeństwo dla życia lub zdrowia człowieka – osobny wpis: art. 77 § 2.",
    "sm": {
     "moze": "tak",
     "podstawa": "§ 2 ust. 1 pkt 1 rozp. MSWiA – „art. 77‒79”"
@@ -347,13 +347,11 @@
     "typ": "widelki",
     "min": 50,
     "max": 250,
-    "lp": "tab. A lp. 5 (§ 1)",
-    "uwaga": "Przy § 2: 500 zł (tab. A lp. 5a)."
+    "lp": "tab. A lp. 5 (§ 1)"
    },
    "sprawdzono": [
     "k.w. art. 77 § 1: ograniczenie wolności, grzywna do 1000 zł albo nagana",
-    "k.w. art. 77 § 2: ograniczenie wolności, grzywna albo nagana",
-    "Taryfikator tab. A lp. 5: od 50 do 250 zł; lp. 5a (§ 2): 500 zł – Dz.U. 2021 poz. 556",
+    "Taryfikator tab. A lp. 5: art. 77 § 1 – od 50 do 250 zł (Dz.U. 2021 poz. 556)",
     "Rozp. MSWiA § 2 ust. 1 pkt 1: „art. 77‒79”"
    ],
    "sprawdz": [
@@ -363,6 +361,46 @@
     "kw",
     "taryfA2021",
     "rozpSM"
+   ]
+  },
+  {
+   "id": "kw77-2",
+   "kat": "porzadek",
+   "tytul": "Zwierzę stwarzające niebezpieczeństwo dla życia lub zdrowia (art. 77 § 2)",
+   "potoczne": [
+    "agresywny pies",
+    "pies rzucił się",
+    "pies pogryzł",
+    "pies bez kagańca",
+    "niebezpieczny pies",
+    "pies atakuje"
+   ],
+   "podstawa": "art. 77 § 2 k.w.",
+   "opis": "Niezachowanie zwykłych lub nakazanych środków ostrożności przy trzymaniu zwierzęcia, które swoim zachowaniem stwarza niebezpieczeństwo dla życia lub zdrowia człowieka.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "§ 2 ust. 1 pkt 1 rozp. MSWiA – „art. 77‒79”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 500,
+    "lp": "tab. A lp. 5a (§ 2)"
+   },
+   "sprawdzono": [
+    "k.w. art. 77 § 2: „podlega karze ograniczenia wolności, grzywny albo karze nagany” (brak górnej granicy w przepisie; mandat do 500 zł – art. 96 § 1 k.p.w.)",
+    "Taryfikator tab. A lp. 5a: art. 77 § 2 – 500 zł (Dz.U. 2021 poz. 556)",
+    "Rozp. MSWiA § 2 ust. 1 pkt 1: „art. 77‒79”",
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: czy mandatownik ma osobny wiersz dla art. 77 § 2 i czy podaje 500 zł?",
+    "Gdy pies kogoś pogryzł, może wchodzić w grę przestępstwo (np. narażenie lub uszczerbek na zdrowiu) – wtedy to nie sprawa na mandat. Sprawdź i powiedz mi, jak to rozgraniczacie w praktyce."
+   ],
+   "zrodla": [
+    "kw",
+    "taryfA2021",
+    "rozpSM",
+    "kpw"
    ]
   },
   {
