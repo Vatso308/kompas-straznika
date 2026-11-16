@@ -30,7 +30,7 @@
     const add = (item, type, fields) => {
       const weighted = [];
       fields.forEach(([txt, w]) => tokens(txt).forEach(t => weighted.push([t, w])));
-      INDEX.push({ item, type, weighted });
+      INDEX.push({ item, type, weighted, phrases: [item.tytul, ...(item.potoczne || [])].map(norm) });
     };
     DB.wpisy.forEach(w => add(w, 'wpis', [
       [w.tytul, 3], [(w.potoczne || []).join(' '), 3], [(w.znaki || []).join(' '), 5], [w.podstawa, 4], [w.opis, 1]
@@ -39,7 +39,7 @@
   }
 
   function search(q) {
-    const qt = tokens(q);
+    const qt = tokens(q), nq = norm(q);
     if (!qt.length) return [];
     const scored = INDEX.map(e => {
       let total = 0, hits = 0;
@@ -52,6 +52,9 @@
         }
         if (best) { hits++; total += best; }
       }
+      // całe zapytanie = potoczna nazwa lub początek tytułu -> wyżej
+      if (nq.length >= 4 && e.phrases.some(p => p === nq)) total += 12;
+      else if (nq.length >= 4 && e.phrases.some(p => p.startsWith(nq))) total += 5;
       return { e, total, hits };
     }).filter(r => r.hits);
     const all = scored.filter(r => r.hits === qt.length);
@@ -99,7 +102,7 @@
 
   /* ---------- widoki ---------- */
   const KATS = { parkowanie: 'Zatrzymanie i postój', znaki: 'Znaki', porzadek: 'Porządek publiczny', piesi: 'Piesi', rowery: 'Rowery i hulajnogi',
-    komunikacja: 'Komunikacja (inne)', bezpieczenstwo: 'Bezpieczeństwo osób i mienia', instytucje: 'Instytucje i legitymowanie', osoba: 'Osoba i zdrowie', lesne: 'Las i pole', szczegolne: 'Ustawy szczególne' };
+    komunikacja: 'Komunikacja (inne)', bezpieczenstwo: 'Bezpieczeństwo osób i mienia', instytucje: 'Instytucje i legitymowanie', osoba: 'Osoba i zdrowie', lesne: 'Las i pole', szczegolne: 'Ustawy szczególne', miejscowe: 'Wrocław – prawo miejscowe' };
   let lastQuery = '';
 
   const views = {
@@ -178,9 +181,17 @@
     },
 
     miejscowe() {
+      const akty = (DB.miejscowe || []).map(m => `
+        <div class="answer"><div class="law">${esc(m.akt)}</div><h3 style="margin:4px 0">${esc(m.nazwa)}</h3>
+        <p class="small" style="margin:4px 0">${esc(m.stan)}</p>
+        <p class="small" style="margin:4px 0"><b>Sankcja i uprawnienie:</b> ${esc(m.sankcja)}</p>
+        ${m.sprawdz ? `<div class="note ask"><b>Sprawdź i powiedz mi:</b> ${esc(m.sprawdz.replace(/^Sprawdź i powiedz mi:\s*/, ''))}</div>` : ''}
+        ${srcList(m.zrodla)}</div>`).join('');
+      const wpisy = DB.wpisy.filter(w => w.kat === 'miejscowe');
       view.innerHTML = `<h1>Prawo miejscowe – Wrocław</h1>
-        <div class="note"><b>W przygotowaniu.</b> Akty prawa miejscowego dotyczące porządku publicznego są objęte uprawnieniem mandatowym SM (§ 2 ust. 1 pkt 21 rozp. MSWiA), jeśli naruszenie jest zagrożone grzywną.</div>
-        <p class="small">Do bazy trafią m.in. regulamin utrzymania czystości i porządku oraz uchwały porządkowe z Dziennika Urzędowego Województwa Dolnośląskiego.</p>
+        <p class="small">Mandat za naruszenie przepisów porządkowych z aktów prawa miejscowego: § 2 ust. 1 pkt 21 rozp. MSWiA; za regulamin czystości – pkt 5 (u.c.p.g.); za uchwałę antysmogową – pkt 7 (POŚ).</p>
+        <h2>Obowiązki i zakazy</h2><div class="list">${wpisy.map(cardWpis).join('')}</div>
+        <h2>Akty</h2><div class="list">${akty}</div>
         <p class="small"><a href="https://edzienniki.duw.pl/" target="_blank" rel="noopener">Dziennik Urzędowy Województwa Dolnośląskiego</a></p>`;
     },
 

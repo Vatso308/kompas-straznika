@@ -1,6 +1,6 @@
 {
- "wersja": "0.5.1",
- "dataBazy": "2026-11-13",
+ "wersja": "0.6",
+ "dataBazy": "2026-11-16",
  "zasada": "Każde twierdzenie porównano z tekstem aktu (Dz.U., ISAP/ELI, teksty ujednolicone Kancelarii Sejmu). Czego nie dało się potwierdzić w akcie, oznaczono „Sprawdź i powiedz mi”.",
  "zrodla": {
   "kw": {
@@ -16,8 +16,8 @@
    "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000167"
   },
   "rozpSM2026": {
-   "nazwa": "Rozp. MSWiA z 24.08.2026 zmieniające wykaz wykroczeń SM – Dz.U. 2026 poz. 1148 (w życiu od 15.09.2026)",
-   "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/1148/text.pdf"
+   "nazwa": "Rozp. MSWiA z 24.08.2026 zmieniające (Dz.U. 2026 poz. 1148) – od 15.09.2026",
+   "url": "https://eli.gov.pl/eli/DU/2026/1148/ogl/pol/pdf"
   },
   "taryfA": {
    "nazwa": "Taryfikator – tabela A w brzmieniu z Dz.U. 2012 poz. 527",
@@ -90,6 +90,98 @@
   "wikimedia": {
    "nazwa": "Grafiki znaków: Wikimedia Commons (pliki „PL road sign …” i „Znak P-…”) – domena publiczna, art. 4 pkt 2 ustawy o prawie autorskim (urzędowe znaki i symbole)",
    "url": "https://commons.wikimedia.org/wiki/Category:Diagrams_of_road_signs_of_Poland"
+  },
+  "rozpSM-tj": {
+   "nazwa": "Rozp. MSWiA w sprawie wykroczeń, za które strażnicy są uprawnieni do nakładania grzywien – t.j. Dz.U. 2026 poz. 167",
+   "url": "https://g.infor.pl/p/_dane/akty_pdf/DZU/2026/44/167.pdf"
+  },
+  "pos": {
+   "nazwa": "Prawo ochrony środowiska – t.j. Dz.U. 2026 poz. 1453 (tekst odczytany w serwisie infor.pl)",
+   "url": "https://www.infor.pl/akt-prawny/DZU.2026.308.0001453,ustawa-prawo-ochrony-srodowiska.html"
+  },
+  "miary": {
+   "nazwa": "Prawo o miarach – art. 26 (Standardy Prawa; t.j. Dz.U. 2022 poz. 2063)",
+   "url": "https://standardyprawa.pl/akt/237/art/29304"
+  },
+  "utd": {
+   "nazwa": "Ustawa o transporcie drogowym – art. 92 (Standardy Prawa)",
+   "url": "https://standardyprawa.pl/akt/139/art/20657"
+  },
+  "ptz": {
+   "nazwa": "Ustawa o publicznym transporcie zbiorowym – art. 28 (Standardy Prawa)",
+   "url": "https://standardyprawa.pl/akt/419/art/49485"
+  },
+  "zabytki": {
+   "nazwa": "Ustawa o ochronie zabytków – art. 112 (LexLege; t.j. Dz.U. 2024 poz. 1292)",
+   "url": "https://lexlege.pl/ustawa-o-ochronie-zabytkow-i-opiece-nad-zabytkami/art-112/"
+  },
+  "recykling": {
+   "nazwa": "Ustawa o recyklingu pojazdów – art. 48 (ArsLege; t.j. Dz.U. 2020 poz. 2056)",
+   "url": "https://arslege.pl/ustawa-o-recyklingu-pojazdow-wycofanych-z-eksploatacji/k656/a50890/"
+  },
+  "uzdrowiska": {
+   "nazwa": "Ustawa o lecznictwie uzdrowiskowym – art. 50 i 38a (Standardy Prawa)",
+   "url": "https://standardyprawa.pl/akt/389/art/47514"
+  },
+  "ceeb": {
+   "nazwa": "Ustawa o wspieraniu termomodernizacji i CEEB – art. 27h (LexLege)",
+   "url": "https://lexlege.pl/ustawa-o-wspieraniu-termomodernizacji-i-remontow/art-27h/"
+  },
+  "geodezja": {
+   "nazwa": "Prawo geodezyjne i kartograficzne – art. 48 (Standardy Prawa)",
+   "url": "https://standardyprawa.pl/akt/93/art/15907"
+  },
+  "baterie": {
+   "nazwa": "Ustawa o bateriach i akumulatorach – art. 78 (LexLege; t.j. Dz.U. 2025 poz. 809)",
+   "url": "https://lexlege.pl/ustawa-o-bateriach-i-akumulatorach/art-78/"
+  },
+  "kwyb": {
+   "nazwa": "Kodeks wyborczy – art. 494–495 (Standardy Prawa; t.j. Dz.U. 2025 poz. 365)",
+   "url": "https://standardyprawa.pl/akt/352/art/44770"
+  },
+  "zsee": {
+   "nazwa": "Ustawa o zużytym sprzęcie elektrycznym – art. 95–96 (prawnik.cc)",
+   "url": "https://prawnik.cc/laws/ustawa-o-zuzytym-sprzecie-elektrycznym/rozdzial-14-administracyjne-kary-pieniezne-art-96-odpowiedzialnosc-karna-za"
+  },
+  "pwodne": {
+   "nazwa": "Prawo wodne – art. 478 (Standardy Prawa; t.j. Dz.U. 2025 poz. 960)",
+   "url": "https://standardyprawa.pl/akt/487/art/58044"
+  },
+  "zakazenia": {
+   "nazwa": "Ustawa o zapobieganiu oraz zwalczaniu zakażeń – art. 50 (Standardy Prawa); art. 22 (ArsLege)",
+   "url": "https://standardyprawa.pl/akt/407/art/48300"
+  },
+  "maloletni": {
+   "nazwa": "Ustawa o przeciwdziałaniu zagrożeniom przestępczością na tle seksualnym i ochronie małoletnich – art. 23b (Standardy Prawa)",
+   "url": "https://standardyprawa.pl/akt/493/art/58700"
+  },
+  "obrona": {
+   "nazwa": "Ustawa o obronie Ojczyzny – art. 683a (ArsLege; t.j. Dz.U. 2025 poz. 825)",
+   "url": "https://arslege.pl/ustawa-o-obronie-ojczyzny/k1978/a149340/"
+  },
+  "zdrowiezw": {
+   "nazwa": "Ustawa z 21.11.2025 o zdrowiu zwierząt (Dz.U. 2025 poz. 1795) – art. 102 (cyt. w zapytaniu poselskim nr 3463)",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3463/body"
+  },
+  "kpw96": {
+   "nazwa": "k.p.w. art. 96 – wysokość grzywny w postępowaniu mandatowym (Standardy Prawa)",
+   "url": "https://standardyprawa.pl/akt/12/art/2990"
+  },
+  "regWroc": {
+   "nazwa": "Regulamin utrzymania czystości i porządku na terenie Wrocławia – uchwała nr XXV/672/20 RMW, tekst jednolity: obwieszczenie RMW z 6.06.2024 (Dz. Urz. Woj. Doln. 2024 poz. 3562)",
+   "url": "https://edzienniki.duw.pl/WDU_D/2024/3562/akt.pdf"
+  },
+  "regWrocAnaliza": {
+   "nazwa": "Analiza stanu gospodarki odpadami komunalnymi Wrocławia za 2024 r. (BIP UM Wrocławia) – wykaz obowiązujących uchwał",
+   "url": "https://bip.um.wroc.pl/attachments/download/158429"
+  },
+  "antysmogWroc": {
+   "nazwa": "Uchwała nr XLI/1405/17 Sejmiku Woj. Dolnośląskiego (Dz. Urz. Woj. Doln. 2017 poz. 5153) – streszczenie: Przegląd uchwał antysmogowych, Uniwersytet Wrocławski, stan na 1.10.2023",
+   "url": "https://mappingair.meteo.uni.wroc.pl/wp-content/uploads/2023/10/Przeglad_uchwal_antysmogowych_stan_na_01-10-2023.pdf"
+  },
+  "antysmogNIK": {
+   "nazwa": "NIK, wystąpienie pokontrolne P/24/069 – numery i publikatory uchwał antysmogowych Dolnego Śląska",
+   "url": "https://www.nik.gov.pl/kontrole/wyniki-kontroli-nik/pobierz,lwr~p_24_069_202411130907301731485250~id0~01,typ,kj.pdf"
   }
  },
  "wpisy": [
@@ -332,8 +424,6 @@
    "kat": "porzadek",
    "tytul": "Niezachowanie ostrożności przy trzymaniu zwierzęcia (art. 77 § 1)",
    "potoczne": [
-    "pies bez smyczy",
-    "pies bez kagańca",
     "pies",
     "zwierzę"
    ],
@@ -4525,27 +4615,29 @@
     "sprzątanie po psie"
    ],
    "podstawa": "art. 10 ust. 2a u.c.p.g.",
-   "opis": "Niewykonywanie obowiązków określonych w regulaminie utrzymania czystości i porządku w gminie.",
+   "opis": "Niewykonywanie obowiązków określonych w regulaminie utrzymania czystości i porządku w gminie. We Wrocławiu: regulamin z uchwały XXV/672/20 (t.j. 2024) – szczegółowe obowiązki w zakładce Prawo miejscowe (smycz, sprzątanie po psie, mycie aut, pojemniki, liście).",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 5"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Regulamin nie ma osobnych kwot. Sankcja: grzywna z art. 10 ust. 2a u.c.p.g. (20–5000 zł, art. 24 § 1 k.w.); mandat SM do 500 zł. Taryfikator nie podaje stawki."
    },
    "sprawdzono": [
     "u.c.p.g. art. 10 ust. 2a: „podlega karze grzywny”",
     "Rozp. MSWiA § 2 ust. 1 pkt 5",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Regulamin Wrocławia: uchwała XXV/672/20, t.j. Dz. Urz. Woj. Doln. 2024 poz. 3562"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: regulamin Wrocławia (np. sprzątanie po psie) – dodam go do prawa miejscowego, gdy wskażesz uchwałę."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "ucpg",
     "rozpSM",
-    "kpw"
+    "kpw",
+    "regWroc"
    ]
   },
   {
@@ -4881,549 +4973,611 @@
   {
    "id": "kp-xii",
    "kat": "szczegolne",
-   "tytul": "Przepisy wprowadzające Kodeks pracy – art. XII § 2",
+   "tytul": "Godziny otwarcia sklepów i lokali (Przepisy wprowadzające KP, art. XII § 2)",
    "potoczne": [
     "kodeks pracy"
    ],
    "podstawa": "art. XII § 2 przepisów wprowadzających Kodeks pracy",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Według opisów praktyki: naruszenie przepisów o dniach i godzinach otwierania i zamykania placówek handlu detalicznego, zakładów gastronomicznych i usługowych. Samego tekstu art. XII § 2 nie odczytałem.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 2"
    },
    "kwota": {
     "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "uwaga": "Sankcji nie potwierdziłem w tekście ustawy."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 2",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 2: „art. XII § 2 ustawy z dnia 26 czerwca 1974 r. ‒ Przepisy wprowadzające Kodeks pracy”"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+    "Sprawdź i powiedz mi: treść i sankcję art. XII § 2. Opis „godziny otwarcia sklepów” mam tylko z serwisu porad prawnych. Czy we Wrocławiu jest uchwała o godzinach otwarcia, do której ten przepis się odnosi?"
    ],
    "zrodla": [
-    "rozpSM",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "pos",
    "kat": "szczegolne",
-   "tytul": "Prawo ochrony środowiska – art. 331a, 334, 343",
+   "tytul": "Smog i hałas: uchwała antysmogowa, program ochrony powietrza, nagłośnienie",
    "potoczne": [
-    "ochrona środowiska",
-    "hałas",
-    "emisja",
-    "uchwała antysmogowa"
+    "uchwała antysmogowa",
+    "palenie węglem",
+    "dmuchawa do liści",
+    "głośnik",
+    "nagłośnienie",
+    "smog"
    ],
    "podstawa": "art. 331a, 334, 343 POŚ",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Art. 331a – nieprzestrzeganie ograniczeń, nakazów lub zakazów z uchwały sejmiku przyjętej na podstawie art. 91 ust. 3 i 5 (program ochrony powietrza, plan działań krótkoterminowych). Art. 334 – nieprzestrzeganie uchwały antysmogowej sejmiku (art. 96). Art. 343 – używanie instalacji lub urządzeń nagłaśniających wbrew zakazowi z art. 156 ust. 1; tej samej karze podlega naruszenie ograniczeń z uchwały rady gminy wydanej na podstawie art. 157 ust. 1.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 7"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Taryfikator nie podaje stawki. Ustawa przewiduje „grzywnę” bez kwot – stosuje się granice z art. 24 § 1 k.w. (20–5000 zł). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 7",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "POŚ (t.j. Dz.U. 2026 poz. 1453) art. 331a, 334, 343: „podlega karze grzywny”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 7: „art. 331a, art. 334 i art. 343” (art. 331a dodany od 15.09.2026, Dz.U. 2026 poz. 1148)"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+    "Sprawdź i powiedz mi: które uchwały sejmiku dolnośląskiego (antysmogowa dla Wrocławia, program ochrony powietrza) i która uchwała Rady Miejskiej z art. 157 ust. 1 obowiązują teraz we Wrocławiu? Nie odczytałem ich treści."
    ],
    "zrodla": [
-    "rozpSM",
+    "pos",
+    "rozpSM2026",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "miary",
    "kat": "szczegolne",
-   "tytul": "Prawo o miarach – art. 26 ust. 1 pkt 2",
+   "tytul": "Przyrząd pomiarowy bez legalizacji (np. waga na targu)",
    "potoczne": [
-    "waga",
-    "przyrząd pomiarowy"
+    "waga bez legalizacji",
+    "waga na targu",
+    "niezalegalizowana waga"
    ],
    "podstawa": "art. 26 ust. 1 pkt 2 Prawa o miarach",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Wprowadzanie do obrotu lub użytkowania, stosowanie albo przechowywanie w gotowości do użycia przyrządów pomiarowych podlegających prawnej kontroli metrologicznej bez wymaganych dowodów tej kontroli lub niespełniających wymagań (art. 26 ust. 1 pkt 2).",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 8"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Taryfikator nie podaje stawki. Ustawa przewiduje „grzywnę” bez kwot – stosuje się granice z art. 24 § 1 k.w. (20–5000 zł). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 8",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Prawo o miarach art. 26 ust. 1 pkt 2 – „podlega karze grzywny”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 8"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
-   ],
+   "sprawdz": [],
    "zrodla": [
-    "rozpSM",
+    "miary",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "transport",
    "kat": "szczegolne",
-   "tytul": "Transport drogowy / publiczny transport zbiorowy",
+   "tytul": "Brak zaświadczenia lub rozkładu jazdy w pojeździe komunikacji",
    "potoczne": [
-    "przewóz osób",
-    "rozkład jazdy",
-    "przystanek"
+    "autobus bez rozkładu",
+    "bus bez zaświadczenia",
+    "przewoźnik prywatny",
+    "rozkład jazdy"
    ],
    "podstawa": "art. 92 ust. 1 ustawy o transporcie drogowym w zakresie art. 28 ust. 4 ustawy o publicznym transporcie zbiorowym",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Kierujący wykonujący przewóz z naruszeniem obowiązków (art. 92 ust. 1 u.t.d.) – SM tylko w zakresie art. 28 ust. 4 u.p.t.z.: zaświadczenie operatora oraz aktualny rozkład jazdy powinny być w pojeździe publicznego transportu zbiorowego i okazywane na żądanie organu kontroli.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 9"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Ustawa: grzywna do 2000 zł (art. 92 ust. 1 u.t.d.). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.); wyższy limit z k.p.w. dotyczy ITD i Policji."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 9",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "u.t.d. art. 92 ust. 1: „podlega karze grzywny w wysokości do 2000 złotych”",
+    "u.p.t.z. art. 28 ust. 4: zaświadczenie i aktualny rozkład jazdy w środku transportu, okazywane na żądanie",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 9: art. 92 ust. 1 u.t.d. „w zakresie określonym w art. 28 ust. 4” u.p.t.z. (od 15.09.2026 bez art. 35 ust. 1)",
+    "k.p.w. art. 96 § 1a: do 2000 zł tylko gdy oskarżycielem jest ITD lub Policja"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+    "Sprawdź i powiedz mi: załącznik nr 1 do u.t.d. podaje stałe kwoty za poszczególne naruszenia kierującego. Nie odczytałem pozycji dla braku zaświadczenia lub rozkładu jazdy."
    ],
    "zrodla": [
-    "rozpSM",
+    "utd",
+    "ptz",
+    "kpw96",
+    "rozpSM2026",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "zabytki",
    "kat": "szczegolne",
-   "tytul": "Ochrona zabytków – art. 112 ust. 1–2",
+   "tytul": "Naruszenie zakazów w parku kulturowym",
    "potoczne": [
-    "zabytek",
-    "tablica zabytku"
+    "park kulturowy",
+    "reklama w parku kulturowym"
    ],
    "podstawa": "art. 112 ust. 1 i 2 ustawy o ochronie zabytków",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Naruszanie zakazów lub ograniczeń obowiązujących na terenie parku kulturowego lub jego części (art. 112 ust. 1); także nieumyślnie (ust. 2).",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 10"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Ust. 1: areszt, ograniczenie wolności albo grzywna. Ust. 2 (nieumyślnie): grzywna. Mandat SM: do 500 zł."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 10",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Ustawa o ochronie zabytków art. 112 ust. 1: „podlega karze aresztu, ograniczenia wolności albo grzywny”; ust. 2: nieumyślnie – grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 10: art. 112 ust. 1 i 2"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+    "Sprawdź i powiedz mi: czy we Wrocławiu jest utworzony park kulturowy? Bez uchwały o parku ten przepis nie ma zastosowania."
    ],
    "zrodla": [
-    "rozpSM",
+    "zabytki",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "weter",
    "kat": "szczegolne",
-   "tytul": "Zwierzęta towarzyszące podróżnym – art. 85 ust. 1a pkt 2",
+   "tytul": "Przepis weterynaryjny – art. 85 ust. 1a pkt 2 (od 15.09.2026)",
    "potoczne": [
     "paszport zwierzęcia",
     "przemieszczanie zwierząt"
    ],
    "podstawa": "art. 85 ust. 1a pkt 2 ustawy z 11.03.2004 r. o wymaganiach weterynaryjnych…",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Rozporządzenie od 15.09.2026 wskazuje art. 85 ust. 1a pkt 2 ustawy z 11.03.2004 o wymaganiach weterynaryjnych przy przemieszczaniu w celach niehandlowych zwierząt domowych towarzyszących podróżnym (dawniej: o ochronie zdrowia zwierząt). Treści tego punktu po zmianach z 2025 r. nie odczytałem.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 11 (nowe brzmienie od 15.09.2026)"
    },
    "kwota": {
     "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "uwaga": "Do uzupełnienia po odczytaniu przepisu."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 11 (nowe brzmienie od 15.09.2026)",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 11 w brzmieniu od 15.09.2026 (Dz.U. 2026 poz. 1148): „art. 85 ust. 1a pkt 2”",
+    "Zapytanie poselskie nr 3463: dawny art. 85 ust. 1a (uchylanie się od szczepienia psa) obowiązywał do 17.03.2026; od 18.03.2026 – art. 102 ust. 1 ustawy o zdrowiu zwierząt"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+    "Sprawdź i powiedz mi: co dziś stanowi art. 85 ust. 1a pkt 2 tej ustawy? Źródło poselskie podaje, że ust. 1a uchylono 18.03.2026, a rozporządzenie od 15.09.2026 nadal go wymienia. Za brak szczepienia psa stosuj wpis „Pies nieszczepiony przeciw wściekliźnie”."
    ],
    "zrodla": [
-    "rozpSM",
+    "rozpSM2026",
+    "zdrowiezw",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "recykling",
    "kat": "szczegolne",
-   "tytul": "Recykling pojazdów – art. 48",
+   "tytul": "Porzucony wrak – nieprzekazanie pojazdu do stacji demontażu",
    "potoczne": [
     "wrak",
-    "porzucony pojazd",
-    "demontaż"
+    "porzucony samochód",
+    "auto bez kół",
+    "złom"
    ],
    "podstawa": "art. 48 ustawy o recyklingu pojazdów wycofanych z eksploatacji",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Nieprzekazanie pojazdu wycofanego z eksploatacji do stacji demontażu lub punktu zbierania pojazdów, wbrew art. 18 ustawy.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 13"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Taryfikator nie podaje stawki. Ustawa przewiduje „grzywnę” bez kwot – stosuje się granice z art. 24 § 1 k.w. (20–5000 zł). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 13",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Ustawa o recyklingu pojazdów art. 48: „podlega karze grzywny”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 13"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+    "Sprawdź i powiedz mi: kiedy w praktyce uznajecie pojazd za „wycofany z eksploatacji” (np. wrak na parkingu)? To wynika z art. 3 ustawy i z decyzji, nie z oceny strażnika."
    ],
    "zrodla": [
-    "rozpSM",
+    "recykling",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "uzdrowiska",
    "kat": "szczegolne",
-   "tytul": "Uzdrowiska – art. 50 pkt 5",
+   "tytul": "Targowisko w strefie „A” uzdrowiska",
    "potoczne": [
     "strefa uzdrowiskowa"
    ],
    "podstawa": "art. 50 pkt 5 w zw. z art. 38a ust. 1 pkt 4 ustawy o lecznictwie uzdrowiskowym",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Prowadzenie działalności zakazanej w strefie „A” ochrony uzdrowiskowej – tu: prowadzenie targowisk (poza punktami sprzedaży pamiątek, wyrobów ludowych i produktów regionalnych w miejscach wyznaczonych przez gminę).",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 14"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Taryfikator nie podaje stawki. Ustawa przewiduje „grzywnę” bez kwot – stosuje się granice z art. 24 § 1 k.w. (20–5000 zł). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 14",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Ustawa o lecznictwie uzdrowiskowym art. 50 pkt 5: „podlega karze grzywny”",
+    "art. 38a ust. 1 pkt 4: zakaz prowadzenia targowisk w strefie „A”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 14"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+    "Sprawdź i powiedz mi: Wrocław nie jest – o ile wiem – gminą uzdrowiskową, więc ten przepis tu raczej nie działa. Potwierdź."
    ],
    "zrodla": [
-    "rozpSM",
+    "uzdrowiska",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "ceeb",
    "kat": "szczegolne",
-   "tytul": "Termomodernizacja / CEEB – art. 27h ust. 1",
+   "tytul": "Niezłożenie deklaracji CEEB (źródło ciepła)",
    "potoczne": [
-    "deklaracja CEEB",
-    "źródło ciepła",
-    "piec",
-    "kopciuch"
+    "CEEB",
+    "deklaracja piec",
+    "deklaracja źródła ciepła"
    ],
    "podstawa": "art. 27h ust. 1 ustawy o wspieraniu termomodernizacji i remontów oraz o CEEB",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Niezłożenie w terminie deklaracji o źródłach ciepła lub spalania paliw do Centralnej Ewidencji Emisyjności Budynków. Nie podlega karze, kto złożył deklarację po terminie, ale zanim prezydent miasta dowiedział się o wykroczeniu (ust. 2).",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 14a"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Taryfikator nie podaje stawki. Ustawa przewiduje „grzywnę” bez kwot – stosuje się granice z art. 24 § 1 k.w. (20–5000 zł). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 14a",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Ustawa o CEEB art. 27h ust. 1: „podlega karze grzywny”; ust. 2: niekaralność przy złożeniu przed powzięciem wiadomości przez organ",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 14a"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
-   ],
+   "sprawdz": [],
    "zrodla": [
-    "rozpSM",
+    "ceeb",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "geodezja",
    "kat": "szczegolne",
-   "tytul": "Prawo geodezyjne – art. 48 ust. 1a",
+   "tytul": "Brak tabliczki z numerem porządkowym budynku",
    "potoczne": [
-    "numer porządkowy",
-    "tabliczka z numerem"
+    "numer domu",
+    "tabliczka z numerem",
+    "brak numeru budynku"
    ],
    "podstawa": "art. 48 ust. 1a Prawa geodezyjnego i kartograficznego",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Obowiązany do umieszczenia tabliczki z numerem porządkowym nie umieszcza jej w widocznym miejscu (ściana frontowa budynku albo ogrodzenie) w ciągu 30 dni od zawiadomienia o ustaleniu numeru.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 14b"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 250,
+    "uwaga": "Ustawa: grzywna do 250 zł albo nagana. Taryfikator nie podaje stawki."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 14b",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Prawo geodezyjne art. 48 ust. 1a: „podlega karze grzywny do 250 złotych albo karze nagany”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 14b"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
-   ],
+   "sprawdz": [],
    "zrodla": [
-    "rozpSM",
+    "geodezja",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "baterie",
    "kat": "szczegolne",
-   "tytul": "Baterie i akumulatory – art. 78",
+   "tytul": "Zużyte baterie lub akumulatory w pojemniku z innymi odpadami",
    "potoczne": [
-    "zużyte baterie"
+    "baterie w śmieciach",
+    "akumulator w kontenerze"
    ],
    "podstawa": "art. 78 ustawy o bateriach i akumulatorach",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Umieszczanie zużytych baterii lub zużytych akumulatorów razem z innymi odpadami w tym samym pojemniku, wbrew art. 12.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 15"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Taryfikator nie podaje stawki. Ustawa przewiduje „grzywnę” bez kwot – stosuje się granice z art. 24 § 1 k.w. (20–5000 zł). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 15",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Ustawa o bateriach i akumulatorach art. 78: „podlega karze grzywny”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 15"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
-   ],
+   "sprawdz": [],
    "zrodla": [
-    "rozpSM",
+    "baterie",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "wybory",
    "kat": "szczegolne",
-   "tytul": "Kodeks wyborczy – art. 494, 495, 498",
+   "tytul": "Wybory: agitacja w miejscach zakazanych, plakaty, cisza wyborcza",
    "potoczne": [
-    "plakaty wyborcze",
+    "plakat wyborczy",
+    "cisza wyborcza",
     "agitacja",
-    "cisza wyborcza"
+    "baner wyborczy"
    ],
    "podstawa": "art. 494, 495, 498 Kodeksu wyborczego",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Art. 494 – agitacja w urzędach i sądach, w zakładach pracy (zakłócająca pracę), w jednostkach wojskowych, w lokalu wyborczym lub budynku z lokalem; § 2 – agitacja w szkołach wobec uczniów. Art. 495 § 1 – plakaty i hasła bez zgody właściciela lub zarządcy (ściany, przystanki, słupy, ogrodzenia, latarnie, urządzenia), naruszenie przepisów porządkowych przy własnych urządzeniach ogłoszeniowych, plakaty, których nie da się usunąć bez szkód; § 2 – m.in. pełnomocnik, który w 30 dni po wyborach nie usunie plakatów. Art. 498 – agitacja w czasie ciszy wyborczej.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 17"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Taryfikator nie podaje stawki. Ustawa przewiduje „grzywnę” bez kwot – stosuje się granice z art. 24 § 1 k.w. (20–5000 zł). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 17",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Kodeks wyborczy art. 494 § 1–2: „podlega karze grzywny”",
+    "art. 495 § 1 pkt 1–3 i § 2: „podlega karze grzywny” / „tej samej karze” (pkt 4–5 utraciły moc)",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 17: art. 494, 495 i 498"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+    "Sprawdź i powiedz mi: sankcję z art. 498 (cisza wyborcza) znam tylko z opisów – nie odczytałem samego przepisu."
    ],
    "zrodla": [
-    "rozpSM",
+    "kwyb",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "zsee",
    "kat": "szczegolne",
-   "tytul": "Zużyty sprzęt elektryczny – art. 95–96",
+   "tytul": "Zużyty sprzęt elektryczny w śmieciach",
    "potoczne": [
+    "lodówka przy śmietniku",
+    "telewizor w śmieciach",
     "elektrośmieci",
-    "stara lodówka"
+    "pralka przy altanie"
    ],
    "podstawa": "art. 95 i 96 ustawy o zużytym sprzęcie elektrycznym i elektronicznym",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Art. 95 – umieszczanie zużytego sprzętu elektrycznego i elektronicznego łącznie z innymi odpadami (zakaz z art. 34). Art. 96 – nieprzekazanie zużytego sprzętu z gospodarstwa domowego zbierającemu lub uprawnionemu podmiotowi (art. 36).",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 19"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Taryfikator nie podaje stawki. Ustawa przewiduje „grzywnę” bez kwot – stosuje się granice z art. 24 § 1 k.w. (20–5000 zł). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 19",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Ustawa o ZSEE art. 95 i art. 96: „podlega karze grzywny”",
+    "art. 34: „Zakazuje się umieszczania zużytego sprzętu łącznie z innymi odpadami”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 19"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
-   ],
+   "sprawdz": [],
    "zrodla": [
-    "rozpSM",
+    "zsee",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "wodne",
    "kat": "szczegolne",
-   "tytul": "Prawo wodne – art. 478 pkt 2, 5, 6, 8",
+   "tytul": "Prawo wodne: grodzenie brzegu, ścieki, odpady do wody, mycie aut w rzece, wały",
    "potoczne": [
-    "woda",
-    "rzeka",
-    "kąpielisko",
-    "ścieki"
+    "mycie auta nad rzeką",
+    "płot nad rzeką",
+    "ścieki do rowu",
+    "śmieci do rzeki",
+    "wał przeciwpowodziowy"
    ],
    "podstawa": "art. 478 pkt 2, 5, 6 i 8 Prawa wodnego",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Pkt 2 – grodzenie nieruchomości przy wodach publicznych bliżej niż 1,5 m od linii brzegu albo zakazywanie lub uniemożliwianie przechodzenia. Pkt 5 – wprowadzanie ścieków do wód lub do ziemi wbrew art. 75. Pkt 6 – m.in. wprowadzanie do wód odpadów, spławianie lub składowanie zanieczyszczonego śniegu, mycie pojazdów w wodach i nad brzegami, jazda pojazdami w wodach. Pkt 8 – właściciel lub zarządca wału nie wprowadza czasowego zakazu poruszania się po wałach.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 20"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Pkt 5 i 8: grzywna (20–5000 zł), mandat do 500 zł. Pkt 2 i 6: grzywna od 1000 do 7500 zł – minimum wyższe niż limit mandatu SM."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 20",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Prawo wodne art. 478: „podlega karze grzywny, przy czym grzywna za wykroczenia, o których mowa w pkt 2, 6, 7, 9, 10 i 12‒16, wynosi od 1000 zł do 7500 zł”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 20: art. 478 pkt 2, 5, 6 i 8"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+    "Sprawdź i powiedz mi: przy pkt 2 i 6 minimum ustawowe (1000 zł) przekracza limit mandatu SM (500 zł). Czy w takich sprawach kierujecie wniosek do sądu zamiast mandatu?"
    ],
    "zrodla": [
-    "rozpSM",
+    "pwodne",
+    "kpw96",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "zakazenia",
    "kat": "szczegolne",
-   "tytul": "Zakażenia i choroby zakaźne – art. 50 pkt 2 (w zakresie art. 22 ust. 1 pkt 2)",
+   "tytul": "Brak deratyzacji – gryzonie i szkodniki na nieruchomości",
    "potoczne": [
-    "dezynsekcja",
+    "szczury",
     "deratyzacja",
-    "szczury"
+    "gryzonie",
+    "myszy w piwnicy"
    ],
    "podstawa": "art. 50 pkt 2 ustawy o zapobieganiu oraz zwalczaniu zakażeń… w zakresie art. 22 ust. 1 pkt 2",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Właściciel, posiadacz lub zarządca nieruchomości nie zwalcza gryzoni, insektów i szkodników (art. 22 ust. 1 pkt 2). SM – tylko w tym zakresie art. 50 pkt 2.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 14c (od 15.09.2026)"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Taryfikator nie podaje stawki. Ustawa przewiduje „grzywnę” bez kwot – stosuje się granice z art. 24 § 1 k.w. (20–5000 zł). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 14c (od 15.09.2026)",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Ustawa o zakażeniach art. 50 pkt 2: „nie przestrzega wymagań higieniczno-sanitarnych” – „podlega karze grzywny”",
+    "art. 22 ust. 1 pkt 2: „zwalczać gryzonie, insekty i szkodniki”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 14c (od 15.09.2026): „w zakresie art. 22 ust. 1 pkt 2”"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
-   ],
+   "sprawdz": [],
    "zrodla": [
-    "rozpSM",
+    "zakazenia",
+    "rozpSM2026",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "maloletni",
    "kat": "szczegolne",
-   "tytul": "Standardy ochrony małoletnich – art. 23b ust. 1",
+   "tytul": "Brak standardów ochrony małoletnich (pierwsze stwierdzenie)",
    "potoczne": [
     "standardy ochrony małoletnich",
-    "szkoła",
-    "klub sportowy"
+    "ustawa Kamilka",
+    "SOM"
    ],
    "podstawa": "art. 23b ust. 1 ustawy o przeciwdziałaniu zagrożeniom przestępczością na tle seksualnym i ochronie małoletnich",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Podmiot obowiązany do wprowadzenia standardów ochrony małoletnich (np. szkoła, klub sportowy, organizator zajęć dla dzieci) nie wykonuje tego obowiązku. Ponowne stwierdzenie (ust. 2: grzywna nie niższa niż 1000 zł) nie jest objęte uprawnieniem SM.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 19a (od 15.09.2026)"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 250,
+    "uwaga": "Ust. 1: grzywna do 250 zł albo nagana. Taryfikator nie podaje stawki."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 19a (od 15.09.2026)",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Ustawa o ochronie małoletnich art. 23b ust. 1: „podlega karze grzywny do 250 zł albo karze nagany”; ust. 2: ponownie – nie niższa niż 1000 zł",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 19a (od 15.09.2026): „art. 23b ust. 1”"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
-   ],
+   "sprawdz": [],
    "zrodla": [
-    "rozpSM",
+    "maloletni",
+    "rozpSM2026",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "obrona",
    "kat": "szczegolne",
-   "tytul": "Zakaz fotografowania obiektów – art. 683a ust. 1",
+   "tytul": "Fotografowanie obiektu ze znakiem zakazu fotografowania",
    "potoczne": [
     "zakaz fotografowania",
-    "jednostka wojskowa",
-    "dron nad obiektem"
+    "dron nad jednostką",
+    "zdjęcie jednostki wojskowej"
    ],
    "podstawa": "art. 683a ust. 1 ustawy o obronie Ojczyzny",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Fotografowanie, filmowanie, utrwalanie w inny sposób lub przesyłanie obrazu obiektu z art. 616a ust. 1 oznaczonego znakiem zakazu fotografowania, albo ruchomości lub wizerunku osób w takim obiekcie – bez zezwolenia. Przepadek sprzętu (ust. 2) może orzec tylko sąd.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 20a (od 15.09.2026)"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Taryfikator nie podaje stawki. Ustawa przewiduje „grzywnę” bez kwot – stosuje się granice z art. 24 § 1 k.w. (20–5000 zł). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 20a (od 15.09.2026)",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Ustawa o obronie Ojczyzny art. 683a ust. 1: „podlega karze grzywny”; ust. 2: można orzec przepadek",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 20a (od 15.09.2026): „art. 683a ust. 1”"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+    "Sprawdź i powiedz mi: czy przy tym wykroczeniu macie wytyczne, by zamiast mandatu kierować sprawę do sądu (ze względu na możliwy przepadek sprzętu)?"
    ],
    "zrodla": [
-    "rozpSM",
+    "obrona",
+    "rozpSM2026",
+    "rozpSM-tj",
     "kpw"
    ]
   },
   {
    "id": "zdrowiezw",
    "kat": "szczegolne",
-   "tytul": "Zdrowie zwierząt – art. 102 ust. 1",
+   "tytul": "Pies nieszczepiony przeciw wściekliźnie",
    "potoczne": [
     "szczepienie psa",
-    "wścieklizna"
+    "wścieklizna",
+    "pies bez szczepienia"
    ],
    "podstawa": "art. 102 ust. 1 ustawy z 21.11.2025 r. o zdrowiu zwierząt",
-   "opis": "Uprawnienie SM potwierdzone w rozporządzeniu. Treści przepisu nie odczytałem jeszcze z tekstu ustawy.",
+   "opis": "Posiadacz psa nie wykonuje obowiązku ochronnego szczepienia psa przeciwko wściekliźnie w terminie z art. 44 ust. 2 ustawy o zdrowiu zwierząt (obowiązuje od 18.03.2026, zastąpiła dawny art. 85 ust. 1a ustawy z 2004 r.).",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 20b (od 15.09.2026)"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Taryfikator nie podaje stawki. Ustawa przewiduje „grzywnę” bez kwot – stosuje się granice z art. 24 § 1 k.w. (20–5000 zł). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
-    "Rozp. MSWiA § 2 ust. 1 pkt 20b (od 15.09.2026)",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "Ustawa o zdrowiu zwierząt art. 102 ust. 1 pkt 1: „podlega karze grzywny” (cyt. w zapytaniu poselskim nr 3463)",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 20b (od 15.09.2026): „art. 102 ust. 1”"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: treść przepisu i sankcja – nie odczytałem tekstu tej ustawy. Sprawdź w mandatowniku."
+    "Sprawdź i powiedz mi: art. 102 ust. 1 może mieć więcej punktów niż szczepienie psa. Odczytałem tylko pkt 1."
    ],
    "zrodla": [
-    "rozpSM",
+    "zdrowiezw",
+    "rozpSM2026",
+    "rozpSM-tj",
     "kpw"
    ]
   },
@@ -5614,6 +5768,346 @@
     "kw",
     "rozpSM"
    ]
+  },
+  {
+   "id": "wr-smycz",
+   "kat": "miejscowe",
+   "tytul": "Pies bez smyczy (lub agresywny bez kagańca) – Wrocław",
+   "potoczne": [
+    "pies bez smyczy",
+    "pies luzem",
+    "pies bez kagańca",
+    "smycz",
+    "kaganiec"
+   ],
+   "podstawa": "art. 10 ust. 2a u.c.p.g. w zw. z § 26 ust. 5–6 regulaminu Wrocławia",
+   "opis": "Na terenach użytku publicznego psy należy prowadzić na smyczy, a psy ras uznawanych za agresywne lub zachowujące się agresywnie – także w kagańcu. Bez smyczy tylko na wygrodzonych wybiegach albo w miejscach mało uczęszczanych, gdy opiekun ma pełną kontrolę (agresywny – nadal w kagańcu).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Regulamin nie ma osobnych kwot. Sankcja: grzywna z art. 10 ust. 2a u.c.p.g. (20–5000 zł, art. 24 § 1 k.w.); mandat SM do 500 zł. Taryfikator nie podaje stawki."
+   },
+   "sprawdzono": [
+    "Regulamin Wrocławia (t.j. 2024 poz. 3562) § 26 ust. 5–6",
+    "u.c.p.g. art. 10 ust. 2a: „podlega karze grzywny”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: regulamin zmieniano w 2026 r. (uchwały XXX/739/26 i XXXII/789/26). Czy ten paragraf brzmi nadal tak samo?"
+   ],
+   "zrodla": [
+    "regWroc",
+    "ucpg",
+    "rozpSM-tj",
+    "kpw"
+   ]
+  },
+  {
+   "id": "wr-psie-kupy",
+   "kat": "miejscowe",
+   "tytul": "Niesprzątnięcie odchodów psa – Wrocław",
+   "potoczne": [
+    "psie kupy",
+    "sprzątanie po psie",
+    "odchody psa",
+    "kupa na trawniku"
+   ],
+   "podstawa": "art. 10 ust. 2a u.c.p.g. w zw. z § 28 ust. 1–3 regulaminu Wrocławia",
+   "opis": "Właściciel zwierzęcia niezwłocznie usuwa jego odchody z terenów użytku publicznego (drogi, chodniki, podwórza, parki) i wrzuca je do koszy ulicznych, pojemników na odpady zmieszane lub na psie odchody. Zwolnieni: opiekunowie psów asystujących.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Regulamin nie ma osobnych kwot. Sankcja: grzywna z art. 10 ust. 2a u.c.p.g. (20–5000 zł, art. 24 § 1 k.w.); mandat SM do 500 zł. Taryfikator nie podaje stawki."
+   },
+   "sprawdzono": [
+    "Regulamin Wrocławia (t.j. 2024 poz. 3562) § 28 ust. 1–3",
+    "u.c.p.g. art. 10 ust. 2a: „podlega karze grzywny”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: regulamin zmieniano w 2026 r. (uchwały XXX/739/26 i XXXII/789/26). Czy ten paragraf brzmi nadal tak samo?"
+   ],
+   "zrodla": [
+    "regWroc",
+    "ucpg",
+    "rozpSM-tj",
+    "kpw"
+   ]
+  },
+  {
+   "id": "wr-nadzor",
+   "kat": "miejscowe",
+   "tytul": "Zwierzę bez nadzoru, wydostaje się z posesji – Wrocław",
+   "potoczne": [
+    "pies uciekł z posesji",
+    "pies biega po osiedlu",
+    "zły pies tabliczka",
+    "pies bez opieki"
+   ],
+   "podstawa": "art. 10 ust. 2a u.c.p.g. w zw. z § 26 ust. 1–4, § 27 regulaminu Wrocławia",
+   "opis": "Właściciel zwierzęcia domowego trzyma je tak, by nie stwarzało zagrożenia ani uciążliwości, nie pozwala mu wydostać się z nieruchomości i sprawuje pełny nadzór. Na terenach publicznych zwierzę może przebywać tylko pod kontrolą osoby, która w pełni panuje nad jego zachowaniem. Właściciel zwierzęcia agresywnego umieszcza dzwonek i tablicę ostrzegawczą przy wejściach; zwierząt nie zostawia się na niezamieszkałej posesji bez codziennej opieki.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Regulamin nie ma osobnych kwot. Sankcja: grzywna z art. 10 ust. 2a u.c.p.g. (20–5000 zł, art. 24 § 1 k.w.); mandat SM do 500 zł. Taryfikator nie podaje stawki."
+   },
+   "sprawdzono": [
+    "Regulamin Wrocławia (t.j. 2024 poz. 3562) § 26 ust. 1–4, § 27",
+    "u.c.p.g. art. 10 ust. 2a: „podlega karze grzywny”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: regulamin zmieniano w 2026 r. (uchwały XXX/739/26 i XXXII/789/26). Czy ten paragraf brzmi nadal tak samo?",
+    "Sprawdź i powiedz mi: puszczanie psa bez kontroli może być też wykroczeniem z ustawy o ochronie zwierząt (art. 10a ust. 3) – którą podstawę stosujecie?"
+   ],
+   "zrodla": [
+    "regWroc",
+    "ucpg",
+    "rozpSM-tj",
+    "kpw"
+   ]
+  },
+  {
+   "id": "wr-mycie-auta",
+   "kat": "miejscowe",
+   "tytul": "Mycie lub naprawa auta poza myjnią i warsztatem – Wrocław",
+   "potoczne": [
+    "mycie auta na ulicy",
+    "mycie samochodu pod blokiem",
+    "wymiana oleju na parkingu",
+    "naprawa auta pod blokiem"
+   ],
+   "podstawa": "art. 10 ust. 2a u.c.p.g. w zw. z § 25 regulaminu Wrocławia",
+   "opis": "Mycie samochodu poza myjnią – tylko na nieruchomości, w odpowiednim miejscu, ze ściekami do kanalizacji sanitarnej lub ogólnospławnej albo do szczelnego zbiornika i środkami biodegradowalnymi; ścieki nie mogą trafiać do wód, gruntu ani kanalizacji deszczowej. Poza warsztatami zakazane są naprawy mogące szkodzić środowisku, zwłaszcza wymiana oleju, płynu chłodniczego i hamulcowego oraz prace lakiernicze.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Regulamin nie ma osobnych kwot. Sankcja: grzywna z art. 10 ust. 2a u.c.p.g. (20–5000 zł, art. 24 § 1 k.w.); mandat SM do 500 zł. Taryfikator nie podaje stawki."
+   },
+   "sprawdzono": [
+    "Regulamin Wrocławia (t.j. 2024 poz. 3562) § 25",
+    "u.c.p.g. art. 10 ust. 2a: „podlega karze grzywny”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: regulamin zmieniano w 2026 r. (uchwały XXX/739/26 i XXXII/789/26). Czy ten paragraf brzmi nadal tak samo?"
+   ],
+   "zrodla": [
+    "regWroc",
+    "ucpg",
+    "rozpSM-tj",
+    "kpw"
+   ]
+  },
+  {
+   "id": "wr-odpady-pojemnik",
+   "kat": "miejscowe",
+   "tytul": "Niedozwolone odpady w pojemniku na zmieszane; resztki jedzenia dla zwierząt – Wrocław",
+   "potoczne": [
+    "gruz w śmietniku",
+    "opony przy śmietniku",
+    "chleb dla gołębi",
+    "karmienie gołębi",
+    "jedzenie przy śmietniku"
+   ],
+   "podstawa": "art. 10 ust. 2a u.c.p.g. w zw. z § 4 regulaminu Wrocławia",
+   "opis": "Do pojemników na odpady zmieszane nie wolno wrzucać m.in. odpadów niebezpiecznych, przeterminowanych leków, igieł, baterii, elektrośmieci, mebli i gabarytów, opon, odpadów budowlanych; nie wolno wrzucać odpadów niekomunalnych ani mieszać frakcji. Odpadów żywności nie zostawia się poza pojemnikami w miejscach dostępnych dla zwierząt (np. gryzoni, ptaków).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Regulamin nie ma osobnych kwot. Sankcja: grzywna z art. 10 ust. 2a u.c.p.g. (20–5000 zł, art. 24 § 1 k.w.); mandat SM do 500 zł. Taryfikator nie podaje stawki."
+   },
+   "sprawdzono": [
+    "Regulamin Wrocławia (t.j. 2024 poz. 3562) § 4",
+    "u.c.p.g. art. 10 ust. 2a: „podlega karze grzywny”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: regulamin zmieniano w 2026 r. (uchwały XXX/739/26 i XXXII/789/26). Czy ten paragraf brzmi nadal tak samo?",
+    "Sprawdź i powiedz mi: czy karmienie ptaków resztkami jedzenia kwalifikujecie z § 4 ust. 5? Przepis mówi o odpadach żywności pozostawionych poza pojemnikami."
+   ],
+   "zrodla": [
+    "regWroc",
+    "ucpg",
+    "rozpSM-tj",
+    "kpw"
+   ]
+  },
+  {
+   "id": "wr-pojemniki",
+   "kat": "miejscowe",
+   "tytul": "Pojemniki na odpady: stan, miejsce, czystość wokół – Wrocław",
+   "potoczne": [
+    "altana śmietnikowa",
+    "brudny śmietnik",
+    "worki przed czasem",
+    "brak pojemnika"
+   ],
+   "podstawa": "art. 10 ust. 2a u.c.p.g. w zw. z § 9, § 12, § 14–17 regulaminu Wrocławia",
+   "opis": "Właściciel nieruchomości ma pojemniki szczelne, oznaczone i w kolorach frakcji, o wymaganej pojemności, ustawione na swojej nieruchomości (na cudzej – za pisemną zgodą) i dostępne dla śmieciarki; worki z selektywną zbiórką wystawia najwcześniej dzień przed odbiorem; pojemniki myje i dezynfekuje co najmniej raz na pół roku; miejsce gromadzenia odpadów i 1,5 m wokół utrzymuje w czystości (sprzątanie co najmniej raz w tygodniu).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Regulamin nie ma osobnych kwot. Sankcja: grzywna z art. 10 ust. 2a u.c.p.g. (20–5000 zł, art. 24 § 1 k.w.); mandat SM do 500 zł. Taryfikator nie podaje stawki."
+   },
+   "sprawdzono": [
+    "Regulamin Wrocławia (t.j. 2024 poz. 3562) § 9, § 12, § 14–17",
+    "u.c.p.g. art. 10 ust. 2a: „podlega karze grzywny”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: regulamin zmieniano w 2026 r. (uchwały XXX/739/26 i XXXII/789/26). Czy ten paragraf brzmi nadal tak samo?"
+   ],
+   "zrodla": [
+    "regWroc",
+    "ucpg",
+    "rozpSM-tj",
+    "kpw"
+   ]
+  },
+  {
+   "id": "wr-teren",
+   "kat": "miejscowe",
+   "tytul": "Liście, śmieci i zarośla przy nieruchomości – Wrocław",
+   "potoczne": [
+    "liście na chodniku",
+    "krzaki na chodniku",
+    "żywopłot na chodniku",
+    "śmieci przed posesją"
+   ],
+   "podstawa": "art. 10 ust. 2a u.c.p.g. w zw. z § 24 regulaminu Wrocławia",
+   "opis": "Właściciel nieruchomości uprząta błoto, lód i śnieg z ciągów dostępnych publicznie (pkt 1), zamiata lub zmywa zanieczyszczenia, odpady i opadłe liście z części użytku publicznego (pkt 2) oraz przycina roślinność wchodzącą na chodnik lub drogę rowerową przy granicy nieruchomości (pkt 3). Chodnik przy nieruchomości: zob. też wpis „Nieuprzątnięcie chodnika” (taryfikator tab. A lp. 22).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Regulamin nie ma osobnych kwot. Sankcja: grzywna z art. 10 ust. 2a u.c.p.g. (20–5000 zł, art. 24 § 1 k.w.); mandat SM do 500 zł. Taryfikator nie podaje stawki."
+   },
+   "sprawdzono": [
+    "Regulamin Wrocławia (t.j. 2024 poz. 3562) § 24",
+    "u.c.p.g. art. 10 ust. 2a: „podlega karze grzywny”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: regulamin zmieniano w 2026 r. (uchwały XXX/739/26 i XXXII/789/26). Czy ten paragraf brzmi nadal tak samo?"
+   ],
+   "zrodla": [
+    "regWroc",
+    "ucpg",
+    "rozpSM-tj",
+    "kpw"
+   ]
+  },
+  {
+   "id": "wr-zwierzeta-gosp",
+   "kat": "miejscowe",
+   "tytul": "Zwierzęta gospodarskie i pszczoły w mieście – Wrocław",
+   "potoczne": [
+    "kury w mieście",
+    "ule w mieście",
+    "koń na posesji",
+    "dorożka odchody"
+   ],
+   "podstawa": "art. 10 ust. 2a u.c.p.g. w zw. z § 29 regulaminu Wrocławia",
+   "opis": "Na terenach nierolniczych dopuszcza się konie (rekreacja, sport, rehabilitacja), króliki, drób i pszczoły – przy odpowiednich pomieszczeniach, braku uciążliwości i odległościach uli (10 m od granicy, 30 m od budynków sąsiadów, 10 m od okien przy ulach na dachu). Koni nie trzyma się na nieruchomościach mieszkalnych. Kto świadczy usługi z użyciem zwierząt, sprząta po nich.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Regulamin nie ma osobnych kwot. Sankcja: grzywna z art. 10 ust. 2a u.c.p.g. (20–5000 zł, art. 24 § 1 k.w.); mandat SM do 500 zł. Taryfikator nie podaje stawki."
+   },
+   "sprawdzono": [
+    "Regulamin Wrocławia (t.j. 2024 poz. 3562) § 29",
+    "u.c.p.g. art. 10 ust. 2a: „podlega karze grzywny”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 5 (u.c.p.g.)"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: regulamin zmieniano w 2026 r. (uchwały XXX/739/26 i XXXII/789/26). Czy ten paragraf brzmi nadal tak samo?"
+   ],
+   "zrodla": [
+    "regWroc",
+    "ucpg",
+    "rozpSM-tj",
+    "kpw"
+   ]
+  },
+  {
+   "id": "wr-antysmog",
+   "kat": "miejscowe",
+   "tytul": "Kopciuch lub zakazane paliwo – uchwała antysmogowa dla Wrocławia",
+   "potoczne": [
+    "kopciuch",
+    "piec pozaklasowy",
+    "palenie węglem",
+    "mokre drewno",
+    "muł węglowy",
+    "dym z komina"
+   ],
+   "podstawa": "art. 334 POŚ w zw. z uchwałą nr XLI/1405/17 Sejmiku Woj. Dolnośląskiego",
+   "opis": "We Wrocławiu od 1.07.2018 nie wolno spalać m.in. węgla brunatnego, mułów i flotokoncentratów, miału węgla kamiennego poniżej 3 mm oraz drewna o wilgotności powyżej 20%. Od 1.07.2024 nie wolno używać kotłów i pieców poniżej klasy 3. Od 1.07.2028 – zakaz paliw stałych (wyjątki, gdy podłączenie do sieci ciepłowniczej lub gazowej jest technicznie niemożliwe). Kominki rekreacyjne – wymagania ekoprojektu.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 7 (art. 334 POŚ)"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Art. 334 POŚ: grzywna (20–5000 zł). Mandat SM do 500 zł. Taryfikator nie podaje stawki."
+   },
+   "sprawdzono": [
+    "POŚ (t.j. Dz.U. 2026 poz. 1453) art. 334: „podlega karze grzywny”",
+    "Uchwała XLI/1405/17 – terminy wg przeglądu UWr (stan 1.10.2023)",
+    "Rozp. MSWiA § 2 ust. 1 pkt 7"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: czy uchwała XLI/1405/17 była zmieniana po 1.10.2023? Treść znam ze streszczenia, nie z Dziennika Urzędowego."
+   ],
+   "zrodla": [
+    "antysmogWroc",
+    "antysmogNIK",
+    "pos",
+    "rozpSM-tj",
+    "kpw"
+   ]
   }
  ],
  "kafle": [
@@ -5773,6 +6267,16 @@
  ],
  "zmiany": [
   {
+   "data": "16.11.2026",
+   "tytul": "Aplikacja v0.6: ustawy szczególne i prawo miejscowe Wrocławia",
+   "opis": "Uzupełniono treść i sankcje 18 ustaw szczególnych z katalogu rozporządzenia o SM oraz dodano regulamin czystości Wrocławia (t.j. 2024) i uchwałę antysmogową dla Wrocławia.",
+   "zrodla": [
+    "rozpSM-tj",
+    "rozpSM2026",
+    "regWroc"
+   ]
+  },
+  {
    "data": "2026-10-21",
    "tytul": "Nowy tekst jednolity Kodeksu wykroczeń",
    "opis": "Dz.U. 2026 poz. 1372 (stan prawny na 23.09.2026). Baza aplikacji opiera się na tym tekście.",
@@ -5832,5 +6336,31 @@
   "P-21",
   "P-24",
   "T-29"
+ ],
+ "miejscowe": [
+  {
+   "nazwa": "Regulamin utrzymania czystości i porządku na terenie Wrocławia",
+   "akt": "Uchwała nr XXV/672/20 Rady Miejskiej Wrocławia z 23.07.2020 (Dz. Urz. Woj. Doln. 2020 poz. 4465)",
+   "stan": "Tekst jednolity z 6.06.2024 (Dz. Urz. Woj. Doln. 2024 poz. 3562). W 2026 r. zmieniony uchwałami nr XXX/739/26 (23.04.2026) i XXXII/789/26 (14.05.2026) – ich treści nie odczytałem.",
+   "sankcja": "art. 10 ust. 2a u.c.p.g. – grzywna; mandat SM (rozp. MSWiA § 2 ust. 1 pkt 5)",
+   "zrodla": [
+    "regWroc",
+    "regWrocAnaliza",
+    "ucpg"
+   ],
+   "sprawdz": "Sprawdź i powiedz mi: co zmieniły uchwały XXX/739/26 i XXXII/789/26 w paragrafach o psach, chodnikach i myciu aut?"
+  },
+  {
+   "nazwa": "Uchwała antysmogowa dla Gminy Wrocław",
+   "akt": "Uchwała nr XLI/1405/17 Sejmiku Województwa Dolnośląskiego z 30.11.2017 (Dz. Urz. Woj. Doln. 2017 poz. 5153)",
+   "stan": "Od 1.07.2018 zakaz najgorszych paliw; od 1.07.2024 zakaz kotłów i pieców poniżej klasy 3; od 1.07.2028 zakaz paliw stałych (wyjątki – brak możliwości podłączenia do sieci). Streszczenie wg przeglądu UWr (stan na 1.10.2023).",
+   "sankcja": "art. 334 POŚ – grzywna; mandat SM (rozp. MSWiA § 2 ust. 1 pkt 7)",
+   "zrodla": [
+    "antysmogWroc",
+    "antysmogNIK",
+    "pos"
+   ],
+   "sprawdz": "Sprawdź i powiedz mi: czy uchwała XLI/1405/17 była zmieniana po 2023 r.? Nie odczytałem samego tekstu uchwały, tylko jej streszczenie."
+  }
  ]
 }
