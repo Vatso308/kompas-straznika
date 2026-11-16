@@ -30,7 +30,7 @@
     const add = (item, type, fields) => {
       const weighted = [];
       fields.forEach(([txt, w]) => tokens(txt).forEach(t => weighted.push([t, w])));
-      INDEX.push({ item, type, weighted, phrases: [item.tytul, ...(item.potoczne || [])].map(norm) });
+      INDEX.push({ item, type, weighted, title: norm(item.tytul), phrases: (item.potoczne || []).map(norm) });
     };
     DB.wpisy.forEach(w => add(w, 'wpis', [
       [w.tytul, 3], [(w.potoczne || []).join(' '), 3], [(w.znaki || []).join(' '), 5], [w.podstawa, 4], [w.opis, 1]
@@ -53,7 +53,8 @@
         if (best) { hits++; total += best; }
       }
       // całe zapytanie = potoczna nazwa lub początek tytułu -> wyżej
-      if (nq.length >= 4 && e.phrases.some(p => p === nq)) total += 12;
+      if (nq.length >= 4 && e.title.startsWith(nq)) total += 14;
+      else if (nq.length >= 4 && e.phrases.some(p => p === nq)) total += 12;
       else if (nq.length >= 4 && e.phrases.some(p => p.startsWith(nq))) total += 5;
       return { e, total, hits };
     }).filter(r => r.hits);

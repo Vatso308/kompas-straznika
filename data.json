@@ -425,7 +425,12 @@
    "tytul": "Niezachowanie ostrożności przy trzymaniu zwierzęcia (art. 77 § 1)",
    "potoczne": [
     "pies",
-    "zwierzę"
+    "zwierzę",
+    "pies bez smyczy",
+    "pies luzem",
+    "pies bez nadzoru",
+    "zwierzę bez nadzoru",
+    "pies bez kagańca"
    ],
    "podstawa": "art. 77 § 1 k.w.",
    "opis": "Niezachowanie zwykłych lub nakazanych środków ostrożności przy trzymaniu zwierzęcia. Gdy zwierzę swoim zachowaniem stwarza niebezpieczeństwo dla życia lub zdrowia człowieka – osobny wpis: art. 77 § 2.",
@@ -463,7 +468,10 @@
     "pies pogryzł",
     "pies bez kagańca",
     "niebezpieczny pies",
-    "pies atakuje"
+    "pies atakuje",
+    "pies bez smyczy rzucił się na człowieka",
+    "agresywny pies bez smyczy",
+    "agresywny pies bez kagańca"
    ],
    "podstawa": "art. 77 § 2 k.w.",
    "opis": "Niezachowanie zwykłych lub nakazanych środków ostrożności przy trzymaniu zwierzęcia, które swoim zachowaniem stwarza niebezpieczeństwo dla życia lub zdrowia człowieka.",
