@@ -1,5 +1,5 @@
 {
- "wersja": "0.9",
+ "wersja": "0.10",
  "dataBazy": "2026-11-19",
  "zasada": "Kolejność źródeł kwot i kwalifikacji: 1) mandatownik jednostki (IX 2022), 2) ustawy i rozporządzenia (Dz.U., ISAP/ELI), 3) inne materiały (np. karta jednostki, podręczniki). Wyjątek: sprostowania potwierdzone przez prowadzącego bazę – wtedy obowiązuje jego wersja. Gdy mandatownik różni się od ustawy, aplikacja pokazuje kwotę z mandatownika i opisuje różnicę w uwadze. Czego nie dało się potwierdzić, oznaczono „Sprawdź i powiedz mi”.",
  "zrodla": {
@@ -3945,11 +3945,13 @@
   {
    "id": "uto-poza",
    "kat": "rowery",
-   "tytul": "Urządzenie wspomagające ruch poza chodnikiem / DDR",
+   "tytul": "Rolki / deskorolka: jazda poza chodnikiem lub drogą dla rowerów",
    "potoczne": [
     "rolki",
     "deskorolka",
-    "urządzenie wspomagające"
+    "urządzenie wspomagające",
+    "rolki po jezdni",
+    "deskorolka na ulicy"
    ],
    "podstawa": "art. 97 k.w. w zw. z art. 15a ust. 1 PoRD",
    "opis": "Osoba na urządzeniu wspomagającym ruch porusza się poza chodnikiem, drogą dla pieszych lub drogą dla rowerów.",
@@ -3987,10 +3989,12 @@
   {
    "id": "uto-alkohol",
    "kat": "rowery",
-   "tytul": "Urządzenie wspomagające ruch po alkoholu",
+   "tytul": "Rolki / deskorolka: jazda po alkoholu",
    "potoczne": [
     "rolki pijany",
-    "po alkoholu"
+    "po alkoholu",
+    "rolki po alkoholu",
+    "pijany na rolkach"
    ],
    "podstawa": "art. 97 k.w. w zw. z art. 15a ust. 7 pkt 1 PoRD",
    "opis": "Poruszanie się na urządzeniu wspomagającym ruch w stanie nietrzeźwości lub po użyciu alkoholu.",
@@ -4024,7 +4028,9 @@
    "pkt": {
     "liczba": 0,
     "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
-   }
+   },
+   "grupa": "g-uwr-zakazy",
+   "par": "pkt 1"
   },
   {
    "id": "rower-ddr",
@@ -7047,6 +7053,845 @@
     "rozpSM-tj",
     "kpw"
    ]
+  },
+  {
+   "id": "uwr-prawostronny",
+   "kat": "rowery",
+   "tytul": "Rolki / deskorolka: jazda lewą stroną drogi dla rowerów",
+   "potoczne": [
+    "rolki",
+    "deskorolka",
+    "wrotki",
+    "rolkarz lewą stroną"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 15a ust. 1 PoRD",
+   "opis": "Osoba na urządzeniu wspomagającym ruch (np. rolki, wrotki, deskorolka) na drodze dla rowerów nie przestrzega ruchu prawostronnego.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "lp. M 21"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 21: Naruszenie przez osobę poruszającą się przy użyciu urządzenia wspomagającego ruch… – 50 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
+  },
+  {
+   "id": "uwr-chodnik",
+   "kat": "rowery",
+   "tytul": "Rolki / deskorolka na chodniku: prędkość, pierwszeństwo, utrudnianie",
+   "potoczne": [
+    "rolki na chodniku",
+    "deskorolka na chodniku",
+    "rolkarz potrącił",
+    "za szybko na rolkach"
+   ],
+   "podstawa": "art. 86a lub art. 90 § 1 k.w. w zw. z art. 15a ust. 3 PoRD",
+   "opis": "Na chodniku lub drodze dla pieszych osoba na urządzeniu wspomagającym ruch nie jedzie z prędkością zbliżoną do pieszego, nie ustępuje mu pierwszeństwa (art. 86a) albo utrudnia mu ruch (art. 90 § 1).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 1 (art. 86a) / § 2 ust. 2 (art. 90 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 200,
+    "lp": "lp. M 22–24"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 22: Naruszenie przez osobę poruszającą się przy użyciu urządzenia wspomagającego ruch… – 200 zł",
+    "Mandatownik lp. M 23: Naruszenie przez osobę poruszającą się przy użyciu urządzenia wspomagającego ruch… – 200 zł",
+    "Mandatownik lp. M 24: Naruszenie przez osobę poruszającą się przy użyciu urządzenia wspomagającego ruch… – 200 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
+  },
+  {
+   "id": "uwr-przejscie",
+   "kat": "rowery",
+   "tytul": "Rolki / deskorolka: przekraczanie jezdni poza przejściem",
+   "potoczne": [
+    "rolki przez jezdnię",
+    "deskorolka przez ulicę"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 15a ust. 4 PoRD",
+   "opis": "Przy przekraczaniu jezdni osoba na urządzeniu wspomagającym ruch nie korzysta z przejazdu dla rowerzystów albo przejścia dla pieszych.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "lp. M 25"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 25: Naruszenie przez osobę poruszającą się przy użyciu urządzenia wspomagającego ruch… – 50 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
+  },
+  {
+   "id": "uwr-torowisko",
+   "kat": "rowery",
+   "tytul": "Rolki / deskorolka: przekraczanie torowiska poza wyznaczonym miejscem",
+   "potoczne": [
+    "rolki przez tory",
+    "deskorolka torowisko"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 15a ust. 5 PoRD",
+   "opis": "Przekraczanie torowiska wyodrębnionego z jezdni w miejscu do tego niewyznaczonym.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "lp. M 26"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 26: Naruszenie przez osobę poruszającą się przy użyciu urządzenia wspomagającego ruch… – 50 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
+  },
+  {
+   "id": "uwr-pierwszenstwo",
+   "kat": "rowery",
+   "tytul": "Rolki / deskorolka: nieustąpienie pieszemu na przejściu",
+   "potoczne": [
+    "rolki przejście dla pieszych",
+    "rolkarz wjechał w pieszego"
+   ],
+   "podstawa": "art. 90 § 1 k.w. w zw. z art. 15a ust. 6 pkt 5 PoRD",
+   "opis": "Osoba na urządzeniu wspomagającym ruch nie ustępuje pierwszeństwa pieszemu znajdującemu się na przejściu.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 90 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 200,
+    "lp": "lp. M 27"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 27: Naruszenie przez osobę poruszającą się przy użyciu urządzenia wspomagającego ruch… – 200 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
+  },
+  {
+   "id": "uwr-przewoz",
+   "kat": "rowery",
+   "tytul": "Rolki / deskorolka: przewożenie innej osoby, zwierzęcia lub ładunku",
+   "potoczne": [
+    "rolki z psem",
+    "deskorolka z pasażerem"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 15a ust. 7 pkt 2 PoRD",
+   "opis": "Osoba na urządzeniu wspomagającym ruch narusza zakaz: przewożenie innej osoby, zwierzęcia lub ładunku.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "lp. M 29"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 29: Niestosowanie się przez osobę poruszającą się przy użyciu urządzenia wspomagającego ruch… – 50 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   },
+   "grupa": "g-uwr-zakazy",
+   "par": "pkt 2"
+  },
+  {
+   "id": "uwr-ciagniecie",
+   "kat": "rowery",
+   "tytul": "Rolki / deskorolka: ciągnięcie pojazdu lub ładunku",
+   "potoczne": [
+    "rolki ciągnie wózek"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 15a ust. 7 pkt 3 PoRD",
+   "opis": "Osoba na urządzeniu wspomagającym ruch narusza zakaz: ciągnięcie pojazdu lub ładunku.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "lp. M 30"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 30: Niestosowanie się przez osobę poruszającą się przy użyciu urządzenia wspomagającego ruch… – 50 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   },
+   "grupa": "g-uwr-zakazy",
+   "par": "pkt 3"
+  },
+  {
+   "id": "uwr-czepianie",
+   "kat": "rowery",
+   "tytul": "Rolki / deskorolka: czepianie się pojazdów",
+   "potoczne": [
+    "rolki czepianie się auta",
+    "deskorolka za samochodem"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 15a ust. 7 pkt 4 PoRD",
+   "opis": "Osoba na urządzeniu wspomagającym ruch narusza zakaz: czepianie się pojazdów.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "lp. M 31"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 31: Niestosowanie się przez osobę poruszającą się przy użyciu urządzenia wspomagającego ruch… – 100 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   },
+   "grupa": "g-uwr-zakazy",
+   "par": "pkt 4"
+  },
+  {
+   "id": "uwr-tylem",
+   "kat": "rowery",
+   "tytul": "Rolki / deskorolka: poruszanie się tyłem",
+   "potoczne": [
+    "rolki tyłem"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 15a ust. 7 pkt 5 PoRD",
+   "opis": "Osoba na urządzeniu wspomagającym ruch narusza zakaz: poruszanie się tyłem.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. c PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 50,
+    "lp": "lp. M 32"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 32: Niestosowanie się przez osobę poruszającą się przy użyciu urządzenia wspomagającego ruch… – 50 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   },
+   "grupa": "g-uwr-zakazy",
+   "par": "pkt 5"
+  },
+  {
+   "id": "rower-pobocze",
+   "kat": "rowery",
+   "tytul": "Rower, motorower, zaprzęg: niekorzystanie z pobocza",
+   "potoczne": [
+    "rower środkiem jezdni",
+    "rower nie jedzie poboczem",
+    "motorower pobocze"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 16 ust. 5 PoRD",
+   "opis": "Kierujący pojazdem zaprzęgowym, rowerem, wózkiem rowerowym, motorowerem, wózkiem ręcznym albo osoba prowadząca pojazd napędzany silnikiem nie porusza się po poboczu (gdy jest obowiązek).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "lp. M 59"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 59: Naruszenie obowiązku poruszania się po poboczu przez kierującego pojazdem zaprzęgowym,… – 100 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
+  },
+  {
+   "id": "rower-mgla",
+   "kat": "rowery",
+   "tytul": "Rower we mgle: wyprzedzanie lub jazda nie przy krawędzi",
+   "potoczne": [
+    "rower we mgle",
+    "rower wyprzedza we mgle"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 30 ust. 1 pkt 2 lit. b PoRD",
+   "opis": "Kierujący pojazdem innym niż silnikowy w warunkach zmniejszonej przejrzystości powietrza wyprzedza inne pojazdy albo nie korzysta z pobocza (a gdy to niemożliwe – nie jedzie jak najbliżej krawędzi jezdni).",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "lp. M 129"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 129: Naruszenie przez kierującego pojazdem innym niż silnikowy zakazu wyprzedzania innych… – 100 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
+  },
+  {
+   "id": "rower-chodnik-utrudnianie",
+   "kat": "rowery",
+   "tytul": "Rower / hulajnoga / UTO na chodniku: utrudnianie ruchu pieszym",
+   "potoczne": [
+    "hulajnoga utrudnia pieszym",
+    "rower slalom między pieszymi",
+    "hulajnoga na chodniku pieszy"
+   ],
+   "podstawa": "art. 90 § 1 k.w. w zw. z art. 33 ust. 6 albo art. 33c PoRD",
+   "opis": "Kierujący rowerem, hulajnogą elektryczną lub UTO, korzystający z chodnika, drogi dla pieszych albo drogi dla pieszych i rowerów, utrudnia ruch pieszym.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 90 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 300,
+    "lp": "lp. M 155"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 155: [Naruszenie przez kierującego rowerem, hulajnogą elektryczną lub urządzeniem transportu… – 300 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
+  },
+  {
+   "id": "rower-pasazer-nietrzezwy",
+   "kat": "rowery",
+   "tytul": "Przewożenie nietrzeźwej osoby na rowerze lub motorowerze",
+   "potoczne": [
+    "pijany pasażer na rowerze",
+    "nietrzeźwy pasażer motorower"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 45 ust. 2 pkt 2 PoRD",
+   "opis": "Przewożenie osoby w stanie nietrzeźwości, po użyciu alkoholu lub środka działającego podobnie na rowerze lub motorowerze (albo motocyklu poza bocznym wózkiem).",
+   "sm": {
+    "moze": "czesc",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD",
+    "wyjatek": "Rower, motorower – tak (art. 129b ust. 2 pkt 2 lit. b). Motocykl – nie, to kontrola Policji."
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 500,
+    "lp": "lp. M 74"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 74: Przewożenie osoby w stanie nietrzeźwości, stanie po użyciu alkoholu lub środka… – 500 zł, 10 pkt (J 24)",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "max": 10,
+    "kod": "J 24",
+    "uwaga": "Rower – 0 pkt. Motorower – 10 pkt (J 24, wg mandatownika)."
+   }
+  },
+  {
+   "id": "motorower-kask",
+   "kat": "rowery",
+   "tytul": "Motorower: jazda bez kasku lub z pasażerem bez kasku",
+   "potoczne": [
+    "motorower bez kasku",
+    "skuter bez kasku",
+    "pasażer bez kasku"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 40 ust. 1 lub art. 45 ust. 2 pkt 3 PoRD",
+   "opis": "Kierujący motorowerem nie używa kasku ochronnego albo przewozi pasażera (pasażerów) bez kasku.",
+   "sm": {
+    "moze": "czesc",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD",
+    "wyjatek": "Tylko motorower (art. 129b ust. 2 pkt 2 lit. b). Motocykl, czterokołowiec – kontrola Policji."
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "lp. M 70–72"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 70: Nieużywanie kasku ochronnego odpowiadającego właściwym warunkom technicznym podczas jazdy… – 100 zł, 5 pkt (H 08)",
+    "Mandatownik lp. M 71: Kierowanie motocyklem, czterokołowcem lub motorowerem przewożącym pasażera nieużywającego… – 100 zł, 5 pkt (J 04)",
+    "Mandatownik lp. M 72: Kierowanie motocyklem, czterokołowcem lub motorowerem przewożącym więcej niż jednego… – 100 zł, 8 pkt (J 05)",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 5,
+    "max": 8,
+    "kod": "H 08 / J 04 / J 05",
+    "uwaga": "Kierujący bez kasku – 5 pkt (H 08); jeden pasażer bez kasku – 5 pkt (J 04); więcej pasażerów – 8 pkt (J 05). Wg mandatownika."
+   }
+  },
+  {
+   "id": "zaprzeg",
+   "kat": "rowery",
+   "tytul": "Pojazd zaprzęgowy: jazda obok, zabezpieczenie, płozy, postój",
+   "potoczne": [
+    "wóz konny",
+    "zaprzęg",
+    "sanie bez dzwonków",
+    "koń z wozem"
+   ],
+   "podstawa": "art. 97 lub art. 91 k.w. w zw. z art. 33 ust. 6, art. 34 ust. 5 pkt 3–4, art. 46 ust. 3 i 5 PoRD",
+   "opis": "Kierujący pojazdem zaprzęgowym jedzie obok innego uczestnika ruchu, pozostawia pojazd niezabezpieczony przed ruszeniem, jedzie na płozach bez dzwonków lub grzechotek, albo nieprawidłowo pozostawia pojazd na postoju.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 91 i 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a i b PoRD"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 50,
+    "max": 100,
+    "lp": "lp. M 156–158, 168–169",
+    "uwaga": "Jazda obok innego uczestnika – 100 zł (lp. 156); niezabezpieczenie przed ruszeniem – 100 zł (lp. 157); płozy bez dzwonków – 50 zł (lp. 158); postój poza obszarem zabudowanym na jezdni – 50 zł (lp. 168); postój bez środków ostrożności (art. 91) – 50 zł (lp. 169)."
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 156: Naruszenie przez kierującego pojazdem zaprzęgowym zakazu jazdy obok innego uczestnika… – 100 zł",
+    "Mandatownik lp. M 157: Naruszenie przez kierującego pojazdem zaprzęgowym zakazu pozostawiania pojazdu… – 100 zł",
+    "Mandatownik lp. M 158: Naruszenie przez kierującego pojazdem zaprzęgowym zakazu jazdy pojazdami na płozach bez… – 50 zł",
+    "Mandatownik lp. M 168: Naruszenie nakazu, aby w czasie postoju na drodze poza obszarem zabudowanym pojazd… – 50 zł",
+    "Mandatownik lp. M 169: Pozostawienie pojazdu zaprzęgowego na postoju bez zachowania środków ostrożności… – 50 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
+  },
+  {
+   "id": "jezdziec-poganiacz",
+   "kat": "rowery",
+   "tytul": "Jeździec i pędzenie zwierząt: naruszenia",
+   "potoczne": [
+    "koń na drodze",
+    "jeździec",
+    "pędzenie krów",
+    "stado na drodze",
+    "poganiacz"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 35 i 37 PoRD",
+   "opis": "Jeździec lub poganiacz nie korzysta z właściwej części drogi; pędzenie zwierząt płochliwych, bez nadzoru, pojedynczych bez uwięzi; poganiacz nie idzie po lewej stronie, nie ma oświetlenia, pędzi po zakazanej drodze, przepędza w niewidocznym miejscu, zatrzymuje zwierzęta na jezdni, łamie zakazy rady powiatu.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. b PoRD"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 50,
+    "max": 100,
+    "lp": "lp. M 159–167",
+    "uwaga": "Jeździec/poganiacz poza właściwą częścią drogi – 100 zł (lp. 159); pozostałe czyny (lp. 160–167) – 50 zł."
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 159: Naruszenie przez jeźdźca lub poganiacza obowiązku korzystania z określonej drogi lub… – 100 zł",
+    "Mandatownik lp. M 160: Pędzenie zwierząt płochliwych, niesprawnych fizycznie lub niedających sobą kierować – 50 zł",
+    "Mandatownik lp. M 161: Pędzenie zwierząt bez odpowiedniego nadzoru, a pojedynczych bez uwięzi – 50 zł",
+    "Mandatownik lp. M 162: Naruszenie przez poganiacza obowiązku poruszania się po lewej stronie pędzonych zwierząt – 50 zł",
+    "Mandatownik lp. M 163: Naruszenie przez poganiacza obowiązku używania, w okresie niedostatecznej widoczności,… – 50 zł",
+    "Mandatownik lp. M 164: Naruszenie przez poganiacza zakazu pędzenia zwierząt po określonych drogach – 50 zł",
+    "Mandatownik lp. M 165: Naruszenie przez poganiacza zakazu przepędzania zwierząt w poprzek drogi w miejscu… – 50 zł",
+    "Mandatownik lp. M 166: Naruszenie przez poganiacza zakazu zatrzymywania zwierząt na jezdni – 50 zł",
+    "Mandatownik lp. M 167: Naruszenie wprowadzonych przez radę powiatu zakazów pędzenia zwierząt – 50 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
+  },
+  {
+   "id": "rower-alkohol",
+   "kat": "rowery",
+   "tytul": "Rower po alkoholu lub w stanie nietrzeźwości (art. 87 § 1a i 2)",
+   "potoczne": [
+    "pijany rowerzysta",
+    "rower po alkoholu",
+    "nietrzeźwy na rowerze",
+    "pijany na hulajnodze"
+   ],
+   "podstawa": "art. 87 § 1a lub § 2 k.w.",
+   "opis": "Kierowanie na drodze pojazdem innym niż mechaniczny (np. rowerem) w stanie nietrzeźwości lub pod wpływem środka podobnie działającego (§ 1a) albo w stanie po użyciu alkoholu (§ 2).",
+   "sm": {
+    "moze": "nie",
+    "podstawa": "Art. 87 k.w. nie ma w rozporządzeniu o wykroczeniach, za które strażnicy nakładają mandaty (§ 2 ust. 1–2). Wezwij Policję."
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 1000,
+    "max": 2500,
+    "lp": "lp. M 259–260",
+    "uwaga": "Mandatownik (dla uprawnionych organów): stan nietrzeźwości – 2500 zł (lp. 259); stan po użyciu – 1000 zł (lp. 260)."
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 259: Kierowanie na drodze publicznej, w strefie zamieszkania lub w strefie ruchu pojazdem… – 2 500 zł",
+    "Mandatownik lp. M 260: Kierowanie na drodze publicznej, w strefie zamieszkania lub w strefie ruchu pojazdem… – 1 000 zł",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1–2: brak art. 86 i art. 87 k.w.",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
+  },
+  {
+   "id": "tablice",
+   "kat": "komunikacja",
+   "tytul": "Tablice rejestracyjne: zakrycie, ozdabianie, zły montaż, nieczytelność",
+   "potoczne": [
+    "zakryte tablice",
+    "brudne tablice",
+    "ramka na tablicy",
+    "tablica w szybie",
+    "zasłonięta rejestracja"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 60 ust. 1 pkt 2–3b, ust. 1a lub art. 61 ust. 2 pkt 4 PoRD",
+   "opis": "Zakrywanie tablic rejestracyjnych lub innych wymaganych tablic, ozdabianie tablic i umieszczanie przedmiotów ograniczających ich czytelność, montaż w niewłaściwym miejscu, nieuprawnione zmniejszone tablice, nieutrzymywanie tablic w należytym stanie, ładunek zasłaniający tablice.",
+   "sm": {
+    "moze": "nie",
+    "podstawa": "Kierującego pojazdem silnikowym za te czyny SM nie kontroluje – poza art. 129b ust. 2 PoRD. Właściwa jest Policja."
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 100,
+    "max": 500,
+    "lp": "lp. M 214–220, 237",
+    "uwaga": "Zakrycie tablic rejestracyjnych – 500 zł (lp. 214); innych tablic – 100 zł (lp. 215); ozdabianie – 500 zł (lp. 216); inne miejsce montażu – 500 zł (lp. 217); zmniejszone tablice bez podstaw – 300 zł (lp. 218); nieczytelne tablice – 100 zł (lp. 220); ładunek zasłaniający tablice – 100 zł (lp. 237)."
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 214: Zakrywanie tablic rejestracyjnych – 500 zł, 8 pkt (H 14)",
+    "Mandatownik lp. M 215: Zakrywanie innych wymaganych tablic albo znaków, które powinny być widoczne – 100 zł, 8 pkt (H 14)",
+    "Mandatownik lp. M 216: Ozdabianie tablic rejestracyjnych oraz umieszczanie z przodu lub z tyłu pojazdu znaków,… – 500 zł, 5 pkt (H 15)",
+    "Mandatownik lp. M 217: Umieszczanie na pojeździe tablic rejestracyjnych w innym miejscu niż konstrukcyjnie do… – 500 zł",
+    "Mandatownik lp. M 218: Umieszczanie na pojeździe jednorzędowych zmniejszonych tablic rejestracyjnych, jeżeli… – 300 zł",
+    "Mandatownik lp. M 220: Niedopełnienie przez kierującego pojazdem obowiązku utrzymywania tablic (tablicy)… – 100 zł",
+    "Mandatownik lp. M 237: Umieszczenie na pojeździe ładunku w sposób zasłaniający tablice rejestracyjne lub inne… – 100 zł, 8 pkt (H 14)",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "max": 8,
+    "kod": "H 14 / H 15",
+    "uwaga": "Zakrycie – 8 pkt (H 14); ozdabianie – 5 pkt (H 15); pozostałe – bez punktów."
+   }
+  },
+  {
+   "id": "silnik-postoj",
+   "kat": "parkowanie",
+   "tytul": "Pracujący silnik na postoju; oddalenie się od pojazdu z włączonym silnikiem",
+   "potoczne": [
+    "silnik na postoju",
+    "auto na chodzie",
+    "grzanie silnika",
+    "nagrzewanie auta"
+   ],
+   "podstawa": "art. 97 k.w. w zw. z art. 60 ust. 2 pkt 1 lub 3 PoRD",
+   "opis": "Pozostawienie pracującego silnika podczas postoju na obszarze zabudowanym (z wyjątkiem pojazdu wykonującego czynności na drodze) albo oddalenie się od pojazdu, gdy silnik jest w ruchu.",
+   "sm": {
+    "moze": "czesc",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD",
+    "wyjatek": "Tylko jeśli traktować to jako przepis o postoju (art. 129b ust. 2 pkt 2 lit. a) – patrz pytanie niżej."
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 50,
+    "max": 100,
+    "lp": "lp. M 221, 223",
+    "uwaga": "Oddalenie się od pojazdu z pracującym silnikiem – 50 zł (lp. 221); pracujący silnik na postoju w obszarze zabudowanym – 100 zł (lp. 223)."
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 221: Oddalenie się kierującego od pojazdu, gdy silnik jest w ruchu – 50 zł",
+    "Mandatownik lp. M 223: Pozostawienie pracującego silnika podczas postoju na obszarze zabudowanym, z wyjątkiem… – 100 zł",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [
+    "Art. 60 ust. 2 PoRD jest w rozdziale o używaniu pojazdów, nie o zatrzymaniu i postoju. Czy jednostka nakłada mandat za pracujący silnik na postoju (art. 129b ust. 2 pkt 2 lit. a)?"
+   ],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Mandatownik nie podaje punktów."
+   }
+  },
+  {
+   "id": "d11-buspas",
+   "kat": "znaki",
+   "tytul": "D-11 / D-12 „pas ruchu dla autobusów” – postój lub zatrzymanie",
+   "potoczne": [
+    "buspas",
+    "postój na buspasie",
+    "pas dla autobusów"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (§ 49 ust. 1–2 rozp. o znakach)",
+   "opis": "Niestosowanie się do znaku D-11/D-12 (pas ruchu dla autobusów). SM – tylko przy zatrzymaniu lub postoju.",
+   "sm": {
+    "moze": "czesc",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 92 § 1 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD",
+    "wyjatek": "Tylko zatrzymanie lub postój na buspasie (art. 129b ust. 2 pkt 2 lit. a). Jazda buspasem – Policja."
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "lp. M 328"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 328: D-11 \"początek pasa ruchu dla autobusów\"; D-12 \"pas ruchu dla autobusów\" – 100 zł, 5 pkt (C 10)",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 5,
+    "kod": "C 10",
+    "uwaga": "Wg mandatownika: 5 pkt (C 10) za niestosowanie się do znaku."
+   },
+   "znaki": [
+    "D-11",
+    "D-12"
+   ]
+  },
+  {
+   "id": "p22-bus",
+   "kat": "znaki",
+   "tytul": "P-22 „BUS” – postój lub zatrzymanie",
+   "potoczne": [
+    "napis BUS",
+    "P-22",
+    "postój na BUS"
+   ],
+   "podstawa": "art. 92 § 1 k.w. (§ 91 ust. 1 rozp. o znakach)",
+   "opis": "Niestosowanie się do oznakowania P-22 „BUS”. SM – tylko przy zatrzymaniu lub postoju.",
+   "sm": {
+    "moze": "czesc",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 92 § 1 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD",
+    "wyjatek": "Tylko zatrzymanie lub postój (art. 129b ust. 2 pkt 2 lit. a)."
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 100,
+    "lp": "lp. M 326"
+   },
+   "sprawdzono": [
+    "Mandatownik lp. M 326: P-22 \"BUS\" – 100 zł, 1 pkt (C 20)",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "mandatownik",
+    "pord",
+    "rozpSM",
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "C 20"
+   },
+   "znaki": [
+    "P-22"
+   ]
   }
  ],
  "kafle": [
@@ -7237,6 +8082,14 @@
   }
  ],
  "zmiany": [
+  {
+   "data": "19.11.2026",
+   "tytul": "Aplikacja v0.10: 21 nowych wpisów z mandatownika",
+   "opis": "Rolki i deskorolki (urządzenia wspomagające ruch – 9 wpisów, w tym grupa zakazów art. 15a ust. 7), rower na poboczu i we mgle, utrudnianie pieszym na chodniku, nietrzeźwy pasażer, motorower bez kasku, zaprzęgi, jeźdźcy i pędzenie zwierząt, buspas i P-22, pracujący silnik na postoju. Dla informacji (poza SM): rower po alkoholu (art. 87) i tablice rejestracyjne.",
+   "zrodla": [
+    "mandatownik"
+   ]
+  },
   {
    "data": "19.11.2026",
    "tytul": "Porównanie z mandatownikiem (27 rozkładówek)",
@@ -7502,6 +8355,33 @@
     [
      "kw90-2",
      "§ 2"
+    ]
+   ]
+  },
+  {
+   "id": "g-uwr-zakazy",
+   "tytul": "Art. 15a ust. 7 PoRD – zakazy dla rolek, deskorolek i innych urządzeń wspomagających ruch",
+   "podstawa": "art. 97 k.w. w zw. z art. 15a ust. 7 PoRD",
+   "czlonkowie": [
+    [
+     "uto-alkohol",
+     "pkt 1"
+    ],
+    [
+     "uwr-przewoz",
+     "pkt 2"
+    ],
+    [
+     "uwr-ciagniecie",
+     "pkt 3"
+    ],
+    [
+     "uwr-czepianie",
+     "pkt 4"
+    ],
+    [
+     "uwr-tylem",
+     "pkt 5"
     ]
    ]
   }
