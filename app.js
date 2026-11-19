@@ -361,7 +361,7 @@
     route();
     $('#start-ok').onclick = () => { $('#start').hidden = true; store.set('start', true); $('#q')?.focus?.(); };
     if (!store.get('start', false)) $('#start').hidden = false;
-    try { if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) navigator.serviceWorker.register('sw.js').catch(() => {}); } catch { /* sandbox */ }
+    try { if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).catch(() => {}); } catch { /* sandbox */ }
   }
   init();
 })();
