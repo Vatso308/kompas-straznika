@@ -1,7 +1,7 @@
 {
  "wersja": "0.10",
  "dataBazy": "2026-11-19",
- "zasada": "Kolejność źródeł kwot i kwalifikacji: 1) mandatownik jednostki (IX 2022), 2) ustawy i rozporządzenia (Dz.U., ISAP/ELI), 3) inne materiały (np. karta jednostki, podręczniki). Wyjątek: sprostowania potwierdzone przez prowadzącego bazę – wtedy obowiązuje jego wersja. Gdy mandatownik różni się od ustawy, aplikacja pokazuje kwotę z mandatownika i opisuje różnicę w uwadze. Czego nie dało się potwierdzić, oznaczono „Sprawdź i powiedz mi”.",
+ "zasada": "Kolejność źródeł kwot i kwalifikacji: 1) mandatownik jednostki (IX 2022), 2) ustawy i rozporządzenia (Dz.U., ISAP/ELI), 3) inne materiały (np. karta jednostki, podręczniki). Wyjątek: sprostowania potwierdzone przez prowadzącego bazę – wtedy obowiązuje jego wersja. Gdy taryfikator i mandatownik nie podają stawki (poza wykroczeniami drogowymi), mandat wynosi 20–500 zł. Gdy mandatownik różni się od ustawy, aplikacja pokazuje kwotę z mandatownika i opisuje różnicę w uwadze. Czego nie dało się potwierdzić, oznaczono „Sprawdź i powiedz mi”.",
  "zrodla": {
   "kw": {
    "nazwa": "Kodeks wykroczeń – t.j. Dz.U. 2026 poz. 1372 (stan na 23.09.2026)",
@@ -473,8 +473,10 @@
     "podstawa": "§ 2 ust. 1 pkt 4 rozp. MSWiA – „art. 13 ust. 1 i 2”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie ma pozycji za samo palenie (lp. 84 dotyczy braku informacji o zakazie). Ustawa: grzywna do 500 zł. Limit mandatu: 500 zł (art. 96 § 1 k.p.w.)."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.). Taryfikator nie ma pozycji za samo palenie (lp. 84 dotyczy braku informacji o zakazie). Ustawa: grzywna do 500 zł. Limit mandatu: 500 zł (art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "u.o.z.t. art. 13 ust. 2: „podlega karze grzywny do 500 zł”",
@@ -1361,8 +1363,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 49”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 49 § 1–2 k.w.: kara aresztu albo grzywny (§ 2 – ta sama kara)",
@@ -1393,8 +1397,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 50”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 50 k.w.: kara aresztu albo grzywny",
@@ -1425,8 +1431,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 52 § 2 i 3 pkt 2‒3”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 52 § 2–3 k.w.: § 2: ograniczenie wolności albo grzywna; § 3: grzywna",
@@ -1459,8 +1467,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 54”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 54 k.w.: grzywna do 500 złotych albo kara nagany",
@@ -1494,8 +1504,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 55”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 250,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.). Ustawa: grzywna do 250 zł – mandat najwyżej 250 zł."
    },
    "sprawdzono": [
     "k.w. art. 55 k.w.: grzywna do 250 złotych albo kara nagany",
@@ -1527,8 +1539,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 56 § 1”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 56 § 1 k.w.: kara grzywny",
@@ -1559,8 +1573,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 58 § 1”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 58 § 1 k.w.: ograniczenie wolności, grzywna do 1500 złotych albo nagana",
@@ -1592,8 +1608,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 60¹ § 1‒3 i § 4 pkt 1”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 60¹ § 1–3 i § 4 pkt 1 k.w.: § 1–2: ograniczenie wolności albo grzywna; § 3: grzywna",
@@ -1627,8 +1645,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 60³ § 1”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 60³ § 1 k.w.: kara grzywny",
@@ -1664,8 +1684,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 63a § 1”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 63a § 1 k.w.: ograniczenie wolności albo grzywna",
@@ -1734,8 +1756,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 65a (od 15.09.2026)”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 65a k.w.: areszt, ograniczenie wolności albo grzywna",
@@ -1771,8 +1795,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 66 § 1”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 66 § 1 k.w.: areszt, ograniczenie wolności albo grzywna do 1500 zł",
@@ -1841,8 +1867,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 72”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 72 k.w.: areszt albo grzywna",
@@ -1873,8 +1901,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 74 § 1”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 74 § 1 k.w.: areszt, ograniczenie wolności albo grzywna",
@@ -1905,8 +1935,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 75 § 1”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 75 § 1 k.w.: grzywna do 500 złotych albo nagana",
@@ -1975,8 +2007,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 77‒79”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.). § 1: grzywna do 250 zł; § 2: do 500 zł."
    },
    "sprawdzono": [
     "k.w. art. 79 § 1–2 k.w.: § 1: grzywna do 250 zł albo nagana; § 2: grzywna do 500 zł",
@@ -2007,8 +2041,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 80 § 1 i 2”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 80 § 1–2 k.w.: grzywna albo nagana",
@@ -2122,8 +2158,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 82a § 2”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 82a § 2 k.w.: areszt, grzywna albo nagana (ta sama kara co § 1)",
@@ -2933,8 +2971,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 104”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 104 k.w.: areszt, ograniczenie wolności albo grzywna",
@@ -2965,8 +3005,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 106”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 106 k.w.: grzywna albo nagana",
@@ -2996,8 +3038,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 108”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 108 k.w.: ograniczenie wolności, grzywna albo nagana",
@@ -3028,8 +3072,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 109”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 109 k.w.: § 1: grzywna albo nagana; § 2–3: grzywna do 1500 zł albo nagana",
@@ -3059,8 +3105,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 138d § 1”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 138d § 1 k.w.: ograniczenie wolności albo grzywna",
@@ -3092,8 +3140,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 143 § 1”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 143 § 1 k.w.: areszt, ograniczenie wolności albo grzywna",
@@ -3160,8 +3210,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 151 § 1‒3”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 151 § 1–3 k.w.: § 1: grzywna do 500 zł albo nagana; § 2–3: grzywna",
@@ -3196,8 +3248,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 153 § 1”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 250,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.). Ustawa: grzywna do 250 zł – mandat najwyżej 250 zł."
    },
    "sprawdzono": [
     "k.w. art. 153 § 1 k.w.: grzywna do 250 złotych albo nagana",
@@ -3229,8 +3283,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 154 § 1 i 2”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Przy § 2 minimum ustawowe (500 zł) równa się limitowi mandatu, więc mandat wynosi 500 zł."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.). § 2 (wydobywanie piasku, wyrzucanie odpadów): ustawa – grzywna nie niższa niż 500 zł, więc mandat 500 zł."
    },
    "sprawdzono": [
     "k.w. art. 154 § 1–2 k.w.: § 1: grzywna do 1000 zł albo nagana; § 2: grzywna nie niższa niż 500 złotych",
@@ -3238,9 +3294,7 @@
     "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
     "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: czy za § 2 stosujecie 500 zł (jak przy art. 145)?"
-   ],
+   "sprawdz": [],
    "zrodla": [
     "kw",
     "kpw",
@@ -3263,8 +3317,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 157 § 1”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 157 § 1 k.w.: grzywna do 500 złotych lub nagana",
@@ -3296,8 +3352,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 161”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 161 k.w.: kara grzywny",
@@ -3328,8 +3386,9 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 162 § 1”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Minimum ustawowe 500 zł równa się limitowi mandatu, więc mandat wynosi 500 zł. Zakopywanie lub składowanie odpadów w lesie (§ 2: co najmniej 1000 zł) jest poza uprawnieniem SM."
+    "typ": "stala",
+    "min": 500,
+    "uwaga": "Ustawa: grzywna nie niższa niż 500 zł = limit mandatu, więc mandat 500 zł. Zakopywanie lub składowanie odpadów w lesie (§ 2: co najmniej 1000 zł) – poza uprawnieniem SM."
    },
    "sprawdzono": [
     "k.w. art. 162 § 1 k.w.: ograniczenie wolności albo grzywna nie niższa niż 500 złotych",
@@ -3337,9 +3396,7 @@
     "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
     "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: czy stosujecie 500 zł (jak przy art. 145)?"
-   ],
+   "sprawdz": [],
    "zrodla": [
     "kw",
     "kpw",
@@ -3361,8 +3418,10 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 166”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "k.w. art. 166 k.w.: grzywna albo nagana",
@@ -5445,8 +5504,10 @@
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 5"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "u.c.p.g. art. 10 ust. 2b i 2c: „podlega karze grzywny”",
@@ -5478,8 +5539,10 @@
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 5"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "u.c.p.g. art. 10 ust. 1: „podlega karze aresztu lub karze grzywny”",
@@ -5512,8 +5575,10 @@
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 6"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "u.o.z. art. 37 ust. 1: „podlega karze aresztu albo grzywny”",
@@ -5550,8 +5615,10 @@
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 6"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "u.o.z. art. 37a ust. 1: „podlega karze aresztu lub grzywny”",
@@ -5660,8 +5727,10 @@
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 16"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "Ustawa o dowodach osobistych art. 79 pkt 1–3: „podlega karze ograniczenia wolności albo karze grzywny”",
@@ -5692,8 +5761,10 @@
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 18"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "Ustawa o odpadach art. 191: „podlega karze aresztu albo grzywny”",
@@ -5725,8 +5796,10 @@
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 18"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "Ustawa o odpadach art. 171, 177, 188: „podlega karze aresztu albo grzywny”",
@@ -5760,8 +5833,10 @@
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 18a (od 15.09.2026)"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "Ustawa o zdrowiu publicznym art. 12p ust. 1 pkt 1–3 i art. 18d ust. 1–2: „podlega karze grzywny do 2000 zł” (Dz.U. 2025 poz. 1698, od 1.01.2026)",
@@ -6241,16 +6316,16 @@
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 20"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Grzywna od 1000 do 7500 zł (art. 478 in fine). Minimum wyższe niż limit mandatu SM (500 zł)."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "Prawo wodne art. 478: „podlega karze grzywny, przy czym grzywna za wykroczenia, o których mowa w pkt 2, 6, 7, 9, 10 i 12‒16, wynosi od 1000 zł do 7500 zł”",
     "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 20: art. 478 pkt 2, 5, 6 i 8"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: przy pkt 2 i 6 minimum ustawowe (1000 zł) przekracza limit mandatu SM (500 zł). Czy w takich sprawach kierujecie wniosek do sądu zamiast mandatu?"
-   ],
+   "sprawdz": [],
    "zrodla": [
     "pwodne",
     "kpw96",
@@ -6258,7 +6333,8 @@
     "kpw"
    ],
    "grupa": "g-pw478",
-   "par": "pkt 2"
+   "par": "pkt 2",
+   "ustawaInaczej": "Art. 478 Prawa wodnego: za pkt 2 i 6 grzywna od 1000 do 7500 zł – minimum wyższe niż limit mandatu SM (500 zł)."
   },
   {
    "id": "wodne-5",
@@ -6311,16 +6387,16 @@
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 20"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Grzywna od 1000 do 7500 zł (art. 478 in fine). Minimum wyższe niż limit mandatu SM (500 zł)."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Zasada prowadzącego bazę: gdy taryfikator i mandatownik nie podają stawki, mandat 20–500 zł (grzywna od 20 zł – art. 24 § 1 k.w.; limit mandatu 500 zł – art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "Prawo wodne art. 478: „podlega karze grzywny, przy czym grzywna za wykroczenia, o których mowa w pkt 2, 6, 7, 9, 10 i 12‒16, wynosi od 1000 zł do 7500 zł”",
     "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 20: art. 478 pkt 2, 5, 6 i 8"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: przy pkt 2 i 6 minimum ustawowe (1000 zł) przekracza limit mandatu SM (500 zł). Czy w takich sprawach kierujecie wniosek do sądu zamiast mandatu?"
-   ],
+   "sprawdz": [],
    "zrodla": [
     "pwodne",
     "kpw96",
@@ -6328,7 +6404,8 @@
     "kpw"
    ],
    "grupa": "g-pw478",
-   "par": "pkt 6"
+   "par": "pkt 6",
+   "ustawaInaczej": "Art. 478 Prawa wodnego: za pkt 2 i 6 grzywna od 1000 do 7500 zł – minimum wyższe niż limit mandatu SM (500 zł)."
   },
   {
    "id": "wodne-8",
@@ -8080,6 +8157,15 @@
   }
  ],
  "zmiany": [
+  {
+   "data": "19.11.2026",
+   "tytul": "Kwoty 20–500 zł tam, gdzie brak stawki",
+   "opis": "Wykroczenia poza drogowymi bez stawki w taryfikatorze i mandatowniku: mandat 20–500 zł (art. 55 i 153 k.w. – do 250 zł, bo tyle wynosi grzywna ustawowa). Zmieniono 41 wpisów.",
+   "zrodla": [
+    "kw",
+    "kpw"
+   ]
+  },
   {
    "data": "19.11.2026",
    "tytul": "Aplikacja v0.10: 21 nowych wpisów z mandatownika",
