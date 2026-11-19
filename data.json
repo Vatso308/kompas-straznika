@@ -186,6 +186,58 @@
   "punkty2026": {
    "nazwa": "Rozp. MSWiA z 29.05.2026 w sprawie ewidencji kierujących pojazdami naruszających przepisy ruchu drogowego (Dz.U. 2026 poz. 724) – zał. nr 1 (taryfikator punktów), od 3.06.2026",
    "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/724/text.pdf"
+  },
+  "uwt-tu": {
+   "nazwa": "Ustawa o wychowaniu w trzeźwości – tekst ujednolicony Kancelarii Sejmu (stan 23.07.2026, z Dz.U. 2026 poz. 875)",
+   "url": "https://eli.gov.pl/api/acts/DU/2023/2151/text/U/D20232151Lj.pdf"
+  },
+  "odpady2026": {
+   "nazwa": "Ustawa o odpadach – t.j. Dz.U. 2026 poz. 1328 (stan na 24.08.2026)",
+   "url": "https://www.infor.pl/akt-prawny/DZU.2026.287.0001328,ustawa-o-odpadach.html"
+  },
+  "kw65a-sp": {
+   "nazwa": "Art. 65a k.w. – brzmienie od 1.10.2023 (Standardy Prawa)",
+   "url": "https://standardyprawa.pl/akt/3/art/34495"
+  },
+  "kw601-sp": {
+   "nazwa": "Art. 60¹ k.w. – obecne brzmienie (Standardy Prawa)",
+   "url": "https://standardyprawa.pl/akt/3/art/578"
+  },
+  "zgrom2015": {
+   "nazwa": "Prawo o zgromadzeniach – art. 29 (nowe brzmienie art. 52 k.w.), obwieszczenie Dz.U. 2018 poz. 408",
+   "url": "https://eli.gov.pl/api/acts/DU/2018/408/text.html"
+  },
+  "kpXII-rpo": {
+   "nazwa": "RPO – wystąpienie dot. art. XII Przepisów wprowadzających Kodeks pracy",
+   "url": "https://sprawy-generalne.brpo.gov.pl/pdf//2013/02/726420/1760133.pdf"
+  },
+  "kwyb498": {
+   "nazwa": "Kodeks wyborczy art. 498 (t.j. Dz.U. 2025 poz. 365)",
+   "url": "https://prawnik.cc/laws/kodeks-wyborczy/dzial-ix-przepisy-karne-art-498-prowadzenie-agitacji-wyborczej"
+  },
+  "zzw-3430": {
+   "nazwa": "Zapytanie poselskie nr 3430 – art. 102 ustawy o zdrowiu zwierząt, uchylenie art. 85 ust. 1a pkt 1",
+   "url": "https://api.sejm.gov.pl/sejm/term10/writtenQuestions/3430/body"
+  },
+  "weter85": {
+   "nazwa": "Art. 85 ustawy z 11.03.2004 o wymaganiach weterynaryjnych… (Standardy Prawa)",
+   "url": "https://standardyprawa.pl/akt/363/art/45803"
+  },
+  "utd-zal": {
+   "nazwa": "GITD – załączniki do ustawy o transporcie drogowym (zał. 1 kierujący, zał. 3 podmiot)",
+   "url": "https://www.gov.pl/attachment/ed506579-5ff8-4423-92ae-36d11a7586a8"
+  },
+  "oz-uwiez": {
+   "nazwa": "Ustawa z 3.07.2026 o zmianie ustawy o ochronie zwierząt (Dz.U. 2026 poz. 1005) – od 28.07.2027",
+   "url": "https://www.prawo.pl/akty/dz-u-2026-1005,22291152.html"
+  },
+  "spb11": {
+   "nazwa": "Art. 11 u. ŚPB (Standardy Prawa)",
+   "url": "https://standardyprawa.pl/akt/134/art/20101"
+  },
+  "spb37": {
+   "nazwa": "Art. 36–37 u. ŚPB, t.j. Dz.U. 2026 poz. 244 (LexLege/ArsLege)",
+   "url": "https://arslege.pl/ustawa-o-srodkach-przymusu-bezposredniego-i-broni-palnej/k1027/a69244/"
   }
  },
  "wpisy": [
@@ -384,15 +436,15 @@
     "u.w.t.p.a. art. 14 ust. 2b: rada gminy może uchwałą wprowadzić odstępstwo",
     "u.w.t.p.a. art. 43¹ ust. 1: „podlega karze grzywny”; ust. 2: usiłowanie karalne",
     "Taryfikator tab. A lp. 77: art. 43¹ ust. 1 – 100 zł",
-    "Rozp. MSWiA § 2 ust. 1 pkt 3: „art. 43¹ ust. 1 i 2”"
+    "Rozp. MSWiA § 2 ust. 1 pkt 3: „art. 43¹ ust. 1 i 2”",
+    "Tekst ujednolicony (stan 23.07.2026): art. 14 ust. 2a–2b i art. 43¹ bez zmian z Dz.U. 2026 poz. 875 (ta ustawa zmienia m.in. art. 18 ust. 3aa od 1.01.2027)"
    ],
-   "sprawdz": [
-    "Tekst jednolity ustawy jest z 2023 r., a później ustawę zmieniano (m.in. Dz.U. 2026 poz. 875). Sprawdź i powiedz mi, czy te zmiany dotknęły art. 14 ust. 2a–2b lub art. 43¹."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "uwt",
     "taryfA",
-    "rozpSM"
+    "rozpSM",
+    "uwt-tu"
    ]
   },
   {
@@ -624,9 +676,7 @@
     "PoRD art. 129b ust. 2 pkt 2 lit. a; rozp. MSWiA § 2 ust. 2",
     "Rozp. MSWiA 2026 poz. 724, zał. 1: H 18 – zatrzymanie na przejściu dla pieszych / przejeździe dla rowerzystów lub bliżej niż 10 m (art. 49 ust. 1 pkt 2) – 5 pkt"
    ],
-   "sprawdz": [
-    "Taryfikator podaje widełki 100–300 zł bez wskazania, od czego zależy kwota. Sprawdź i powiedz mi, jaką praktykę przyjęła Twoja jednostka."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "pord",
     "taryfB",
@@ -965,9 +1015,7 @@
     "Mandatownik lp. 287: B-1 – brak stałej stawki, 20–5000 zł",
     "Rozp. MSWiA 2026 poz. 724, zał. 1: C 07 – niestosowanie się do B-1 – 8 pkt"
    ],
-   "sprawdz": [
-    "Bez stawki w taryfikatorze kwotę ustala strażnik w granicach ustawy. Sprawdź i powiedz mi, czy Twoja jednostka ma wytyczne co do kwoty za B-1."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "znaki",
     "pord",
@@ -1185,9 +1233,7 @@
     "Taryfikator tab. B lp. 135: 200 zł; lp. 136–138: 300 zł",
     "PoRD art. 129b ust. 2 pkt 2 lit. b"
    ],
-   "sprawdz": [
-    "Zasad dla hulajnóg elektrycznych i UTO (art. 33a, 33b, 33c PoRD) nie przeczytałem w całości. Sprawdź i powiedz mi, czy chcesz osobny wpis dla hulajnóg."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "pord",
     "taryfB",
@@ -1326,7 +1372,7 @@
     "manifestacja"
    ],
    "podstawa": "art. 52 § 2–3 k.w.",
-   "opis": "Przeszkadzanie zgromadzeniu, jego nielegalne organizowanie lub bezprawne zajmowanie miejsca (§ 2); niezapewnienie zgodnego z prawem przebiegu zgromadzenia lub niepodporządkowanie się poleceniom (§ 3).",
+   "opis": "§ 2: przeszkadzanie niezakazanemu zgromadzeniu, organizowanie lub przewodniczenie zgromadzeniu bez zawiadomienia lub zakazanemu, przewodniczenie po rozwiązaniu, bezprawne zajmowanie miejsca zgromadzenia. § 3 pkt 2: niepodporządkowanie się żądaniom lub poleceniom przewodniczącego lub organizatora; § 3 pkt 3: odmowa opuszczenia miejsca zgromadzenia po jego rozwiązaniu. § 3 pkt 1 (obowiązki przewodniczącego) – poza uprawnieniem SM.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 52 § 2 i 3 pkt 2‒3”"
@@ -1339,15 +1385,15 @@
     "k.w. art. 52 § 2–3 k.w.: § 2: ograniczenie wolności albo grzywna; § 3: grzywna",
     "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 52 § 2 i 3 pkt 2‒3",
     "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
-    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu",
+    "Art. 52 § 3 k.w.: pkt 1 – przewodniczący lub organizator nie podejmuje niezbędnych środków (poza SM); pkt 2 – niepodporządkowanie się żądaniom lub poleceniom przewodniczącego lub organizatora; pkt 3 – wzbranianie się przed opuszczeniem miejsca zgromadzenia po jego rozwiązaniu – grzywna. § 2 – ograniczenie wolności albo grzywna"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: rozporządzenie obejmuje „art. 52 § 2 i 3 pkt 2–3”. Nie przeczytałem dosłownie punktów § 3, więc nie wiem, których zachowań dotyczy ograniczenie do pkt 2–3."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "kw",
     "kpw",
-    "rozpSM"
+    "rozpSM",
+    "zgrom2015"
    ]
   },
   {
@@ -1493,7 +1539,7 @@
     "nielegalny handel"
    ],
    "podstawa": "art. 60¹ § 1–3 i § 4 pkt 1 k.w.",
-   "opis": "Prowadzenie działalności bez wymaganego zgłoszenia, wpisu, koncesji lub zezwolenia (§ 1); brak zgłoszenia zmian danych (§ 2); wprowadzanie towaru bez wymaganych oznaczeń (§ 3).",
+   "opis": "Prowadzenie działalności bez wymaganego zgłoszenia, wpisu, koncesji lub zezwolenia (§ 1); brak zgłoszenia zmian danych (§ 2); wprowadzanie towaru bez wymaganych oznaczeń (§ 3); odpłatne prowadzenie jako przewodnik górski bez wymaganych uprawnień (§ 4 pkt 1).",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 60¹ § 1‒3 i § 4 pkt 1”"
@@ -1506,15 +1552,15 @@
     "k.w. art. 60¹ § 1–3 i § 4 pkt 1 k.w.: § 1–2: ograniczenie wolności albo grzywna; § 3: grzywna",
     "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 60¹ § 1‒3 i § 4 pkt 1",
     "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
-    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu",
+    "Art. 60¹ § 4 pkt 1 (obecne brzmienie): odpłatne wykonywanie zadań przewodnika górskiego bez uprawnień wymaganych dla danego obszaru górskiego"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: czego dotyczy § 4 pkt 1 (przewodnicy, hotelarstwo, turystyka – nie przeczytałem dosłownie)?"
-   ],
+   "sprawdz": [],
    "zrodla": [
     "kw",
     "kpw",
-    "rozpSM"
+    "rozpSM",
+    "kw601-sp"
    ]
   },
   {
@@ -1647,15 +1693,17 @@
     "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 65a (od 15.09.2026)",
     "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
     "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu",
-    "Dz.U. 2026 poz. 1148 § 1 pkt 1 lit. a: dodanie „art. 65a”"
+    "Dz.U. 2026 poz. 1148 § 1 pkt 1 lit. a: dodanie „art. 65a”",
+    "Art. 65a k.w. od 1.10.2023: polecenia funkcjonariusza Policji, Żandarmerii Wojskowej, Straży Granicznej lub innego organu ochrony bezpieczeństwa lub porządku publicznego; umyślne uniemożliwienie lub istotne utrudnienie czynności – areszt, ograniczenie wolności albo grzywna"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: art. 65a wymienia służby, których polecenia chroni (np. Policja, Żandarmeria). Nie przeczytałem dosłownie, czy obejmuje strażnika gminnego."
+    "Art. 65a nie wymienia straży gminnej z nazwy – tylko „inny organ ochrony bezpieczeństwa lub porządku publicznego”. Czy w jednostce przyjmuje się, że obejmuje to polecenia strażnika?"
    ],
    "zrodla": [
     "kw",
     "kpw",
-    "rozpSM"
+    "rozpSM",
+    "kw65a-sp"
    ]
   },
   {
@@ -2307,9 +2355,7 @@
     "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
     "Taryfikator tab. B: lp. 128 – 100 zł; lp. 132 – 200 zł; lp. 138 – 300 zł; lp. 24 i 27 – 200 zł"
    ],
-   "sprawdz": [
-    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "kw",
     "kpw",
@@ -2320,7 +2366,10 @@
     "brak": "Kod A 08 (8 pkt) dotyczy tylko § 2 – kierującego pojazdem mechanicznym."
    },
    "grupa": "g-kw90",
-   "par": "§ 1"
+   "par": "§ 1",
+   "warunki": [
+    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
+   ]
   },
   {
    "id": "kw90-2",
@@ -2349,9 +2398,7 @@
     "Taryfikator tab. B lp. 302 (§ 2): nie niższa niż 500 zł",
     "Rozp. MSWiA 2026 poz. 724, zał. 1: A 08 – naruszenie powodujące tamowanie lub utrudnienie ruchu (art. 90 § 2 k.w.) – 8 pkt"
    ],
-   "sprawdz": [
-    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "kw",
     "kpw",
@@ -2364,7 +2411,10 @@
     "kod": "A 08"
    },
    "grupa": "g-kw90",
-   "par": "§ 2"
+   "par": "§ 2",
+   "warunki": [
+    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
+   ]
   },
   {
    "id": "kw91",
@@ -2427,9 +2477,7 @@
     "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
     "Mandatownik lp. 257: art. 94 § 1a – 200 zł"
    ],
-   "sprawdz": [
-    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "kw",
     "kpw",
@@ -2437,7 +2485,10 @@
     "mandatownik"
    ],
    "grupa": "g-kw94",
-   "par": "§ 1a"
+   "par": "§ 1a",
+   "warunki": [
+    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
+   ]
   },
   {
    "id": "kw94-2",
@@ -2466,9 +2517,7 @@
     "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
     "Mandatownik lp. 272: art. 94 § 2 – od 20 do 1500 zł"
    ],
-   "sprawdz": [
-    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "kw",
     "kpw",
@@ -2477,7 +2526,10 @@
    ],
    "grupa": "g-kw94",
    "par": "§ 2",
-   "ustawaInaczej": "Art. 94 § 2 k.w. przewiduje grzywnę nie niższą niż 1500 zł."
+   "ustawaInaczej": "Art. 94 § 2 k.w. przewiduje grzywnę nie niższą niż 1500 zł.",
+   "warunki": [
+    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
+   ]
   },
   {
    "id": "kw95",
@@ -2505,14 +2557,15 @@
     "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
     "Mandatownik lp. 258: art. 95 – 50 zł za każdy dokument, razem do 250 zł"
    ],
-   "sprawdz": [
-    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "kw",
     "kpw",
     "rozpSM",
     "mandatownik"
+   ],
+   "warunki": [
+    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
    ]
   },
   {
@@ -5271,15 +5324,19 @@
     "u.o.z. art. 37 ust. 1: „podlega karze aresztu albo grzywny”",
     "Rozp. obejmuje z art. 37 ust. 1 tylko czyny z art. 9, 10a ust. 1–3 i 25",
     "Rozp. MSWiA § 2 ust. 1 pkt 6",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Art. 9 ust. 2 u.o.z. (obecnie): zakaz trzymania zwierząt domowych na uwięzi w sposób stały dłużej niż 12 h na dobę lub powodujący uszkodzenie ciała albo cierpienie i bez niezbędnego ruchu; uwięź min. 3 m. Od 28.07.2027 (Dz.U. 2026 poz. 1005): zakaz trzymania psów i kotów na uwięzi, z wyjątkami"
    ],
-   "sprawdz": [
-    "Art. 9 ust. 2–3 (uwięź) zmieni brzmienie 28.07.2027 r. Sprawdź i powiedz mi, czy wpisać obecny limit 12 godzin na uwięzi dziennie."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "oz",
     "rozpSM",
-    "kpw"
+    "kpw",
+    "oz-uwiez"
+   ],
+   "warunki": [
+    "Uwięź (art. 9 ust. 2): dziś zakaz trzymania na uwięzi w sposób stały dłużej niż 12 h na dobę, uwięź min. 3 m.",
+    "Od 28.07.2027: zakaz trzymania psów i kotów na uwięzi (wyjątki, np. spacer, transport)."
    ]
   },
   {
@@ -5336,16 +5393,16 @@
    "sprawdzono": [
     "Taryfikator tab. A lp. 78: 150 zł",
     "Rozp. MSWiA § 2 ust. 1 pkt 3",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Art. 45 u.w.t.p.a. (stan 23.07.2026): kto wbrew art. 13 ust. 1 i 2 … pkt 2 – nie uwidacznia informacji o szkodliwości spożywania alkoholu – podlega karze grzywny"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: sankcja z art. 45 u.w.t.p.a. – nie przeczytałem jej dosłownie."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "uwt",
     "taryfA",
     "rozpSM",
-    "kpw"
+    "kpw",
+    "uwt-tu"
    ]
   },
   {
@@ -5437,15 +5494,15 @@
    "sprawdzono": [
     "Ustawa o odpadach art. 191: „podlega karze aresztu albo grzywny”",
     "Rozp. MSWiA § 2 ust. 1 pkt 18",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "Art. 191 w t.j. Dz.U. 2026 poz. 1328: termiczne przekształcanie odpadów wbrew art. 155 poza spalarnią lub współspalarnią – areszt albo grzywna (bez zmian)"
    ],
-   "sprawdz": [
-    "Odczytałem t.j. z 2023 r., a jest nowszy (Dz.U. 2026 poz. 1328). Sprawdź i powiedz mi, czy art. 191 się nie zmienił."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "odpady",
     "rozpSM",
-    "kpw"
+    "kpw",
+    "odpady2026"
    ]
   },
   {
@@ -5470,15 +5527,15 @@
    "sprawdzono": [
     "Ustawa o odpadach art. 171, 177, 188: „podlega karze aresztu albo grzywny”",
     "Rozp. MSWiA § 2 ust. 1 pkt 18",
-    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)"
+    "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
+    "T.j. Dz.U. 2026 poz. 1328: art. 171 (gospodarka odpadami wbrew art. 16), art. 177 (zbieranie odpadów bez umowy z art. 45 ust. 2 lub 2b), art. 188 (punkt zbierania metali: przyjęcie bez potwierdzenia tożsamości, bez formularza lub z formularzem niezgodnym ze stanem faktycznym) – areszt albo grzywna"
    ],
-   "sprawdz": [
-    "Odczytałem t.j. z 2023 r., a jest nowszy (Dz.U. 2026 poz. 1328). Sprawdź i powiedz mi, czy te przepisy się nie zmieniły."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "odpady",
     "rozpSM",
-    "kpw"
+    "kpw",
+    "odpady2026"
    ]
   },
   {
@@ -5524,24 +5581,28 @@
     "kodeks pracy"
    ],
    "podstawa": "art. XII § 2 przepisów wprowadzających Kodeks pracy",
-   "opis": "Według opisów praktyki: naruszenie przepisów o dniach i godzinach otwierania i zamykania placówek handlu detalicznego, zakładów gastronomicznych i usługowych. Samego tekstu art. XII § 2 nie odczytałem.",
+   "opis": "Naruszenie przepisów gminy (uchwała rady gminy na podstawie art. XII § 1) o dniach i godzinach otwierania i zamykania placówek handlu detalicznego, zakładów gastronomicznych i usługowych.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 2"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Sankcji nie potwierdziłem w tekście ustawy."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Ustawa: grzywna do 2500 zł. Mandat SM: do 500 zł (art. 96 § 1 k.p.w.). Taryfikator nie podaje stawki."
    },
    "sprawdzono": [
-    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 2: „art. XII § 2 ustawy z dnia 26 czerwca 1974 r. ‒ Przepisy wprowadzające Kodeks pracy”"
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 2: „art. XII § 2 ustawy z dnia 26 czerwca 1974 r. ‒ Przepisy wprowadzające Kodeks pracy”",
+    "Art. XII § 2: naruszenie wydanych na podstawie § 1 przepisów o dniach i godzinach otwierania i zamykania placówek handlu detalicznego, zakładów gastronomicznych i usługowych – grzywna do 2500 zł (wg RPO)"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: treść i sankcję art. XII § 2. Opis „godziny otwarcia sklepów” mam tylko z serwisu porad prawnych. Czy we Wrocławiu jest uchwała o godzinach otwarcia, do której ten przepis się odnosi?"
+    "Przepis działa tylko wtedy, gdy rada gminy przyjęła uchwałę o godzinach otwarcia. Czy we Wrocławiu taka uchwała obowiązuje?"
    ],
    "zrodla": [
     "rozpSM-tj",
-    "kpw"
+    "kpw",
+    "kpXII-rpo"
    ]
   },
   {
@@ -5634,24 +5695,24 @@
     "typ": "widelki",
     "min": 20,
     "max": 500,
-    "uwaga": "Ustawa: grzywna do 2000 zł (art. 92 ust. 1 u.t.d.). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.); wyższy limit z k.p.w. dotyczy ITD i Policji."
+    "uwaga": "Ustawa: grzywna do 2000 zł (art. 92 ust. 1 u.t.d.). Zał. nr 1 (kierujący) nie ma stałej kwoty za brak zaświadczenia lub rozkładu jazdy. Mandat SM: do 500 zł (art. 96 § 1 k.p.w.)."
    },
    "sprawdzono": [
     "u.t.d. art. 92 ust. 1: „podlega karze grzywny w wysokości do 2000 złotych”",
     "u.p.t.z. art. 28 ust. 4: zaświadczenie i aktualny rozkład jazdy w środku transportu, okazywane na żądanie",
     "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 9: art. 92 ust. 1 u.t.d. „w zakresie określonym w art. 28 ust. 4” u.p.t.z. (od 15.09.2026 bez art. 35 ust. 1)",
-    "k.p.w. art. 96 § 1a: do 2000 zł tylko gdy oskarżycielem jest ITD lub Policja"
+    "k.p.w. art. 96 § 1a: do 2000 zł tylko gdy oskarżycielem jest ITD lub Policja",
+    "GITD, zał. 1 do u.t.d. (kierujący): brak wiersza za brak zaświadczenia lub rozkładu jazdy. Zał. 3 (podmiot): lp. 2.1.2 – 8000 zł, lp. 2.3 – 2000 zł – kary administracyjne dla przewoźnika, nie mandat"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: załącznik nr 1 do u.t.d. podaje stałe kwoty za poszczególne naruszenia kierującego. Nie odczytałem pozycji dla braku zaświadczenia lub rozkładu jazdy."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "utd",
     "ptz",
     "kpw96",
     "rozpSM2026",
     "rozpSM-tj",
-    "kpw"
+    "kpw",
+    "utd-zal"
    ]
   },
   {
@@ -5690,33 +5751,39 @@
   {
    "id": "weter",
    "kat": "szczegolne",
-   "tytul": "Przepis weterynaryjny – art. 85 ust. 1a pkt 2 (od 15.09.2026)",
+   "tytul": "Podróż ze zwierzęciem domowym bez wymaganych warunków (art. 85 ust. 1a pkt 2)",
    "potoczne": [
-    "paszport zwierzęcia",
-    "przemieszczanie zwierząt"
+    "pies w podróży",
+    "kot w podróży",
+    "paszport psa",
+    "przewóz psa za granicę",
+    "brak paszportu zwierzęcia"
    ],
    "podstawa": "art. 85 ust. 1a pkt 2 ustawy z 11.03.2004 r. o wymaganiach weterynaryjnych…",
-   "opis": "Rozporządzenie od 15.09.2026 wskazuje art. 85 ust. 1a pkt 2 ustawy z 11.03.2004 o wymaganiach weterynaryjnych przy przemieszczaniu w celach niehandlowych zwierząt domowych towarzyszących podróżnym (dawniej: o ochronie zdrowia zwierząt). Treści tego punktu po zmianach z 2025 r. nie odczytałem.",
+   "opis": "Przemieszczanie w celach niehandlowych zwierząt domowych towarzyszących podróżnym bez spełnienia warunków z art. 6 lub art. 10 rozporządzenia (UE) nr 576/2013. Brak szczepienia psa przeciw wściekliźnie – osobny wpis (art. 102 ust. 1 ustawy o zdrowiu zwierząt).",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 11 (nowe brzmienie od 15.09.2026)"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Do uzupełnienia po odczytaniu przepisu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Ustawa: „grzywna” bez kwot – granice z art. 24 § 1 k.w. (20–5000 zł). Mandat SM: do 500 zł (art. 96 § 1 k.p.w.). Taryfikator nie podaje stawki."
    },
    "sprawdzono": [
     "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 11 w brzmieniu od 15.09.2026 (Dz.U. 2026 poz. 1148): „art. 85 ust. 1a pkt 2”",
-    "Zapytanie poselskie nr 3463: dawny art. 85 ust. 1a (uchylanie się od szczepienia psa) obowiązywał do 17.03.2026; od 18.03.2026 – art. 102 ust. 1 ustawy o zdrowiu zwierząt"
+    "Zapytanie poselskie nr 3463: dawny art. 85 ust. 1a (uchylanie się od szczepienia psa) obowiązywał do 17.03.2026; od 18.03.2026 – art. 102 ust. 1 ustawy o zdrowiu zwierząt",
+    "Art. 85 ust. 1a pkt 2: przemieszczanie w celach niehandlowych zwierząt domowych towarzyszących podróżnym bez spełnienia warunków z art. 6 lub art. 10 rozporządzenia (UE) nr 576/2013 – grzywna. Pkt 1 (szczepienie psów) uchylony od 18.03.2026 – teraz art. 102 ust. 1 ustawy o zdrowiu zwierząt"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: co dziś stanowi art. 85 ust. 1a pkt 2 tej ustawy? Źródło poselskie podaje, że ust. 1a uchylono 18.03.2026, a rozporządzenie od 15.09.2026 nadal go wymienia. Za brak szczepienia psa stosuj wpis „Pies nieszczepiony przeciw wściekliźnie”."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "rozpSM2026",
     "zdrowiezw",
     "rozpSM-tj",
-    "kpw"
+    "kpw",
+    "weter85",
+    "zzw-3430"
    ]
   },
   {
@@ -5907,15 +5974,15 @@
    "sprawdzono": [
     "Kodeks wyborczy art. 494 § 1–2: „podlega karze grzywny”",
     "art. 495 § 1 pkt 1–3 i § 2: „podlega karze grzywny” / „tej samej karze” (pkt 4–5 utraciły moc)",
-    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 17: art. 494, 495 i 498"
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 17: art. 494, 495 i 498",
+    "Art. 498 Kodeksu wyborczego: agitacja wyborcza od zakończenia kampanii do zakończenia głosowania – grzywna"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: sankcję z art. 498 (cisza wyborcza) znam tylko z opisów – nie odczytałem samego przepisu."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "kwyb",
     "rozpSM-tj",
-    "kpw"
+    "kpw",
+    "kwyb498"
    ]
   },
   {
@@ -6216,16 +6283,16 @@
    },
    "sprawdzono": [
     "Ustawa o zdrowiu zwierząt art. 102 ust. 1 pkt 1: „podlega karze grzywny” (cyt. w zapytaniu poselskim nr 3463)",
-    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 20b (od 15.09.2026): „art. 102 ust. 1”"
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 20b (od 15.09.2026): „art. 102 ust. 1”",
+    "Art. 102 ust. 1 ustawy o zdrowiu zwierząt dotyczy tylko szczepienia psa przeciw wściekliźnie (bez innych punktów); ust. 2 – tryb k.p.w."
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: art. 102 ust. 1 może mieć więcej punktów niż szczepienie psa. Odczytałem tylko pkt 1."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "zdrowiezw",
     "rozpSM2026",
     "rozpSM-tj",
-    "kpw"
+    "kpw",
+    "zzw-3430"
    ]
   },
   {
@@ -6849,6 +6916,7 @@
     "odmowa mandatu"
    ],
    "punkty": [
+    "Wysokość mandatu w widełkach (taryfikator, mandatownik, granice ustawy) ustala strażnik – to jego decyzja.",
     "Limit ogólny: do 500 zł, przy zbiegu (art. 9 § 1 k.w.) do 1000 zł (art. 96 § 1 k.p.w.)",
     "Art. 82 § 1–5 i rozdział XI k.w. (art. 84–103a, ruch drogowy): do 5000 zł, przy zbiegu 6000 zł (art. 96 § 1ad)",
     "Mandatu nie nakłada się, gdy trzeba orzec środek karny lub w przypadku z art. 10 § 1 k.w. (art. 96 § 2)",
@@ -6950,18 +7018,22 @@
     "Siatka obezwładniająca (pkt 5): TYLKO wobec zwierzęcia, którego zachowanie bezpośrednio zagraża życiu lub zdrowiu (art. 14 ust. 3 u.s.g.)",
     "Zasady: użycie w sposób niezbędny do osiągnięcia celu, proporcjonalnie do zagrożenia, środkiem możliwie najmniej dolegliwym (art. 6 u. ŚPB); możliwie najmniejsza szkoda, zaprzestanie po osiągnięciu celu (art. 7)",
     "Przed użyciem: wezwanie do zachowania zgodnego z prawem i uprzedzenie o użyciu (art. 34 ust. 1). Wyjątki: bezpośrednie zagrożenie życia, zdrowia lub wolności albo zwłoka grożąca niebezpieczeństwem dla dobra prawnego (art. 34 ust. 2)",
-    "Przypadki użycia: art. 11 pkt 1–6, 8–10 i 12–14 u. ŚPB (art. 14 ust. 1 u.s.g.)"
+    "Przypadki użycia: art. 11 pkt 1–6, 8–10 i 12–14 u. ŚPB (art. 14 ust. 1 u.s.g.)",
+    "Przypadki dla SM (art. 11): 1 – wyegzekwowanie polecenia; 2 – odparcie zamachu na życie, zdrowie, wolność; 3 – przeciwdziałanie czynnościom zmierzającym do takiego zamachu; 4 – naruszeniu porządku lub bezpieczeństwa publicznego; 5 – zamachowi na ochraniane obszary/obiekty; 6 – ochrona porządku w chronionych obiektach; 8 – niszczeniu mienia; 9 – bezpieczeństwo konwoju lub doprowadzenia; 10 – ujęcie osoby, udaremnienie ucieczki, pościg; 12 – bierny opór; 13 – czynny opór; 14 – autoagresja",
+    "Po użyciu, gdy jest zranienie lub objawy zagrożenia życia/zdrowia: niezwłocznie pierwsza pomoc, w razie potrzeby wezwanie pomocy medycznej (art. 36)",
+    "Po użyciu z obrażeniami, śmiercią albo szkodą: zabezpiecz miejsce, ustal świadków, powiadom przełożonego lub dyżurnego (art. 37 ust. 1)"
    ],
    "sprawdzono": [
     "u.s.g. art. 14 ust. 1 i 3",
-    "u. ŚPB (t.j. Dz.U. 2026 poz. 244) art. 6, 7, 12 ust. 1, 34"
+    "u. ŚPB (t.j. Dz.U. 2026 poz. 244) art. 6, 7, 12 ust. 1, 34",
+    "Art. 11 u. ŚPB pkt 1–17 (odczytane); art. 36 i 37 u. ŚPB – obowiązki po użyciu"
    ],
-   "sprawdz": [
-    "Listy przypadków z art. 11 u. ŚPB ani obowiązków po użyciu środka nie przeczytałem jeszcze dosłownie. Sprawdź i powiedz mi, czy mam je dodać."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "usg",
-    "spb"
+    "spb",
+    "spb11",
+    "spb37"
    ]
   }
  ],
