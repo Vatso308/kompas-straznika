@@ -284,10 +284,12 @@
    "potoczne": [
     "sikanie",
     "oddawanie moczu",
-    "obnażanie"
+    "załatwianie potrzeby",
+    "obnażanie",
+    "wybryk"
    ],
    "podstawa": "art. 140 k.w.",
-   "opis": "Publiczne dopuszczenie się nieobyczajnego wybryku.",
+   "opis": "Publiczne dopuszczenie się nieobyczajnego wybryku. Sankcja: areszt, ograniczenie wolności, grzywna do 1500 zł albo nagana. Wykroczenie umyślne.",
    "sm": {
     "moze": "tak",
     "podstawa": "§ 2 ust. 1 pkt 1 rozp. MSWiA – „art. 140”"
@@ -296,20 +298,29 @@
     "typ": "widelki",
     "min": 50,
     "max": 100,
-    "lp": "tab. A lp. 17"
+    "lp": "tab. A lp. 17; mandatownik"
    },
    "sprawdzono": [
     "k.w. art. 140: areszt, ograniczenie wolności, grzywna do 1500 zł albo nagana",
     "Taryfikator tab. A lp. 17: od 50 do 100 zł",
-    "Rozp. MSWiA § 2 ust. 1 pkt 1: „art. 140”"
+    "Rozp. MSWiA § 2 ust. 1 pkt 1: „art. 140”",
+    "Mandatownik: art. 140 – areszt, ograniczenie wolności, grzywna do 1500 zł albo nagana; mandat 50–100 zł; wykroczenie umyślne; przykład – załatwianie potrzeby fizjologicznej w miejscu publicznym"
    ],
    "sprawdz": [
-    "Potoczne hasła („sikanie”, „obnażanie”) to moje przykłady, nie tekst ustawy. Sprawdź i powiedz mi, czy tak kwalifikujecie te czyny."
+    "Mandatownik podaje przykład tylko dla załatwiania potrzeby fizjologicznej. Czy obnażanie się w miejscu publicznym też kwalifikujecie z art. 140?"
    ],
    "zrodla": [
     "kw",
     "taryfA",
-    "rozpSM"
+    "rozpSM",
+    "mandatownik"
+   ],
+   "warunki": [
+    "Wybryk: zachowanie, którego w danych okolicznościach (czas, miejsce, otoczenie) nie należało się spodziewać i które wywołuje powszechną negatywną ocenę – wyraźnie sprzeczne z przyjętymi normami (wyrok SN z 2.12.1992, III KRN 189/92).",
+    "Nie jest wybrykiem czyn, który nie narusza rażąco norm w danej sytuacji albo spotyka się z akceptacją otoczenia.",
+    "Nieobyczajny: narusza dobre obyczaje i może wywołać zgorszenie u przeciętnego obywatela.",
+    "Przykład z mandatownika: załatwianie potrzeby fizjologicznej na środku drogi, w miejscu widocznym dla nieokreślonej liczby osób.",
+    "Tylko umyślnie."
    ]
   },
   {
