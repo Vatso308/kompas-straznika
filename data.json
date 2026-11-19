@@ -211,7 +211,7 @@
     "typ": "stala",
     "min": 500,
     "lp": "art. 145 § 1 k.w. + art. 96 § 1 k.p.w.",
-    "uwaga": "Kodeks: grzywna nie niższa niż 500 zł. Limit mandatu: do 500 zł. Taryfikator (tab. A lp. 19) wciąż podaje 50–500 zł."
+    "uwaga": "Kodeks: grzywna nie niższa niż 500 zł. Limit mandatu: do 500 zł."
    },
    "sprawdzono": [
     "k.w. art. 145 § 1: „podlega karze grzywny nie niższej niż 500 złotych”",
@@ -229,7 +229,8 @@
     "rozpSM",
     "mandatownik"
    ],
-   "praktyka": "Potwierdzone przez grupę (13.11.2026): mandat 500 zł – minimum z art. 145 § 1 k.w."
+   "praktyka": "Potwierdzone przez grupę (13.11.2026): mandat 500 zł – minimum z art. 145 § 1 k.w.",
+   "ustawaInaczej": "Taryfikator (rozporządzenie, tab. A lp. 19) wciąż podaje 50–500 zł."
   },
   {
    "id": "kw51",
@@ -255,7 +256,7 @@
     "min": 100,
     "max": 500,
     "lp": "tab. A lp. 1 (art. 51 § 1 i 2)",
-    "uwaga": "Kwota z mandatownika, potwierdzona przez prowadzącego bazę: 100–500 zł (także § 2). Ustawa od 2.01.2026: przy § 2 grzywna nie niższa niż 1000 zł (Dz.U. 2025 poz. 1818). Kolejność źródeł: mandatownik → ustawa → inne materiały."
+    "uwaga": "Kwota z mandatownika, potwierdzona przez prowadzącego bazę: 100–500 zł (także § 2)."
    },
    "sprawdzono": [
     "k.w. art. 51 § 1: kara aresztu, ograniczenia wolności albo grzywny",
@@ -273,7 +274,8 @@
     "rozpSM",
     "mandatownik"
    ],
-   "praktyka": "Według grupy (13.11.2026): za § 2 mandat 100–500 zł wg taryfikatora."
+   "praktyka": "Według grupy (13.11.2026): za § 2 mandat 100–500 zł wg taryfikatora.",
+   "ustawaInaczej": "Od 2.01.2026 art. 51 § 2 k.w. przewiduje grzywnę nie niższą niż 1000 zł (Dz.U. 2025 poz. 1818)."
   },
   {
    "id": "kw140",
@@ -2448,8 +2450,7 @@
     "typ": "widelki",
     "min": 20,
     "max": 1500,
-    "lp": "lp. M 272",
-    "uwaga": "Kwota z mandatownika (IX 2022, lp. M 272): 20–1500 zł. Ustawa (art. 94 § 2 k.w.) przewiduje grzywnę nie niższą niż 1500 zł. Kolejność źródeł: mandatownik → ustawa → inne materiały."
+    "lp": "lp. M 272"
    },
    "sprawdzono": [
     "k.w. art. 94 § 1a i 2 k.w.: § 1a: nagana albo grzywna do 1500 zł; § 2: areszt, ograniczenie wolności albo grzywna nie niższa niż 1500 zł",
@@ -2467,7 +2468,8 @@
     "mandatownik"
    ],
    "grupa": "g-kw94",
-   "par": "§ 2"
+   "par": "§ 2",
+   "ustawaInaczej": "Art. 94 § 2 k.w. przewiduje grzywnę nie niższą niż 1500 zł."
   },
   {
    "id": "kw95",
@@ -2522,8 +2524,7 @@
    "kwota": {
     "typ": "stala",
     "min": 300,
-    "lp": "lp. M 263",
-    "uwaga": "Kwota z mandatownika (IX 2022, lp. M 263): 300 zł. Ustawa (art. 96 § 1 k.w.) przewiduje grzywnę nie niższą niż 1000 zł. Kolejność źródeł: mandatownik → ustawa → inne materiały."
+    "lp": "lp. M 263"
    },
    "sprawdzono": [
     "k.w. art. 96 § 1 pkt 2 i § 3 k.w.: § 1 pkt 2: ograniczenie wolności albo grzywna nie niższa niż 1000 zł; § 3: grzywna",
@@ -2539,7 +2540,8 @@
     "mandatownik"
    ],
    "grupa": "g-kw96",
-   "par": "§ 1 pkt 2"
+   "par": "§ 1 pkt 2",
+   "ustawaInaczej": "Art. 96 § 1 k.w. przewiduje grzywnę nie niższą niż 1000 zł."
   },
   {
    "id": "kw96-3",

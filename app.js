@@ -300,7 +300,7 @@
       <dl class="kv">
         <dt>Podstawa</dt><dd>${esc(w.podstawa)}</dd>
         <dt>Uprawnienie SM</dt><dd>${esc(w.sm.podstawa)}</dd>
-        <dt>Kwota</dt><dd>${kwotaTxt(k)}${k.lp ? ` <span class="law">(${esc(k.lp)})</span>` : ''}</dd>
+        <dt>Kwota</dt><dd>${kwotaTxt(k)}${k.lp ? ` <span class="law">(${esc(k.lp)})</span>` : ''}${w.ustawaInaczej ? `<br><span class="law">Ustawa mówi inaczej – notka na dole</span>` : ''}</dd>
         ${w.pkt ? `<dt>Punkty karne</dt><dd><b>${pktTxt(w.pkt)}</b>${w.pkt.kod ? ` <span class="law">(kod ${esc(w.pkt.kod)})</span>` : ''}</dd>` : ''}
       </dl>
       ${w.pkt?.brak ? `<div class="note"><b>Punkty:</b> ${esc(w.pkt.brak)}</div>` : ''}
@@ -313,6 +313,7 @@
       ${w.warunki?.length ? `<h2>Warunki i wskazówki</h2><ul class="points">${w.warunki.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
       ${checksHtml(w)}
       <h2>Źródła</h2>${srcList(w.zrodla)}
+      ${w.ustawaInaczej ? `<div class="note lawdiff"><b>Ustawa mówi inaczej:</b> ${esc(w.ustawaInaczej)}<br><span class="small">Kwota u góry według kolejności źródeł: mandatownik → ustawa → inne materiały (sprostowania prowadzącego bazę mają pierwszeństwo).</span></div>` : ''}
       <div class="meta">${statusBadge(w)} · sprawdzono: ${esc(DB.dataBazy)} · Zawsze sprawdź aktualny tekst aktu. Decyzja należy do Ciebie.</div>`;
   }
   function showKafel(id) {
