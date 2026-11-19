@@ -1,7 +1,7 @@
 {
  "wersja": "0.9",
  "dataBazy": "2026-11-19",
- "zasada": "Każde twierdzenie porównano z tekstem aktu (Dz.U., ISAP/ELI, teksty ujednolicone Kancelarii Sejmu). Czego nie dało się potwierdzić w akcie, oznaczono „Sprawdź i powiedz mi”.",
+ "zasada": "Kolejność źródeł kwot i kwalifikacji: 1) mandatownik jednostki (IX 2022), 2) ustawy i rozporządzenia (Dz.U., ISAP/ELI), 3) inne materiały (np. karta jednostki, podręczniki). Wyjątek: sprostowania potwierdzone przez prowadzącego bazę – wtedy obowiązuje jego wersja. Gdy mandatownik różni się od ustawy, aplikacja pokazuje kwotę z mandatownika i opisuje różnicę w uwadze. Czego nie dało się potwierdzić, oznaczono „Sprawdź i powiedz mi”.",
  "zrodla": {
   "kw": {
    "nazwa": "Kodeks wykroczeń – t.j. Dz.U. 2026 poz. 1372 (stan na 23.09.2026)",
@@ -255,7 +255,7 @@
     "min": 100,
     "max": 500,
     "lp": "tab. A lp. 1 (art. 51 § 1 i 2)",
-    "uwaga": "Kodeks od 2.01.2026: przy § 2 grzywna nie niższa niż 1000 zł (zmiana: Dz.U. 2025 poz. 1818). Taryfikator nie został do tego dostosowany."
+    "uwaga": "Kwota z mandatownika, potwierdzona przez prowadzącego bazę: 100–500 zł (także § 2). Ustawa od 2.01.2026: przy § 2 grzywna nie niższa niż 1000 zł (Dz.U. 2025 poz. 1818). Kolejność źródeł: mandatownik → ustawa → inne materiały."
    },
    "sprawdzono": [
     "k.w. art. 51 § 1: kara aresztu, ograniczenia wolności albo grzywny",
@@ -265,9 +265,7 @@
     "Przypis do art. 51 § 2 w t.j. k.w.: zmiana przez art. 2 pkt 1 ustawy z 7.11.2025 (Dz.U. poz. 1818), w życiu od 2.01.2026",
     "Mandatownik lp. 1: art. 51 – od 100 do 500 zł (stan IX 2022, przed zmianą art. 51 § 2 od 2.01.2026)"
    ],
-   "sprawdz": [
-    "Praktyka 100–500 zł za § 2 jest sprzeczna z obecnym art. 51 § 2 k.w. (grzywna nie niższa niż 1000 zł od 2.01.2026). Sprawdź i powiedz mi, czy przełożony lub instrukcja jednostki potwierdza 100–500 zł mimo tej zmiany."
-   ],
+   "sprawdz": [],
    "zrodla": [
     "kw",
     "kpw",
@@ -1225,7 +1223,8 @@
     "Rozp. MSWiA 2026 poz. 724, zał. 1: H 10 / H 11 / H 12 – H 10 objeżdżanie zapór lub wjazd przy opuszczaniu/podnoszeniu; H 11 wjazd przy czerwonym sygnale; H 12 brak miejsca za przejazdem – po 15 pkt"
    ],
    "sprawdz": [
-    "Rozporządzenie daje SM mandat za art. 97a, a według podręcznika sprawcą może być każdy uczestnik ruchu. Art. 129b ust. 2 PoRD nie pozwala jednak SM kontrolować kierującego samochodem (poza B-1). Sprawdź i powiedz mi, czy wobec kierowcy samochodu działacie sami, czy wzywacie Policję."
+    "Rozporządzenie daje SM mandat za art. 97a, a według podręcznika sprawcą może być każdy uczestnik ruchu. Art. 129b ust. 2 PoRD nie pozwala jednak SM kontrolować kierującego samochodem (poza B-1). Sprawdź i powiedz mi, czy wobec kierowcy samochodu działacie sami, czy wzywacie Policję.",
+    "Wcześniej podałeś: mandat 2000 zł, recydywa 3000 zł. Baza ma 4000 zł w recydywie (lp. 104 i 106, art. 38 § 2 k.w.). Która wartość obowiązuje? Jeśli 3000 zł to Twoje sprostowanie, wpiszę 3000 zł."
    ],
    "zrodla": [
     "kw",
@@ -2450,7 +2449,7 @@
     "min": 20,
     "max": 1500,
     "lp": "lp. M 272",
-    "uwaga": "Mandatownik (IX 2022) podaje 20–1500 zł. Obecny art. 94 § 2 k.w.: grzywna nie niższa niż 1500 zł – patrz „Sprawdź i powiedz mi”."
+    "uwaga": "Kwota z mandatownika (IX 2022, lp. M 272): 20–1500 zł. Ustawa (art. 94 § 2 k.w.) przewiduje grzywnę nie niższą niż 1500 zł. Kolejność źródeł: mandatownik → ustawa → inne materiały."
    },
    "sprawdzono": [
     "k.w. art. 94 § 1a i 2 k.w.: § 1a: nagana albo grzywna do 1500 zł; § 2: areszt, ograniczenie wolności albo grzywna nie niższa niż 1500 zł",
@@ -2459,8 +2458,7 @@
     "Mandatownik lp. 272: art. 94 § 2 – od 20 do 1500 zł"
    ],
    "sprawdz": [
-    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi).",
-    "Sprawdź i powiedz mi: przy § 2 mandatownik (IX 2022) podaje 20–1500 zł, a obecny art. 94 § 2 k.w. przewiduje grzywnę nie niższą niż 1500 zł. Czy przy § 2 stosujecie 1500 zł?"
+    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
    ],
    "zrodla": [
     "kw",
@@ -2525,7 +2523,7 @@
     "typ": "stala",
     "min": 300,
     "lp": "lp. M 263",
-    "uwaga": "Mandatownik (IX 2022) podaje 300 zł. Obecny art. 96 § 1 k.w.: grzywna nie niższa niż 1000 zł – patrz „Sprawdź i powiedz mi”."
+    "uwaga": "Kwota z mandatownika (IX 2022, lp. M 263): 300 zł. Ustawa (art. 96 § 1 k.w.) przewiduje grzywnę nie niższą niż 1000 zł. Kolejność źródeł: mandatownik → ustawa → inne materiały."
    },
    "sprawdzono": [
     "k.w. art. 96 § 1 pkt 2 i § 3 k.w.: § 1 pkt 2: ograniczenie wolności albo grzywna nie niższa niż 1000 zł; § 3: grzywna",
@@ -2533,9 +2531,7 @@
     "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
     "Mandatownik lp. 263: art. 96 § 1 pkt 2 – 300 zł"
    ],
-   "sprawdz": [
-    "Sprawdź i powiedz mi: przy § 1 pkt 2 mandatownik (IX 2022) podaje 300 zł, a obecny art. 96 § 1 k.w. przewiduje grzywnę nie niższą niż 1000 zł. Którą kwotę stosujecie?"
-   ],
+   "sprawdz": [],
    "zrodla": [
     "kw",
     "kpw",
@@ -2563,9 +2559,9 @@
    "kwota": {
     "typ": "widelki",
     "min": 500,
-    "max": 8000,
+    "max": 5000,
     "lp": "lp. M 266–269",
-    "uwaga": "Karta jednostki: 500–8000 zł. Stawka zależy od czynu, którego dotyczy żądanie (lp. M 266–269 – min. 4000 / 2000 zł albo podwójna stawka, nie mniej niż 800 / 500 zł)."
+    "uwaga": "Stawka zależy od czynu, którego dotyczy żądanie (mandatownik lp. M 266–269 – min. 4000 / 2000 zł albo podwójna stawka, nie mniej niż 800 / 500 zł). Górna granica wg ustawy: limit mandatu 5000 zł, przy zbiegu 6000 zł (art. 96 § 1ad k.p.w.). Karta jednostki podaje 500–8000 zł."
    },
    "sprawdzono": [
     "k.w. art. 96 § 1 pkt 2 i § 3 k.w.: § 1 pkt 2: ograniczenie wolności albo grzywna nie niższa niż 1000 zł; § 3: grzywna",
@@ -2577,7 +2573,7 @@
    ],
    "sprawdz": [
     "Sprawdź i powiedz mi: lp. M 266–269 odczytałem skrótowo. Potwierdź, który wiersz dotyczy którego przypadku (4000 / 2000 / podwójna stawka min. 800 / 500 zł).",
-    "Karta podaje górną granicę 8000 zł, a art. 96 § 1ad k.p.w. daje limit mandatu 5000 zł (zbieg 6000 zł). Z jakiego przepisu wynika 8000 zł przy art. 96 § 3?"
+    "Karta jednostki podaje 500–8000 zł, a limit mandatu z ustawy to 5000 zł (zbieg 6000 zł). Według kolejności źródeł pokazuję 5000 zł. Jeśli mandatownik podaje 8000 zł (np. podwójna stawka 2 × 4000), podaj lp. – wtedy zmienię."
    ],
    "zrodla": [
     "kw",
@@ -6960,6 +6956,16 @@
   }
  ],
  "zmiany": [
+  {
+   "data": "19.11.2026",
+   "tytul": "Kolejność źródeł w bazie",
+   "opis": "Kwoty: najpierw mandatownik, potem ustawa, na końcu inne materiały; wyjątek – sprostowania potwierdzone przez prowadzącego. Zamknięto pytania o art. 51 § 2, art. 94 § 2 i art. 96 § 1 pkt 2 (obowiązuje mandatownik, różnica z ustawą opisana w uwadze).",
+   "zrodla": [
+    "mandatownik",
+    "kw",
+    "kpw"
+   ]
+  },
   {
    "data": "19.11.2026",
    "tytul": "Aplikacja v0.9: ekran Start i ściąga drogowa",
