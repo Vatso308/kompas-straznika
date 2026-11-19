@@ -355,6 +355,8 @@
     }
     $('#baza-info').textContent = `baza ${DB.dataBazy} · ${DB.wpisy.length} wpisów`;
     buildIndex();
+    // każde uruchomienie aplikacji zaczyna się od ekranu Start (bez dopisywania historii)
+    try { history.replaceState(null, '', location.pathname + location.search + '#glowna'); } catch { location.hash = '#glowna'; }
     addEventListener('hashchange', route);
     route();
     $('#start-ok').onclick = () => { $('#start').hidden = true; store.set('start', true); $('#q')?.focus?.(); };

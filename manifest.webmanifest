@@ -3,7 +3,7 @@
   "short_name": "Kompas SM",
   "description": "Nieoficjalne narzędzie szkoleniowe: mandaty, uprawnienia i przepisy dla strażników miejskich. Działa offline.",
   "lang": "pl",
-  "start_url": "./#szukaj",
+  "start_url": "./#glowna",
   "scope": "./",
   "display": "standalone",
   "background_color": "#14213d",
