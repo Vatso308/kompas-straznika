@@ -96,6 +96,28 @@
       <div class="row">${verdict(w)}${smState(w) === 'nie' ? '' : kwotaTxt(w.kwota)}${pktBadge(w.pkt)}</div>
       ${openQ(w) ? `<div class="row"><span class="badge warn">Sprawdź i powiedz mi (${openQ(w)})</span></div>` : ''}
     </button>`;
+  const vMini = w => ({ tak: '<span class="verdict tak mini" title="SM może ukarać">✓</span>',
+    nie: '<span class="verdict nie mini" title="Poza uprawnieniami SM">✕</span>',
+    zalezy: '<span class="verdict zalezy mini" title="Zależy – zobacz warunki">±</span>' })[smState(w)];
+  const byId = id => DB.wpisy.find(x => x.id === id);
+  const grupaOf = id => (DB.grupy || []).find(g => g.id === id);
+  const cardGrupa = (g, hit) => `
+    <div class="card grupa">
+      <button class="ghead" data-grupa="${esc(g.id)}"><h3>${esc(g.tytul)}</h3>
+        <div class="law">${esc(g.podstawa)} · ${g.czlonkowie.length} ${g.czlonkowie.length < 5 ? 'pozycje' : 'pozycji'} – dotknij, by zobaczyć całość</div></button>
+      <div class="pars">${g.czlonkowie.map(([id, par]) => { const w = byId(id); if (!w) return ''; return `
+        <button class="par${hit && hit.has(id) ? ' hit' : ''}" data-grupa="${esc(g.id)}" data-focus="${esc(id)}">
+          <span class="plabel">${esc(par)}</span>
+          <span class="ptitle">${esc(w.tytul)}</span>
+          <span class="pmeta">${vMini(w)}${smState(w) === 'nie' ? '' : kwotaTxt(w.kwota)}${pktBadge(w.pkt)}${openQ(w) ? `<span class="badge warn">? ${openQ(w)}</span>` : ''}</span>
+        </button>`; }).join('')}</div>
+    </div>`;
+  // lista z łączeniem paragrafów: członkowie grupy -> jedna karta w miejscu pierwszego trafienia
+  const listCards = (items, hit) => { const seen = new Set(); return items.map(x => {
+    const type = x.type || 'wpis', it = x.item || x;
+    if (type === 'kafel') return cardKafel(it);
+    if (it.grupa && grupaOf(it.grupa)) { if (seen.has(it.grupa)) return ''; seen.add(it.grupa); return cardGrupa(grupaOf(it.grupa), hit); }
+    return cardWpis(it); }).filter(Boolean); };
   const cardKafel = k => `
     <button class="card" data-kafel="${esc(k.id)}">
       <h3>${esc(k.tytul)}</h3><div class="law">${k.sekcja === 'spb' ? 'Środki przymusu bezpośredniego' : 'Nowy strażnik'}</div>
@@ -125,8 +147,9 @@
             <p class="disclaimer">Nieoficjalne narzędzie szkoleniowe. Wynik jest pomocniczy, decyzja należy do Ciebie. Zawsze sprawdź aktualny tekst aktu.</p>`;
           return;
         }
-        res.innerHTML = r.length
-          ? `<p class="muted small">${r.length} ${r.length === 1 ? 'wynik' : r.length < 5 ? 'wyniki' : 'wyników'}</p><div class="list">${r.map(e => e.type === 'wpis' ? cardWpis(e.item) : cardKafel(e.item)).join('')}</div>`
+        const cards = listCards(r, new Set(r.filter(e => e.type === 'wpis').map(e => e.item.id))), n = cards.length;
+        res.innerHTML = n
+          ? `<p class="muted small">${n} ${n === 1 ? 'wynik' : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 10 || n % 100 > 20) ? 'wyniki' : 'wyników'}</p><div class="list">${cards.join('')}</div>`
           : `<div class="empty">Brak wyników dla „${esc(q.value)}”.<br><span class="small">Tego może jeszcze nie być w bazie prototypu.</span></div>`;
       };
       q.addEventListener('input', render);
@@ -141,7 +164,7 @@
       const items = DB.wpisy.filter(w => sel === 'wszystkie' || w.kat === sel);
       view.innerHTML = `<h1>Mandaty</h1>
         <div class="chips">${kats.map(k => `<button class="chip" data-kat="${k}" aria-pressed="${k === sel}">${k === 'wszystkie' ? 'Wszystkie' : KATS[k]}</button>`).join('')}</div>
-        <div class="list">${items.map(cardWpis).join('')}</div>
+        <div class="list">${listCards(items).join('')}</div>
         <p class="disclaimer">Kwoty podajemy tylko wtedy, gdy wynikają z taryfikatora. Gdy brak sztywnej stawki, aplikacja pisze to wprost.</p>`;
     },
 
@@ -193,7 +216,7 @@
       const wpisy = DB.wpisy.filter(w => w.kat === 'miejscowe');
       view.innerHTML = `<h1>Prawo miejscowe – Wrocław</h1>
         <p class="small">Mandat za naruszenie przepisów porządkowych z aktów prawa miejscowego: § 2 ust. 1 pkt 21 rozp. MSWiA; za regulamin czystości – pkt 5 (u.c.p.g.); za uchwałę antysmogową – pkt 7 (POŚ).</p>
-        <h2>Obowiązki i zakazy</h2><div class="list">${wpisy.map(cardWpis).join('')}</div>
+        <h2>Obowiązki i zakazy</h2><div class="list">${listCards(wpisy).join('')}</div>
         <h2>Akty</h2><div class="list">${akty}</div>
         <p class="small"><a href="https://edzienniki.duw.pl/" target="_blank" rel="noopener">Dziennik Urzędowy Województwa Dolnośląskiego</a></p>`;
     },
@@ -225,12 +248,25 @@
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSheet(); });
 
   function showWpis(id) {
-    const w = DB.wpisy.find(x => x.id === id); if (!w) return;
+    const w = byId(id); if (!w) return;
+    if (w.grupa && grupaOf(w.grupa)) return showGrupa(w.grupa, id);
+    openSheet(wpisBody(w));
+  }
+  function showGrupa(gid, focus) {
+    const g = grupaOf(gid); if (!g) return;
+    const mem = g.czlonkowie.map(([id, par]) => [byId(id), par]).filter(([w]) => w);
+    openSheet(`<h2 id="sheet-title" style="margin-top:0">${esc(g.tytul)}</h2>
+      <div class="law" style="margin-bottom:8px">${esc(g.podstawa)} – wszystkie pozycje w jednym miejscu</div>
+      <div class="chips jump">${mem.map(([w, par]) => `<button class="chip" data-jump="par-${esc(w.id)}">${esc(par)}</button>`).join('')}</div>
+      ${mem.map(([w, par]) => `<section class="parsec" id="par-${esc(w.id)}"><div class="parlabel">${esc(par)}</div>${wpisBody(w, true)}</section>`).join('')}`);
+    if (focus) { const el = document.getElementById('par-' + focus); if (el) { el.scrollIntoView({ block: 'start' }); el.classList.add('focus'); } }
+  }
+  function wpisBody(w, sub) {
     const k = w.kwota || {};
     const st = smState(w), big = st === 'nie' ? 'Nie' : st === 'zalezy' ? 'Zależy' : k.typ === 'brak' ? 'Brak stawki' : k.typ === 'widelki' ? `${k.min}–${k.max} zł` : `${k.min} zł`;
-    openSheet(`
+    return `
       ${w.znaki?.length ? `<div class="signrow" style="margin-bottom:8px">${w.znaki.map(signBadge).join('')}</div>` : ''}
-      <h2 id="sheet-title" style="margin-top:0">${esc(w.tytul)}</h2>
+      ${sub ? `<h3 class="partitle">${esc(w.tytul)}</h3>` : `<h2 id="sheet-title" style="margin-top:0">${esc(w.tytul)}</h2>`}
       <div class="answer">
         <div class="law">Czy mogę ukarać?</div>
         <div class="big">${esc(big)}</div>
@@ -253,7 +289,7 @@
       ${w.warunki?.length ? `<h2>Warunki i wskazówki</h2><ul class="points">${w.warunki.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
       ${checksHtml(w)}
       <h2>Źródła</h2>${srcList(w.zrodla)}
-      <div class="meta">${statusBadge(w)} · sprawdzono: ${esc(DB.dataBazy)} · Zawsze sprawdź aktualny tekst aktu. Decyzja należy do Ciebie.</div>`);
+      <div class="meta">${statusBadge(w)} · sprawdzono: ${esc(DB.dataBazy)} · Zawsze sprawdź aktualny tekst aktu. Decyzja należy do Ciebie.</div>`;
   }
   function showKafel(id) {
     const k = DB.kafle.find(x => x.id === id); if (!k) return;
@@ -265,6 +301,8 @@
       <div class="meta">${statusBadge(k)} · sprawdzono: ${esc(DB.dataBazy)}</div>`);
   }
   document.addEventListener('click', e => {
+    const j = e.target.closest('[data-jump]'); if (j) { const el = document.getElementById(j.dataset.jump); if (el) el.scrollIntoView({ block: 'start', behavior: 'smooth' }); return; }
+    const g = e.target.closest('[data-grupa]'); if (g) return showGrupa(g.dataset.grupa, g.dataset.focus);
     const o = e.target.closest('[data-open]'); if (o) return showWpis(o.dataset.open);
     const t = e.target.closest('[data-kafel]'); if (t) return showKafel(t.dataset.kafel);
     const k = e.target.closest('[data-kat]'); if (k) { store.set('kat', k.dataset.kat); views.mandaty(); }

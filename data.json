@@ -1,5 +1,5 @@
 {
- "wersja": "0.7",
+ "wersja": "0.8",
  "dataBazy": "2026-11-19",
  "zasada": "Każde twierdzenie porównano z tekstem aktu (Dz.U., ISAP/ELI, teksty ujednolicone Kancelarii Sejmu). Czego nie dało się potwierdzić w akcie, oznaczono „Sprawdź i powiedz mi”.",
  "zrodla": {
@@ -460,7 +460,9 @@
     "kw",
     "taryfA2021",
     "rozpSM"
-   ]
+   ],
+   "grupa": "g-kw77",
+   "par": "§ 1"
   },
   {
    "id": "kw77-2",
@@ -503,7 +505,9 @@
     "taryfA2021",
     "rozpSM",
     "kpw"
-   ]
+   ],
+   "grupa": "g-kw77",
+   "par": "§ 2"
   },
   {
    "id": "kw117",
@@ -2341,30 +2345,67 @@
   {
    "id": "kw94",
    "kat": "komunikacja",
-   "tytul": "Prowadzenie pojazdu bez uprawnień (inny niż mechaniczny) / niedopuszczonego",
+   "tytul": "Prowadzenie pojazdu innego niż mechaniczny bez uprawnień",
    "potoczne": [
     "rower bez karty rowerowej",
     "dziecko na hulajnodze",
-    "pojazd bez rejestracji"
+    "bez karty rowerowej"
    ],
-   "podstawa": "art. 94 § 1a i 2 k.w.",
-   "opis": "Prowadzenie na drodze pojazdu innego niż mechaniczny bez wymaganych uprawnień (§ 1a); prowadzenie pojazdu niedopuszczonego do ruchu (§ 2).",
+   "podstawa": "art. 94 § 1a k.w.",
+   "opis": "Prowadzenie na drodze pojazdu innego niż mechaniczny (np. roweru) bez wymaganych uprawnień.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 – „art. 94 § 1a i 2”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 200,
+    "lp": "lp. M 257"
+   },
+   "sprawdzono": [
+    "k.w. art. 94 § 1a i 2 k.w.: § 1a: nagana albo grzywna do 1500 zł; § 2: areszt, ograniczenie wolności albo grzywna nie niższa niż 1500 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 94 § 1a i 2",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Mandatownik lp. 257: art. 94 § 1a – 200 zł"
+   ],
+   "sprawdz": [
+    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ],
+   "grupa": "g-kw94",
+   "par": "§ 1a"
+  },
+  {
+   "id": "kw94-2",
+   "kat": "komunikacja",
+   "tytul": "Prowadzenie pojazdu niedopuszczonego do ruchu",
+   "potoczne": [
+    "pojazd bez rejestracji",
+    "auto bez przeglądu",
+    "niedopuszczony do ruchu"
+   ],
+   "podstawa": "art. 94 § 2 k.w.",
+   "opis": "Prowadzenie na drodze pojazdu niedopuszczonego do ruchu.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 2 – „art. 94 § 1a i 2”"
    },
    "kwota": {
     "typ": "widelki",
-    "min": 200,
+    "min": 20,
     "max": 1500,
-    "lp": "lp. M 257 (§ 1a), 272 (§ 2)",
-    "uwaga": "§ 1a: 200 zł (lp. M 257). § 2: mandatownik podaje 20–1500 zł (lp. M 272)."
+    "lp": "lp. M 272",
+    "uwaga": "Mandatownik (IX 2022) podaje 20–1500 zł. Obecny art. 94 § 2 k.w.: grzywna nie niższa niż 1500 zł – patrz „Sprawdź i powiedz mi”."
    },
    "sprawdzono": [
     "k.w. art. 94 § 1a i 2 k.w.: § 1a: nagana albo grzywna do 1500 zł; § 2: areszt, ograniczenie wolności albo grzywna nie niższa niż 1500 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 94 § 1a i 2",
     "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
-    "Mandatownik lp. 257: art. 94 § 1a – 200 zł",
     "Mandatownik lp. 272: art. 94 § 2 – od 20 do 1500 zł"
    ],
    "sprawdz": [
@@ -2376,7 +2417,9 @@
     "kpw",
     "rozpSM",
     "mandatownik"
-   ]
+   ],
+   "grupa": "g-kw94",
+   "par": "§ 2"
   },
   {
    "id": "kw95",
@@ -2417,33 +2460,69 @@
   {
    "id": "kw96",
    "kat": "komunikacja",
-   "tytul": "Dopuszczenie do prowadzenia osoby bez uprawnień / niewskazanie kierującego",
+   "tytul": "Dopuszczenie do prowadzenia pojazdu osoby bez uprawnień",
+   "potoczne": [
+    "pożyczył auto",
+    "dał prowadzić bez prawa jazdy"
+   ],
+   "podstawa": "art. 96 § 1 pkt 2 k.w.",
+   "opis": "Właściciel, posiadacz lub użytkownik dopuszcza do prowadzenia pojazdu osobę bez wymaganych uprawnień.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 96 § 3 (ust. 1) i art. 96 § 1 pkt 2 (ust. 2)”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 300,
+    "lp": "lp. M 263",
+    "uwaga": "Mandatownik (IX 2022) podaje 300 zł. Obecny art. 96 § 1 k.w.: grzywna nie niższa niż 1000 zł – patrz „Sprawdź i powiedz mi”."
+   },
+   "sprawdzono": [
+    "k.w. art. 96 § 1 pkt 2 i § 3 k.w.: § 1 pkt 2: ograniczenie wolności albo grzywna nie niższa niż 1000 zł; § 3: grzywna",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 96 § 3 (ust. 1) i art. 96 § 1 pkt 2 (ust. 2)",
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Mandatownik lp. 263: art. 96 § 1 pkt 2 – 300 zł"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: przy § 1 pkt 2 mandatownik (IX 2022) podaje 300 zł, a obecny art. 96 § 1 k.w. przewiduje grzywnę nie niższą niż 1000 zł. Którą kwotę stosujecie?"
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "mandatownik"
+   ],
+   "grupa": "g-kw96",
+   "par": "§ 1 pkt 2"
+  },
+  {
+   "id": "kw96-3",
+   "kat": "komunikacja",
+   "tytul": "Niewskazanie, komu powierzono pojazd",
    "potoczne": [
     "niewskazanie kierującego",
     "kto prowadził",
-    "pożyczył auto"
+    "wskazanie kierującego"
    ],
-   "podstawa": "art. 96 § 1 pkt 2 i § 3 k.w.",
-   "opis": "Dopuszczenie do prowadzenia pojazdu osoby bez wymaganych uprawnień (§ 1 pkt 2); niewskazanie na żądanie organu, komu powierzono pojazd (§ 3).",
+   "podstawa": "art. 96 § 3 k.w.",
+   "opis": "Niewskazanie na żądanie uprawnionego organu, komu powierzono pojazd do kierowania lub używania w oznaczonym czasie.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 96 § 3 (ust. 1) i art. 96 § 1 pkt 2 (ust. 2)”"
    },
    "kwota": {
     "typ": "brak",
-    "lp": "lp. M 263 (§ 1 pkt 2), 266–269 (§ 3)",
-    "uwaga": "§ 1 pkt 2: mandatownik 300 zł (lp. M 263). § 3: stawka zależy od czynu, którego dotyczy żądanie (lp. M 266–269 – min. 4000 / 2000 zł albo podwójna stawka, nie mniej niż 800 / 500 zł)."
+    "lp": "lp. M 266–269",
+    "uwaga": "Stawka zależy od czynu, którego dotyczy żądanie (lp. M 266–269 – min. 4000 / 2000 zł albo podwójna stawka, nie mniej niż 800 / 500 zł)."
    },
    "sprawdzono": [
     "k.w. art. 96 § 1 pkt 2 i § 3 k.w.: § 1 pkt 2: ograniczenie wolności albo grzywna nie niższa niż 1000 zł; § 3: grzywna",
     "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 96 § 3 (ust. 1) i art. 96 § 1 pkt 2 (ust. 2)",
     "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
     "PoRD art. 129b ust. 3 pkt 7: żądanie wskazania, komu powierzono pojazd",
-    "Mandatownik lp. 263: art. 96 § 1 pkt 2 – 300 zł",
     "Mandatownik lp. 266–269: art. 96 § 3 – stawki zależne od czynu"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: przy § 1 pkt 2 mandatownik (IX 2022) podaje 300 zł, a obecny art. 96 § 1 k.w. przewiduje grzywnę nie niższą niż 1000 zł. Którą kwotę stosujecie?",
     "Sprawdź i powiedz mi: lp. M 266–269 odczytałem skrótowo. Potwierdź, który wiersz dotyczy którego przypadku (4000 / 2000 / podwójna stawka min. 800 / 500 zł)."
    ],
    "zrodla": [
@@ -2451,7 +2530,9 @@
     "kpw",
     "rozpSM",
     "mandatownik"
-   ]
+   ],
+   "grupa": "g-kw96",
+   "par": "§ 3"
   },
   {
    "id": "kw96c",
@@ -4920,7 +5001,9 @@
     "kod": "wg znaku",
     "max": 6,
     "uwaga": "Punkty wynikają z naruszonego znaku: B-35/B-37/B-38/B-39 – 1 pkt (C 19), B-3/B-3a/B-4 – 3 pkt (C 14), D-18 z T-29 lub P-18/P-20 z P-24 – 6 pkt (C 17/C 18), B-10 – 1 pkt (C 20)."
-   }
+   },
+   "grupa": "g-kw96b",
+   "par": "+ art. 92 § 1"
   },
   {
    "id": "ucpg-chodnik",
@@ -4958,7 +5041,9 @@
     "taryfA",
     "rozpSM",
     "kpw"
-   ]
+   ],
+   "grupa": "g-ucpg10",
+   "par": "ust. 2"
   },
   {
    "id": "ucpg-pojemniki",
@@ -4993,7 +5078,9 @@
     "taryfA",
     "rozpSM",
     "kpw"
-   ]
+   ],
+   "grupa": "g-ucpg10",
+   "par": "ust. 2"
   },
   {
    "id": "ucpg-regulamin",
@@ -5028,7 +5115,9 @@
     "rozpSM",
     "kpw",
     "regWroc"
-   ]
+   ],
+   "grupa": "g-ucpg10",
+   "par": "ust. 2a"
   },
   {
    "id": "ucpg-deklaracja",
@@ -5059,7 +5148,9 @@
     "ucpg",
     "rozpSM",
     "kpw"
-   ]
+   ],
+   "grupa": "g-ucpg10",
+   "par": "ust. 2b–2c"
   },
   {
    "id": "ucpg-zezwolenie",
@@ -5089,7 +5180,9 @@
     "ucpg",
     "rozpSM",
     "kpw"
-   ]
+   ],
+   "grupa": "g-ucpg10",
+   "par": "ust. 1"
   },
   {
    "id": "oz-pies",
@@ -5799,25 +5892,20 @@
   {
    "id": "wodne",
    "kat": "szczegolne",
-   "tytul": "Prawo wodne: grodzenie brzegu, ścieki, odpady do wody, mycie aut w rzece, wały",
+   "tytul": "Grodzenie nieruchomości przy wodach publicznych",
    "potoczne": [
-    "mycie auta nad rzeką",
     "płot nad rzeką",
-    "ścieki do rowu",
-    "śmieci do rzeki",
-    "wał przeciwpowodziowy"
+    "zagrodzony brzeg"
    ],
-   "podstawa": "art. 478 pkt 2, 5, 6 i 8 Prawa wodnego",
-   "opis": "Pkt 2 – grodzenie nieruchomości przy wodach publicznych bliżej niż 1,5 m od linii brzegu albo zakazywanie lub uniemożliwianie przechodzenia. Pkt 5 – wprowadzanie ścieków do wód lub do ziemi wbrew art. 75. Pkt 6 – m.in. wprowadzanie do wód odpadów, spławianie lub składowanie zanieczyszczonego śniegu, mycie pojazdów w wodach i nad brzegami, jazda pojazdami w wodach. Pkt 8 – właściciel lub zarządca wału nie wprowadza czasowego zakazu poruszania się po wałach.",
+   "podstawa": "art. 478 pkt 2 Prawa wodnego",
+   "opis": "Grodzenie nieruchomości przyległych do wód publicznych w odległości mniejszej niż 1,5 m od linii brzegu albo zakazywanie lub uniemożliwianie przechodzenia przez ten obszar.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 20"
    },
    "kwota": {
-    "typ": "widelki",
-    "min": 20,
-    "max": 500,
-    "uwaga": "Pkt 5 i 8: grzywna (20–5000 zł), mandat do 500 zł. Pkt 2 i 6: grzywna od 1000 do 7500 zł – minimum wyższe niż limit mandatu SM."
+    "typ": "brak",
+    "uwaga": "Grzywna od 1000 do 7500 zł (art. 478 in fine). Minimum wyższe niż limit mandatu SM (500 zł)."
    },
    "sprawdzono": [
     "Prawo wodne art. 478: „podlega karze grzywny, przy czym grzywna za wykroczenia, o których mowa w pkt 2, 6, 7, 9, 10 i 12‒16, wynosi od 1000 zł do 7500 zł”",
@@ -5831,7 +5919,113 @@
     "kpw96",
     "rozpSM-tj",
     "kpw"
-   ]
+   ],
+   "grupa": "g-pw478",
+   "par": "pkt 2"
+  },
+  {
+   "id": "wodne-5",
+   "kat": "szczegolne",
+   "tytul": "Wprowadzanie ścieków do wód lub do ziemi",
+   "potoczne": [
+    "ścieki do rowu",
+    "ścieki do rzeki",
+    "szambo do rowu"
+   ],
+   "podstawa": "art. 478 pkt 5 Prawa wodnego",
+   "opis": "Wprowadzanie ścieków do wód lub do ziemi wbrew art. 75 Prawa wodnego.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 20"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Grzywna 20–5000 zł (art. 24 § 1 k.w.); mandat SM do 500 zł. Taryfikator nie podaje stawki."
+   },
+   "sprawdzono": [
+    "Prawo wodne art. 478: „podlega karze grzywny, przy czym grzywna za wykroczenia, o których mowa w pkt 2, 6, 7, 9, 10 i 12‒16, wynosi od 1000 zł do 7500 zł”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 20: art. 478 pkt 2, 5, 6 i 8"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "pwodne",
+    "kpw96",
+    "rozpSM-tj",
+    "kpw"
+   ],
+   "grupa": "g-pw478",
+   "par": "pkt 5"
+  },
+  {
+   "id": "wodne-6",
+   "kat": "szczegolne",
+   "tytul": "Odpady do wody, mycie pojazdów w wodach i nad brzegami",
+   "potoczne": [
+    "mycie auta nad rzeką",
+    "śmieci do rzeki",
+    "śnieg do rzeki"
+   ],
+   "podstawa": "art. 478 pkt 6 Prawa wodnego",
+   "opis": "M.in. wprowadzanie do wód odpadów, spławianie lub składowanie zanieczyszczonego śniegu, mycie pojazdów w wodach i nad brzegami, jazda pojazdami w wodach.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 20"
+   },
+   "kwota": {
+    "typ": "brak",
+    "uwaga": "Grzywna od 1000 do 7500 zł (art. 478 in fine). Minimum wyższe niż limit mandatu SM (500 zł)."
+   },
+   "sprawdzono": [
+    "Prawo wodne art. 478: „podlega karze grzywny, przy czym grzywna za wykroczenia, o których mowa w pkt 2, 6, 7, 9, 10 i 12‒16, wynosi od 1000 zł do 7500 zł”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 20: art. 478 pkt 2, 5, 6 i 8"
+   ],
+   "sprawdz": [
+    "Sprawdź i powiedz mi: przy pkt 2 i 6 minimum ustawowe (1000 zł) przekracza limit mandatu SM (500 zł). Czy w takich sprawach kierujecie wniosek do sądu zamiast mandatu?"
+   ],
+   "zrodla": [
+    "pwodne",
+    "kpw96",
+    "rozpSM-tj",
+    "kpw"
+   ],
+   "grupa": "g-pw478",
+   "par": "pkt 6"
+  },
+  {
+   "id": "wodne-8",
+   "kat": "szczegolne",
+   "tytul": "Brak czasowego zakazu poruszania się po wałach",
+   "potoczne": [
+    "wał przeciwpowodziowy",
+    "wały"
+   ],
+   "podstawa": "art. 478 pkt 8 Prawa wodnego",
+   "opis": "Właściciel lub zarządca wału przeciwpowodziowego nie wprowadza czasowego zakazu poruszania się po wałach.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 1 pkt 20"
+   },
+   "kwota": {
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Grzywna 20–5000 zł (art. 24 § 1 k.w.); mandat SM do 500 zł. Taryfikator nie podaje stawki."
+   },
+   "sprawdzono": [
+    "Prawo wodne art. 478: „podlega karze grzywny, przy czym grzywna za wykroczenia, o których mowa w pkt 2, 6, 7, 9, 10 i 12‒16, wynosi od 1000 zł do 7500 zł”",
+    "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 20: art. 478 pkt 2, 5, 6 i 8"
+   ],
+   "sprawdz": [],
+   "zrodla": [
+    "pwodne",
+    "kpw96",
+    "rozpSM-tj",
+    "kpw"
+   ],
+   "grupa": "g-pw478",
+   "par": "pkt 8"
   },
   {
    "id": "zakazenia",
@@ -6008,7 +6202,9 @@
    "pkt": {
     "liczba": 0,
     "brak": "W zał. 1 brak kodu za samo posługiwanie się kartą parkingową bez uprawnienia (art. 96b k.w.)."
-   }
+   },
+   "grupa": "g-kw96b",
+   "par": "sama karta"
   },
   {
    "id": "b41",
@@ -6709,6 +6905,16 @@
  "zmiany": [
   {
    "data": "19.11.2026",
+   "tytul": "Aplikacja v0.8: paragrafy w jednej karcie",
+   "opis": "Art. 77, 94, 96, 96b k.w., art. 10 u.c.p.g. i art. 478 Prawa wodnego wyświetlają się jako jedna karta z listą paragrafów. Art. 94, 96 i 478 rozdzielono na paragrafy/punkty z osobnymi kwotami.",
+   "zrodla": [
+    "kw",
+    "ucpg",
+    "pwodne"
+   ]
+  },
+  {
+   "data": "19.11.2026",
    "tytul": "Aplikacja v0.7: punkty karne",
    "opis": "Wykroczenia drogowe mają kod i liczbę punktów według rozp. MSWiA z 29.05.2026 (Dz.U. 2026 poz. 724). Rowerzyści, piesi, hulajnogi i UTO – 0 pkt. Nowy kafel „Punkty karne – jak to działa”.",
    "zrodla": [
@@ -6810,6 +7016,118 @@
     "pos"
    ],
    "sprawdz": "Sprawdź i powiedz mi: czy uchwała XLI/1405/17 była zmieniana po 2023 r.? Nie odczytałem samego tekstu uchwały, tylko jej streszczenie."
+  }
+ ],
+ "grupy": [
+  {
+   "id": "g-kw77",
+   "tytul": "Art. 77 k.w. – trzymanie zwierzęcia",
+   "podstawa": "art. 77 k.w.",
+   "czlonkowie": [
+    [
+     "kw77",
+     "§ 1"
+    ],
+    [
+     "kw77-2",
+     "§ 2"
+    ]
+   ]
+  },
+  {
+   "id": "g-kw94",
+   "tytul": "Art. 94 k.w. – prowadzenie bez uprawnień / pojazdu niedopuszczonego",
+   "podstawa": "art. 94 k.w.",
+   "czlonkowie": [
+    [
+     "kw94",
+     "§ 1a"
+    ],
+    [
+     "kw94-2",
+     "§ 2"
+    ]
+   ]
+  },
+  {
+   "id": "g-kw96",
+   "tytul": "Art. 96 k.w. – dopuszczenie do prowadzenia, niewskazanie kierującego",
+   "podstawa": "art. 96 k.w.",
+   "czlonkowie": [
+    [
+     "kw96",
+     "§ 1 pkt 2"
+    ],
+    [
+     "kw96-3",
+     "§ 3"
+    ]
+   ]
+  },
+  {
+   "id": "g-kw96b",
+   "tytul": "Art. 96b k.w. – karta parkingowa bez uprawnienia",
+   "podstawa": "art. 96b k.w.",
+   "czlonkowie": [
+    [
+     "karta-sama",
+     "sama karta"
+    ],
+    [
+     "karta",
+     "+ art. 92 § 1"
+    ]
+   ]
+  },
+  {
+   "id": "g-ucpg10",
+   "tytul": "Art. 10 u.c.p.g. – czystość i porządek w gminie",
+   "podstawa": "art. 10 u.c.p.g.",
+   "czlonkowie": [
+    [
+     "ucpg-zezwolenie",
+     "ust. 1"
+    ],
+    [
+     "ucpg-chodnik",
+     "ust. 2"
+    ],
+    [
+     "ucpg-pojemniki",
+     "ust. 2"
+    ],
+    [
+     "ucpg-regulamin",
+     "ust. 2a"
+    ],
+    [
+     "ucpg-deklaracja",
+     "ust. 2b–2c"
+    ]
+   ]
+  },
+  {
+   "id": "g-pw478",
+   "tytul": "Art. 478 Prawa wodnego – wykroczenia przy wodach",
+   "podstawa": "art. 478 Prawa wodnego",
+   "czlonkowie": [
+    [
+     "wodne",
+     "pkt 2"
+    ],
+    [
+     "wodne-5",
+     "pkt 5"
+    ],
+    [
+     "wodne-6",
+     "pkt 6"
+    ],
+    [
+     "wodne-8",
+     "pkt 8"
+    ]
+   ]
   }
  ]
 }
