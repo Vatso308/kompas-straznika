@@ -69,6 +69,8 @@
     if (k.typ === 'widelki') return `<span class="amount">${k.min}–${k.max} zł</span>`;
     return `<span class="amount">${k.min} zł</span>`;
   };
+  const pktTxt = p => !p ? '' : p.brak ? '0 pkt' : p.max ? `${p.liczba}–${p.max} pkt` : `${p.liczba} pkt`;
+  const pktBadge = p => p ? `<span class="badge pkt${p.brak ? ' zero' : ''}" title="Punkty karne">${pktTxt(p)}</span>` : '';
   // 'nie' z wyjątkiem i 'czesc' = uprawnienie warunkowe -> żółte „Zależy”
   const smState = w => { const m = w.sm?.moze; return m === 'tak' ? 'tak' : (m === 'nie' && !w.sm.wyjatek) ? 'nie' : 'zalezy'; };
   const verdict = w => ({
@@ -91,7 +93,7 @@
     <button class="card" data-open="${esc(w.id)}">
       <div class="signrow">${w.znaki?.length && w.kat === 'znaki' ? signBadge(w.znaki[0]) : ''}
         <div><h3>${esc(w.tytul)}</h3><div class="law">${esc(w.podstawa)}</div></div></div>
-      <div class="row">${verdict(w)}${smState(w) === 'nie' ? '' : kwotaTxt(w.kwota)}</div>
+      <div class="row">${verdict(w)}${smState(w) === 'nie' ? '' : kwotaTxt(w.kwota)}${pktBadge(w.pkt)}</div>
       ${openQ(w) ? `<div class="row"><span class="badge warn">Sprawdź i powiedz mi (${openQ(w)})</span></div>` : ''}
     </button>`;
   const cardKafel = k => `
@@ -239,7 +241,11 @@
         <dt>Podstawa</dt><dd>${esc(w.podstawa)}</dd>
         <dt>Uprawnienie SM</dt><dd>${esc(w.sm.podstawa)}</dd>
         <dt>Kwota</dt><dd>${kwotaTxt(k)}${k.lp ? ` <span class="law">(${esc(k.lp)})</span>` : ''}</dd>
+        ${w.pkt ? `<dt>Punkty karne</dt><dd><b>${pktTxt(w.pkt)}</b>${w.pkt.kod ? ` <span class="law">(kod ${esc(w.pkt.kod)})</span>` : ''}</dd>` : ''}
       </dl>
+      ${w.pkt?.brak ? `<div class="note"><b>Punkty:</b> ${esc(w.pkt.brak)}</div>` : ''}
+      ${w.pkt?.uwaga ? `<div class="note"><b>Punkty:</b> ${esc(w.pkt.uwaga)}</div>` : ''}
+      ${w.pkt && !w.pkt.brak ? `<p class="small muted" style="margin:6px 0 0">Punkty tylko dla kierującego pojazdem silnikowym, motorowerem lub tramwajem (rozp. MSWiA 2026 poz. 724).</p>` : ''}
       ${k.recydywa ? `<p class="small" style="margin:8px 0 0"><b>Recydywa:</b> ${k.recydywa} zł (art. 38 § 2 k.w., wg taryfikatora)</p>` : ''}
       ${k.uwaga ? `<div class="note"><b>Uwaga:</b> ${esc(k.uwaga)}</div>` : ''}
       ${w.praktyka ? `<div class="note prak"><b>Praktyka:</b> ${esc(w.praktyka)}</div>` : ''}

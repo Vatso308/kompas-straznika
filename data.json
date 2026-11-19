@@ -1,6 +1,6 @@
 {
- "wersja": "0.6",
- "dataBazy": "2026-11-16",
+ "wersja": "0.7",
+ "dataBazy": "2026-11-19",
  "zasada": "Każde twierdzenie porównano z tekstem aktu (Dz.U., ISAP/ELI, teksty ujednolicone Kancelarii Sejmu). Czego nie dało się potwierdzić w akcie, oznaczono „Sprawdź i powiedz mi”.",
  "zrodla": {
   "kw": {
@@ -182,6 +182,10 @@
   "antysmogNIK": {
    "nazwa": "NIK, wystąpienie pokontrolne P/24/069 – numery i publikatory uchwał antysmogowych Dolnego Śląska",
    "url": "https://www.nik.gov.pl/kontrole/wyniki-kontroli-nik/pobierz,lwr~p_24_069_202411130907301731485250~id0~01,typ,kj.pdf"
+  },
+  "punkty2026": {
+   "nazwa": "Rozp. MSWiA z 29.05.2026 w sprawie ewidencji kierujących pojazdami naruszających przepisy ruchu drogowego (Dz.U. 2026 poz. 724) – zał. nr 1 (taryfikator punktów), od 3.06.2026",
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2026/724/text.pdf"
   }
  },
  "wpisy": [
@@ -564,15 +568,21 @@
     "PoRD art. 129b ust. 2 pkt 2 lit. a: przepisy o zatrzymaniu i postoju",
     "k.w. art. 97: grzywna do 3000 zł albo nagana",
     "Taryfikator tab. B lp. 163: art. 47 – 100 zł",
-    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w."
+    "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – naruszenie warunków lub zakazów zatrzymania/postoju (art. 46, 47, 49, 50 PoRD) – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "pord",
     "kw",
     "taryfB",
-    "rozpSM"
-   ]
+    "rozpSM",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "pord49-przejscie",
@@ -599,7 +609,8 @@
    "sprawdzono": [
     "PoRD art. 49 ust. 1 pkt 2: zakaz na przejściu dla pieszych / przejeździe dla rowerów i 10 m przed nimi",
     "Taryfikator tab. B lp. 166: art. 49 ust. 1 pkt 2 – 100–300 zł",
-    "PoRD art. 129b ust. 2 pkt 2 lit. a; rozp. MSWiA § 2 ust. 2"
+    "PoRD art. 129b ust. 2 pkt 2 lit. a; rozp. MSWiA § 2 ust. 2",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 18 – zatrzymanie na przejściu dla pieszych / przejeździe dla rowerzystów lub bliżej niż 10 m (art. 49 ust. 1 pkt 2) – 5 pkt"
    ],
    "sprawdz": [
     "Taryfikator podaje widełki 100–300 zł bez wskazania, od czego zależy kwota. Sprawdź i powiedz mi, jaką praktykę przyjęła Twoja jednostka."
@@ -607,8 +618,13 @@
    "zrodla": [
     "pord",
     "taryfB",
-    "rozpSM"
-   ]
+    "rozpSM",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 5,
+    "kod": "H 18"
+   }
   },
   {
    "id": "pord49-rower",
@@ -633,14 +649,20 @@
    "sprawdzono": [
     "PoRD art. 49 ust. 1 pkt 11",
     "Taryfikator tab. B lp. 175: 100 zł",
-    "PoRD art. 129b ust. 2 pkt 2 lit. a; rozp. MSWiA § 2 ust. 2"
+    "PoRD art. 129b ust. 2 pkt 2 lit. a; rozp. MSWiA § 2 ust. 2",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – naruszenie warunków lub zakazów zatrzymania/postoju (art. 46, 47, 49, 50 PoRD) – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "pord",
     "taryfB",
-    "rozpSM"
-   ]
+    "rozpSM",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "pord49-przystanek",
@@ -665,14 +687,20 @@
    "sprawdzono": [
     "PoRD art. 49 ust. 1 pkt 9",
     "Taryfikator tab. B lp. 173: 100 zł",
-    "PoRD art. 129b ust. 2 pkt 2 lit. a; rozp. MSWiA § 2 ust. 2"
+    "PoRD art. 129b ust. 2 pkt 2 lit. a; rozp. MSWiA § 2 ust. 2",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – naruszenie warunków lub zakazów zatrzymania/postoju (art. 46, 47, 49, 50 PoRD) – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "pord",
     "taryfB",
-    "rozpSM"
-   ]
+    "rozpSM",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "pord49-strefa",
@@ -696,14 +724,20 @@
    "sprawdzono": [
     "PoRD art. 49 ust. 2 pkt 4",
     "Taryfikator tab. B lp. 179: 100 zł",
-    "PoRD art. 129b ust. 2 pkt 2 lit. a; rozp. MSWiA § 2 ust. 2"
+    "PoRD art. 129b ust. 2 pkt 2 lit. a; rozp. MSWiA § 2 ust. 2",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – naruszenie warunków lub zakazów zatrzymania/postoju (art. 46, 47, 49, 50 PoRD) – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "pord",
     "taryfB",
-    "rozpSM"
-   ]
+    "rozpSM",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "koperta",
@@ -739,7 +773,8 @@
     "Taryfikator tab. B lp. 288 (§ 90 ust. 2/4 i § 92): 800 zł; lp. 254–255: 1200 zł",
     "Rozp. o znakach: § 52 ust. 4 – D-18a; § 52 ust. 6 – T-29 pod D-18/D-18a/D-18b; § 90 ust. 2 – P-18; § 90 ust. 4 – P-20; § 92 – P-24",
     "k.w. art. 96b: posługiwanie się kartą parkingową bez uprawnienia – grzywna do 2000 zł",
-    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 i art. 96b k.w."
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 i art. 96b k.w.",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 17 / C 18 – C 17: D-18/D-18b z T-29 – 6 pkt; C 18: P-18 i P-24 albo P-20 i P-24 – 6 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
@@ -747,8 +782,13 @@
     "znaki",
     "kw",
     "rozpSM",
-    "wikimedia"
-   ]
+    "wikimedia",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 6,
+    "kod": "C 17 / C 18"
+   }
   },
   {
    "id": "b35",
@@ -776,7 +816,8 @@
     "Rozp. o znakach § 28 ust. 1: B-35 „zakaz postoju”",
     "Taryfikator tab. B lp. 265 (§ 28 ust. 1): 100 zł",
     "k.w. art. 92 § 1: grzywna albo nagana",
-    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w."
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 19 – niestosowanie się do B-35, B-36, B-37, B-38, B-39 – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
@@ -784,8 +825,13 @@
     "taryfB",
     "kw",
     "rozpSM",
-    "wikimedia"
-   ]
+    "wikimedia",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "C 19"
+   }
   },
   {
    "id": "b36",
@@ -812,15 +858,21 @@
    "sprawdzono": [
     "Rozp. o znakach § 28 ust. 2: B-36 „zakaz zatrzymywania się”",
     "Taryfikator tab. B lp. 266 (§ 28 ust. 2): 100 zł",
-    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w."
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 19 – niestosowanie się do B-35, B-36, B-37, B-38, B-39 – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "znaki",
     "taryfB",
     "rozpSM",
-    "wikimedia"
-   ]
+    "wikimedia",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "C 19"
+   }
   },
   {
    "id": "b39",
@@ -847,7 +899,8 @@
    "sprawdzono": [
     "Rozp. o znakach § 29: B-39, koniec strefy B-40",
     "Taryfikator tab. B lp. 268 (§ 29): 100 zł",
-    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w."
+    "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 19 – niestosowanie się do B-35, B-36, B-37, B-38, B-39 – 1 pkt"
    ],
    "sprawdz": [
     "Nieopłacony postój w strefie płatnej to według mnie opłata dodatkowa z ustawy o drogach publicznych, a nie wykroczenie. Tej ustawy nie sprawdziłem. Sprawdź i powiedz mi."
@@ -856,8 +909,13 @@
     "znaki",
     "taryfB",
     "rozpSM",
-    "wikimedia"
-   ]
+    "wikimedia",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "C 19"
+   }
   },
   {
    "id": "b1",
@@ -892,7 +950,8 @@
     "Taryfikator tab. B: brak wiersza dla B-1 (lp. 256 obejmuje § 18 = B-3, B-3a, B-4, B-6, B-7)",
     "k.w. rozdział XI obejmuje art. 84–103a (w tym art. 92)",
     "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
-    "Mandatownik lp. 287: B-1 – brak stałej stawki, 20–5000 zł"
+    "Mandatownik lp. 287: B-1 – brak stałej stawki, 20–5000 zł",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 07 – niestosowanie się do B-1 – 8 pkt"
    ],
    "sprawdz": [
     "Bez stawki w taryfikatorze kwotę ustala strażnik w granicach ustawy. Sprawdź i powiedz mi, czy Twoja jednostka ma wytyczne co do kwoty za B-1."
@@ -905,8 +964,13 @@
     "kpw",
     "rozpSM",
     "mandatownik",
-    "wikimedia"
-   ]
+    "wikimedia",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 8,
+    "kod": "C 07"
+   }
   },
   {
    "id": "b2",
@@ -938,7 +1002,8 @@
     "Rozp. o znakach § 17 ust. 1: B-2 „zakaz wjazdu”",
     "PoRD art. 129b ust. 2: pkt 1 tylko zakaz ruchu w obu kierunkach; pkt 2 lit. b – motorowery, rowery, hulajnogi elektryczne, UTO, pojazdy zaprzęgowe",
     "Taryfikator tab. B: brak wiersza dla B-2",
-    "Mandatownik lp. 288: B-2 – brak stałej stawki, 20–5000 zł"
+    "Mandatownik lp. 288: B-2 – brak stałej stawki, 20–5000 zł",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 06 – niestosowanie się do B-2 – 8 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
@@ -946,8 +1011,13 @@
     "pord",
     "taryfB",
     "mandatownik",
-    "wikimedia"
-   ]
+    "wikimedia",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 8,
+    "kod": "C 06"
+   }
   },
   {
    "id": "b3",
@@ -981,15 +1051,21 @@
    "sprawdzono": [
     "Rozp. o znakach § 18 ust. 1 – B-3, ust. 2 – B-3a, ust. 3 – B-4, ust. 6 – B-6, ust. 7 – B-7",
     "Taryfikator tab. B lp. 256 (§ 18 ust. 1–3, 6–8): 250 zł",
-    "PoRD art. 129b ust. 2"
+    "PoRD art. 129b ust. 2",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 14 – niestosowanie się do B-3 do B-7 – 3 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "znaki",
     "taryfB",
     "pord",
-    "wikimedia"
-   ]
+    "wikimedia",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 3,
+    "kod": "C 14"
+   }
   },
   {
    "id": "pieszy-poza",
@@ -1021,8 +1097,13 @@
    "zrodla": [
     "pord",
     "taryfB",
-    "rozpSM"
-   ]
+    "rozpSM",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-telefon",
@@ -1053,8 +1134,13 @@
    "zrodla": [
     "pord",
     "taryfB",
-    "rozpSM"
-   ]
+    "rozpSM",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "rower-chodnik",
@@ -1093,8 +1179,13 @@
    "zrodla": [
     "pord",
     "taryfB",
-    "rozpSM"
-   ]
+    "rozpSM",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "kw97a",
@@ -1126,7 +1217,8 @@
     "Przypis taryfikatora: kwota po ukośniku to mandat w trybie art. 38 § 2 k.w.",
     "Dz.U. 2026 poz. 1148 § 1 pkt 1 lit. b: dodanie „art. 97a” do wykazu SM (od 15.09.2026)",
     "k.p.w. art. 96 § 1ad: rozdział XI k.w. – do 5000 zł",
-    "Mandatownik lp. 109–111: 2000 zł, w recydywie 4000 zł (pogrubione)"
+    "Mandatownik lp. 109–111: 2000 zł, w recydywie 4000 zł (pogrubione)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 10 / H 11 / H 12 – H 10 objeżdżanie zapór lub wjazd przy opuszczaniu/podnoszeniu; H 11 wjazd przy czerwonym sygnale; H 12 brak miejsca za przejazdem – po 15 pkt"
    ],
    "sprawdz": [
     "Rozporządzenie daje SM mandat za art. 97a, a według podręcznika sprawcą może być każdy uczestnik ruchu. Art. 129b ust. 2 PoRD nie pozwala jednak SM kontrolować kierującego samochodem (poza B-1). Sprawdź i powiedz mi, czy wobec kierowcy samochodu działacie sami, czy wzywacie Policję."
@@ -1137,8 +1229,14 @@
     "rozpSM2026",
     "kpw",
     "pord",
-    "mandatownik"
-   ]
+    "mandatownik",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 15,
+    "kod": "H 10 / H 11 / H 12",
+    "uwaga": "Tylko kierujący pojazdem silnikowym, motorowerem lub tramwajem. Pieszy (lp. 16) – bez punktów."
+   }
   },
   {
    "id": "kw49",
@@ -2048,8 +2146,13 @@
    "zrodla": [
     "kw",
     "kpw",
-    "rozpSM"
-   ]
+    "rozpSM",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "kw86b",
@@ -2087,8 +2190,13 @@
     "kw",
     "kpw",
     "rozpSM",
-    "mandatownik"
-   ]
+    "mandatownik",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "kw88",
@@ -2371,13 +2479,19 @@
     "PoRD art. 129b ust. 2 pkt 2 lit. d"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: czy we Wrocławiu działa SCT i jaką stawkę podaje mandatownik?"
+    "Sprawdź i powiedz mi: czy we Wrocławiu działa SCT i jaką stawkę podaje mandatownik?",
+    "SCT (art. 96c k.w.): brak kodu w zał. 1. Czy wpisuje się C 20 (1 pkt – znak), czy nic?"
    ],
    "zrodla": [
     "kw",
     "kpw",
-    "rozpSM"
-   ]
+    "rozpSM",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "W zał. 1 brak odrębnego kodu za wjazd do strefy czystego transportu."
+   }
   },
   {
    "id": "kw99",
@@ -3005,8 +3119,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-strona",
@@ -3038,8 +3157,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-ddr",
@@ -3070,8 +3194,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-odblask",
@@ -3103,8 +3232,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-przejscie",
@@ -3136,8 +3270,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-zza",
@@ -3169,8 +3308,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-widocznosc",
@@ -3204,8 +3348,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-zwalnianie",
@@ -3237,8 +3386,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-torowisko",
@@ -3270,8 +3424,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-zapory",
@@ -3306,8 +3465,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-barierki",
@@ -3339,8 +3503,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-znaki",
@@ -3371,8 +3540,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-czerwone",
@@ -3404,8 +3578,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "pieszy-droga",
@@ -3437,8 +3616,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "uto-poza",
@@ -3472,8 +3656,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "uto-alkohol",
@@ -3507,8 +3696,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "rower-ddr",
@@ -3540,8 +3734,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "rower-pieszy-ddr",
@@ -3572,8 +3771,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "rower-sluza",
@@ -3604,8 +3808,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "rower-dziecko",
@@ -3637,8 +3846,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "rower-obok",
@@ -3671,8 +3885,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "rower-kierownica",
@@ -3704,8 +3923,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "rower-czepianie",
@@ -3737,8 +3961,13 @@
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "rower-kolumna",
@@ -3762,15 +3991,22 @@
     "Taryfikator tab. B lp. 210: 200 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. b",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 16 – wjeżdżanie między jadące w kolumnie rowery, wózki rowerowe, hulajnogi elektryczne lub pojazdy uprzywilejowane – 2 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 2,
+    "kod": "H 16",
+    "uwaga": "Tylko gdy sprawcą jest kierujący pojazdem silnikowym/motorowerem."
+   }
   },
   {
    "id": "rower-c13",
@@ -3795,7 +4031,8 @@
     "Taryfikator tab. B lp. 270: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. b",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 20 – pozostałe, niewyszczególnione znaki i sygnały – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
@@ -3803,11 +4040,18 @@
     "pord",
     "rozpSM",
     "kpw",
-    "wikimedia"
+    "wikimedia",
+    "punkty2026"
    ],
    "znaki": [
     "C-13"
-   ]
+   ],
+   "pkt": {
+    "liczba": 0,
+    "kod": "C 20",
+    "max": 1,
+    "uwaga": "Rowerzysta – 0 pkt. Kierujący pojazdem silnikowym/motorowerem – C 20, 1 pkt."
+   }
   },
   {
    "id": "post-46-1",
@@ -3833,15 +4077,21 @@
     "Taryfikator tab. B lp. 160: 100–300 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – naruszenie warunków lub zakazów zatrzymania/postoju (art. 46, 47, 49, 50 PoRD) – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "post-46-2",
@@ -3866,15 +4116,21 @@
     "Taryfikator tab. B lp. 161: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – naruszenie warunków lub zakazów zatrzymania/postoju (art. 46, 47, 49, 50 PoRD) – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "post-46-3",
@@ -3899,15 +4155,21 @@
     "Taryfikator tab. B lp. 162: 150–300 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – naruszenie warunków lub zakazów zatrzymania/postoju (art. 46, 47, 49, 50 PoRD) – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "post-tunel",
@@ -3931,15 +4193,23 @@
     "Taryfikator tab. B lp. 164: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – brak tu odrębnego kodu dla art. 47a; H 28 obejmuje art. 46, 47, 49, 50"
    ],
-   "sprawdz": [],
+   "sprawdz": [
+    "Art. 47a PoRD (odstęp w tunelu) nie jest wymieniony w opisie H 28 (art. 46, 47, 49, 50). Który kod wpisuje się w praktyce?"
+   ],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "post-skrzyzowanie",
@@ -3964,15 +4234,21 @@
     "Taryfikator tab. B lp. 165: 300 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 19 – zatrzymanie na przejeździe kolejowym/tramwajowym, skrzyżowaniu lub bliżej niż 10 m (art. 49 ust. 1 pkt 1) – 5 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 5,
+    "kod": "H 19"
+   }
   },
   {
    "id": "post-most",
@@ -3997,15 +4273,21 @@
     "Taryfikator tab. B lp. 167: 200 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 20 – zatrzymanie w tunelu, na moście lub wiadukcie (art. 49 ust. 1 pkt 3) – 5 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 5,
+    "kod": "H 20"
+   }
   },
   {
    "id": "post-linia",
@@ -4030,15 +4312,21 @@
     "Taryfikator tab. B lp. 168–169: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – naruszenie warunków lub zakazów zatrzymania/postoju (art. 46, 47, 49, 50 PoRD) – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "post-znak",
@@ -4062,15 +4350,21 @@
     "Taryfikator tab. B lp. 170: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – naruszenie warunków lub zakazów zatrzymania/postoju (art. 46, 47, 49, 50 PoRD) – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "post-lewa",
@@ -4096,15 +4390,25 @@
     "Taryfikator tab. B lp. 171–172: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 / H 27 – H 28 (art. 49) – 1 pkt; H 27 wjeżdżanie na pas między jezdniami – 5 pkt"
    ],
-   "sprawdz": [],
+   "sprawdz": [
+    "Zatrzymanie na pasie między jezdniami: czy wpisuje się tylko H 28 (1 pkt), czy także H 27 (5 pkt) za wjazd na ten pas?"
+   ],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28 / H 27",
+    "max": 5,
+    "uwaga": "Lewa krawędź jezdni: 1 pkt (H 28). Na pasie między jezdniami: H 28 za samo zatrzymanie; H 27 (5 pkt) przewiduje wjeżdżanie na pas między jezdniami."
+   }
   },
   {
    "id": "post-wysepka",
@@ -4128,15 +4432,21 @@
     "Taryfikator tab. B lp. 174: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – naruszenie warunków lub zakazów zatrzymania/postoju (art. 46, 47, 49, 50 PoRD) – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "post-wjazd",
@@ -4162,15 +4472,21 @@
     "Taryfikator tab. B lp. 176–177: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – naruszenie warunków lub zakazów zatrzymania/postoju (art. 46, 47, 49, 50 PoRD) – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "post-przejazd",
@@ -4194,15 +4510,21 @@
     "Taryfikator tab. B lp. 178: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – naruszenie warunków lub zakazów zatrzymania/postoju (art. 46, 47, 49, 50 PoRD) – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "post-ciezki",
@@ -4228,15 +4550,21 @@
     "Taryfikator tab. B lp. 180: 200–300 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 97 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: H 28 – naruszenie warunków lub zakazów zatrzymania/postoju (art. 46, 47, 49, 50 PoRD) – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "H 28"
+   }
   },
   {
    "id": "b37",
@@ -4260,7 +4588,8 @@
     "Taryfikator tab. B lp. 267: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 19 – niestosowanie się do B-35, B-36, B-37, B-38, B-39 – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
@@ -4268,12 +4597,17 @@
     "pord",
     "rozpSM",
     "kpw",
-    "wikimedia"
+    "wikimedia",
+    "punkty2026"
    ],
    "znaki": [
     "B-37",
     "B-38"
-   ]
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "C 19"
+   }
   },
   {
    "id": "d18",
@@ -4298,7 +4632,8 @@
     "Taryfikator tab. B lp. 286: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 20 – pozostałe, niewyszczególnione znaki i sygnały – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
@@ -4306,12 +4641,18 @@
     "pord",
     "rozpSM",
     "kpw",
-    "wikimedia"
+    "wikimedia",
+    "punkty2026"
    ],
    "znaki": [
     "D-18",
     "D-18b"
-   ]
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "C 20",
+    "uwaga": "Bez tabliczki T-29. Z T-29 to „koperta” – C 17, 6 pkt."
+   }
   },
   {
    "id": "d19",
@@ -4336,7 +4677,8 @@
     "Taryfikator tab. B lp. 289: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 20 – pozostałe, niewyszczególnione znaki i sygnały – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
@@ -4344,11 +4686,16 @@
     "pord",
     "rozpSM",
     "kpw",
-    "wikimedia"
+    "wikimedia",
+    "punkty2026"
    ],
    "znaki": [
     "D-19"
-   ]
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "C 20"
+   }
   },
   {
    "id": "p18",
@@ -4373,7 +4720,8 @@
     "Taryfikator tab. B lp. 292: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 20 – pozostałe, niewyszczególnione znaki i sygnały – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
@@ -4381,12 +4729,18 @@
     "pord",
     "rozpSM",
     "kpw",
-    "wikimedia"
+    "wikimedia",
+    "punkty2026"
    ],
    "znaki": [
     "P-18",
     "P-19"
-   ]
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "C 20",
+    "uwaga": "P-18/P-19 bez P-24. P-18 z P-24 – C 18, 6 pkt."
+   }
   },
   {
    "id": "p20",
@@ -4411,7 +4765,8 @@
     "Taryfikator tab. B lp. 293: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 20 – pozostałe, niewyszczególnione znaki i sygnały – 1 pkt"
    ],
    "sprawdz": [],
    "zrodla": [
@@ -4419,11 +4774,17 @@
     "pord",
     "rozpSM",
     "kpw",
-    "wikimedia"
+    "wikimedia",
+    "punkty2026"
    ],
    "znaki": [
     "P-20"
-   ]
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "C 20",
+    "uwaga": "P-20 bez P-24. Z P-24 to „koperta” – C 18, 6 pkt."
+   }
   },
   {
    "id": "p17",
@@ -4448,7 +4809,8 @@
     "Taryfikator tab. B lp. 279: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 20 – pozostałe, niewyszczególnione znaki i sygnały – 1 pkt"
    ],
    "sprawdz": [
     "Sprawdź i powiedz mi: czy SM kontroluje P-17 tylko przy zatrzymaniu lub postoju? Tak to rozumiem z art. 129b ust. 2 pkt 2 lit. a."
@@ -4458,11 +4820,16 @@
     "pord",
     "rozpSM",
     "kpw",
-    "wikimedia"
+    "wikimedia",
+    "punkty2026"
    ],
    "znaki": [
     "P-17"
-   ]
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "C 20"
+   }
   },
   {
    "id": "p21",
@@ -4487,7 +4854,8 @@
     "Taryfikator tab. B lp. 281: 100 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 92 § 1 k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: C 20 – pozostałe, niewyszczególnione znaki i sygnały – 1 pkt"
    ],
    "sprawdz": [
     "Sprawdź i powiedz mi: czy SM karze za P-21 tylko przy zatrzymaniu lub postoju? Wjazd na P-21 w ruchu nie mieści się w art. 129b."
@@ -4497,11 +4865,16 @@
     "pord",
     "rozpSM",
     "kpw",
-    "wikimedia"
+    "wikimedia",
+    "punkty2026"
    ],
    "znaki": [
     "P-21"
-   ]
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "C 20"
+   }
   },
   {
    "id": "karta",
@@ -4528,17 +4901,26 @@
     "Taryfikator tab. B lp. 250–255: 500–1200 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 96b k.w.",
     "PoRD art. 129b ust. 2 pkt 2 lit. a",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: wg znaku – punkty za naruszony znak (np. C 19 – 1 pkt, C 14 – 3 pkt, C 17/C 18 – 6 pkt); brak kodu za samą kartę"
    ],
    "sprawdz": [
-    "Wiersze z B-3 i B-10 dotyczą wjazdu, a nie postoju. Sprawdź i powiedz mi, czy SM stosuje je tylko przy postoju."
+    "Wiersze z B-3 i B-10 dotyczą wjazdu, a nie postoju. Sprawdź i powiedz mi, czy SM stosuje je tylko przy postoju.",
+    "Zał. 1 nie ma kodu za kartę parkingową. Czy przy zbiegu z art. 96b wpisuje się tylko punkty za znak? A B-10 – czy na pewno C 20?"
    ],
    "zrodla": [
     "taryfB",
     "pord",
     "rozpSM",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 1,
+    "kod": "wg znaku",
+    "max": 6,
+    "uwaga": "Punkty wynikają z naruszonego znaku: B-35/B-37/B-38/B-39 – 1 pkt (C 19), B-3/B-3a/B-4 – 3 pkt (C 14), D-18 z T-29 lub P-18/P-20 z P-24 – 6 pkt (C 17/C 18), B-10 – 1 pkt (C 20)."
+   }
   },
   {
    "id": "ucpg-chodnik",
@@ -5612,14 +5994,21 @@
    "sprawdzono": [
     "Mandatownik lp. 279: art. 96b – 400 zł"
    ],
-   "sprawdz": [],
+   "sprawdz": [
+    "Karta parkingowa bez naruszenia znaku (art. 96b): w zał. 1 nie znalazłem kodu – potwierdź, że 0 pkt."
+   ],
    "zrodla": [
     "mandatownik",
     "kw",
     "rozpSM",
     "pord",
-    "kpw"
-   ]
+    "kpw",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "W zał. 1 brak kodu za samo posługiwanie się kartą parkingową bez uprawnienia (art. 96b k.w.)."
+   }
   },
   {
    "id": "b41",
@@ -5650,11 +6039,16 @@
     "rozpSM",
     "pord",
     "kpw",
-    "wikimedia"
+    "wikimedia",
+    "punkty2026"
    ],
    "znaki": [
     "B-41"
-   ]
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Ewidencja obejmuje tylko kierujących pojazdami silnikowymi, motorowerami i tramwajami (§ 1 rozp.). Rower, hulajnoga elektryczna, UTO i pieszy – 0 pkt (art. 2 pkt 32 PoRD)."
+   }
   },
   {
    "id": "c16",
@@ -5677,7 +6071,8 @@
     "lp": "lp. M 313"
    },
    "sprawdzono": [
-    "Mandatownik lp. 313: C-16 – 50 zł"
+    "Mandatownik lp. 313: C-16 – 50 zł",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: B 07 – jazda wzdłuż po drodze dla pieszych lub przejściu – 8 pkt (kierujący pojazdem)"
    ],
    "sprawdz": [],
    "zrodla": [
@@ -5686,11 +6081,18 @@
     "rozpSM",
     "pord",
     "kpw",
-    "wikimedia"
+    "wikimedia",
+    "punkty2026"
    ],
    "znaki": [
     "C-16"
-   ]
+   ],
+   "pkt": {
+    "liczba": 0,
+    "kod": "B 07",
+    "max": 8,
+    "uwaga": "Pieszy – 0 pkt. Kierujący pojazdem silnikowym jadący wzdłuż drogi dla pieszych – B 07, 8 pkt."
+   }
   },
   {
    "id": "kw97-znaki",
@@ -6209,6 +6611,37 @@
    ]
   },
   {
+   "id": "punkty-karne",
+   "sekcja": "nowy",
+   "tytul": "Punkty karne – jak to działa",
+   "potoczne": [
+    "punkty karne",
+    "punkty",
+    "ile punktów",
+    "ewidencja kierowców",
+    "taryfikator punktów"
+   ],
+   "punkty": [
+    "Podstawa: rozp. MSWiA z 29.05.2026 (Dz.U. 2026 poz. 724), od 3.06.2026. Zastąpiło rozporządzenie z 2023 r.",
+    "Punkty dostaje kierujący pojazdem silnikowym, motorowerem lub tramwajem. Rowerzysta, użytkownik hulajnogi elektrycznej/UTO i pieszy – 0 pkt.",
+    "Punkty wynikają z kodu w zał. nr 1 (np. C 19 – zakaz postoju/zatrzymania, 1 pkt; H 18 – zatrzymanie na przejściu, 5 pkt; C 17/C 18 – „koperta”, 6 pkt).",
+    "Informację do ewidencji przekazuje Policja oraz inne organy uprawnione do nakładania grzywien w drodze mandatu za naruszenia w ruchu drogowym (§ 2 ust. 2).",
+    "W karcie wykroczenia znajdziesz kod i liczbę punktów. Tam, gdzie zależy od sprawcy lub oznakowania – opis w uwagach."
+   ],
+   "uwaga": "Kwoty mandatów pozostają według taryfikatora/mandatownika. Punkty to osobny skutek, nie część grzywny.",
+   "sprawdzono": [
+    "Rozp. MSWiA 2026 poz. 724 – zakres ewidencji i zał. nr 1 (kody C, H, B)",
+    "Art. 2 pkt 32 PoRD – definicja pojazdu silnikowego"
+   ],
+   "sprawdz": [
+    "SM nie jest wymieniona z nazwy w § 2 ust. 2 – tylko „inne organy uprawnione”. Jak w naszej jednostce przekazuje się dane o punktach do Policji (formularz, system, termin)?"
+   ],
+   "zrodla": [
+    "punkty2026",
+    "pord"
+   ]
+  },
+  {
    "id": "legitymowanie",
    "sekcja": "nowy",
    "tytul": "Legitymowanie: jak przeprowadzić",
@@ -6274,6 +6707,14 @@
   }
  ],
  "zmiany": [
+  {
+   "data": "19.11.2026",
+   "tytul": "Aplikacja v0.7: punkty karne",
+   "opis": "Wykroczenia drogowe mają kod i liczbę punktów według rozp. MSWiA z 29.05.2026 (Dz.U. 2026 poz. 724). Rowerzyści, piesi, hulajnogi i UTO – 0 pkt. Nowy kafel „Punkty karne – jak to działa”.",
+   "zrodla": [
+    "punkty2026"
+   ]
+  },
   {
    "data": "16.11.2026",
    "tytul": "Aplikacja v0.6: ustawy szczególne i prawo miejscowe Wrocławia",

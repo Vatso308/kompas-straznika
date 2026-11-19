@@ -122,3 +122,7 @@ ul.checks li::before{content:"✓";position:absolute;left:2px;color:var(--ok);fo
 .signimg small{font-size:11px;font-weight:700;color:var(--muted)}
 .sheet .signimg img{width:84px;height:84px}
 .signrow{flex-wrap:wrap}
+
+.badge.pkt{background:#e3ecff;color:#1f3f8f}
+.badge.pkt.zero{background:#eceff3;color:#5b6573}
+@media (prefers-color-scheme:dark){.badge.pkt{background:#1f2f55;color:#bcd0ff}.badge.pkt.zero{background:#2a2f37;color:#a9b2bf}}
