@@ -7778,9 +7778,8 @@
    "podstawa": "art. 97 k.w. w zw. z art. 60 ust. 2 pkt 1 lub 3 PoRD",
    "opis": "Pozostawienie pracującego silnika podczas postoju na obszarze zabudowanym (z wyjątkiem pojazdu wykonującego czynności na drodze) albo oddalenie się od pojazdu, gdy silnik jest w ruchu.",
    "sm": {
-    "moze": "czesc",
-    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD",
-    "wyjatek": "Tylko jeśli traktować to jako przepis o postoju (art. 129b ust. 2 pkt 2 lit. a) – patrz pytanie niżej."
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 (art. 97 k.w.) + art. 129b ust. 2 pkt 2 lit. a PoRD; praktyka jednostki potwierdzona przez prowadzącego bazę"
    },
    "kwota": {
     "typ": "widelki",
@@ -7792,11 +7791,10 @@
    "sprawdzono": [
     "Mandatownik lp. M 221: Oddalenie się kierującego od pojazdu, gdy silnik jest w ruchu – 50 zł",
     "Mandatownik lp. M 223: Pozostawienie pracującego silnika podczas postoju na obszarze zabudowanym, z wyjątkiem… – 100 zł",
-    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)"
+    "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
+    "Prowadzący bazę (19.11.2026): jednostka nakłada mandaty za pracujący silnik na postoju i oddalenie się od pojazdu z włączonym silnikiem"
    ],
-   "sprawdz": [
-    "Art. 60 ust. 2 PoRD jest w rozdziale o używaniu pojazdów, nie o zatrzymaniu i postoju. Czy jednostka nakłada mandat za pracujący silnik na postoju (art. 129b ust. 2 pkt 2 lit. a)?"
-   ],
+   "sprawdz": [],
    "zrodla": [
     "mandatownik",
     "pord",
