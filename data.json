@@ -1,5 +1,5 @@
 {
- "wersja": "0.8",
+ "wersja": "0.9",
  "dataBazy": "2026-11-19",
  "zasada": "Każde twierdzenie porównano z tekstem aktu (Dz.U., ISAP/ELI, teksty ujednolicone Kancelarii Sejmu). Czego nie dało się potwierdzić w akcie, oznaczono „Sprawdź i powiedz mi”.",
  "zrodla": {
@@ -2280,8 +2280,8 @@
     "utrudnianie ruchu",
     "stanie na jezdni"
    ],
-   "podstawa": "art. 90 k.w.",
-   "opis": "Tamowanie lub utrudnianie ruchu na drodze publicznej, w strefie zamieszkania lub strefie ruchu (§ 1). Kierujący pojazdem mechanicznym (§ 2): grzywna nie niższa niż 500 zł.",
+   "podstawa": "art. 90 § 1 k.w.",
+   "opis": "Tamowanie lub utrudnianie ruchu na drodze publicznej, w strefie zamieszkania lub strefie ruchu.",
    "sm": {
     "moze": "tak",
     "podstawa": "Rozp. MSWiA § 2 ust. 2 – „art. 90”"
@@ -2296,7 +2296,7 @@
     "k.w. art. 90 k.w.: § 1: ograniczenie wolności albo grzywna; § 2: ograniczenie wolności albo grzywna nie niższa niż 500 zł",
     "Rozp. MSWiA § 2 ust. 2: art. 90",
     "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
-    "Taryfikator tab. B: lp. 128 – 100 zł; lp. 132 – 200 zł; lp. 138 – 300 zł; lp. 24 i 27 – 200 zł; lp. 302 (§ 2): nie niższa niż 500 zł"
+    "Taryfikator tab. B: lp. 128 – 100 zł; lp. 132 – 200 zł; lp. 138 – 300 zł; lp. 24 i 27 – 200 zł"
    ],
    "sprawdz": [
     "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
@@ -2305,7 +2305,57 @@
     "kw",
     "kpw",
     "rozpSM"
-   ]
+   ],
+   "pkt": {
+    "liczba": 0,
+    "brak": "Kod A 08 (8 pkt) dotyczy tylko § 2 – kierującego pojazdem mechanicznym."
+   },
+   "grupa": "g-kw90",
+   "par": "§ 1"
+  },
+  {
+   "id": "kw90-2",
+   "kat": "komunikacja",
+   "tytul": "Tamowanie lub utrudnianie ruchu przez kierującego pojazdem mechanicznym",
+   "potoczne": [
+    "auto blokuje ulicę",
+    "samochód tamuje ruch",
+    "utrudnianie ruchu samochodem"
+   ],
+   "podstawa": "art. 90 § 2 k.w.",
+   "opis": "Kierujący pojazdem mechanicznym tamuje lub utrudnia ruch na drodze publicznej, w strefie zamieszkania lub strefie ruchu.",
+   "sm": {
+    "moze": "tak",
+    "podstawa": "Rozp. MSWiA § 2 ust. 2 – „art. 90”"
+   },
+   "kwota": {
+    "typ": "stala",
+    "min": 500,
+    "lp": "tab. B lp. 302",
+    "uwaga": "Ustawa: grzywna nie niższa niż 500 zł."
+   },
+   "sprawdzono": [
+    "k.w. art. 90 § 2: ograniczenie wolności albo grzywna nie niższa niż 500 zł",
+    "Rozp. MSWiA § 2 ust. 2: art. 90",
+    "Taryfikator tab. B lp. 302 (§ 2): nie niższa niż 500 zł",
+    "Rozp. MSWiA 2026 poz. 724, zał. 1: A 08 – naruszenie powodujące tamowanie lub utrudnienie ruchu (art. 90 § 2 k.w.) – 8 pkt"
+   ],
+   "sprawdz": [
+    "Kontrolę ruchu SM prowadzi tylko w zakresie art. 129b ust. 2 PoRD (postój, piesi, rowery/hulajnogi/UTO, B-1, SCT, nacisk osi)."
+   ],
+   "zrodla": [
+    "kw",
+    "kpw",
+    "rozpSM",
+    "taryfB",
+    "punkty2026"
+   ],
+   "pkt": {
+    "liczba": 8,
+    "kod": "A 08"
+   },
+   "grupa": "g-kw90",
+   "par": "§ 2"
   },
   {
    "id": "kw91",
@@ -6905,6 +6955,15 @@
  "zmiany": [
   {
    "data": "19.11.2026",
+   "tytul": "Aplikacja v0.9: ekran Start i ściąga drogowa",
+   "opis": "Nowa zakładka Start: licznik otwartych pytań „Sprawdź i powiedz mi”, informacja o ostatniej wersji i ściąga najczęstszych wykroczeń drogowych z kodem, grzywną i punktami. Art. 90 k.w. rozdzielony na § 1 i § 2 (A 08 – 8 pkt). Zakładka Znaki przeniesiona do „Więcej”.",
+   "zrodla": [
+    "punkty2026",
+    "taryfB"
+   ]
+  },
+  {
+   "data": "19.11.2026",
    "tytul": "Aplikacja v0.8: paragrafy w jednej karcie",
    "opis": "Art. 77, 94, 96, 96b k.w., art. 10 u.c.p.g. i art. 478 Prawa wodnego wyświetlają się jako jedna karta z listą paragrafów. Art. 94, 96 i 478 rozdzielono na paragrafy/punkty z osobnymi kwotami.",
    "zrodla": [
@@ -7128,6 +7187,181 @@
      "pkt 8"
     ]
    ]
+  },
+  {
+   "id": "g-kw90",
+   "tytul": "Art. 90 k.w. – tamowanie lub utrudnianie ruchu",
+   "podstawa": "art. 90 k.w.",
+   "czlonkowie": [
+    [
+     "kw90",
+     "§ 1"
+    ],
+    [
+     "kw90-2",
+     "§ 2"
+    ]
+   ]
   }
- ]
+ ],
+ "sciaga": {
+  "tytul": "Ściąga: najczęstsze wykroczenia drogowe",
+  "opis": "Układ jak na karcie jednostki. Kwoty z taryfikatora/mandatownika, punkty z rozp. MSWiA 2026 poz. 724. Dotknij wiersza, by zobaczyć szczegóły.",
+  "wiersze": [
+   {
+    "id": "b1",
+    "kod": "C 07",
+    "wykr": "B-1 zakaz ruchu",
+    "kwal": "art. 92 § 1 k.w.",
+    "przepis": ""
+   },
+   {
+    "id": "b35",
+    "kod": "C 19",
+    "wykr": "B-35 zakaz postoju",
+    "kwal": "art. 92 § 1 k.w.",
+    "przepis": ""
+   },
+   {
+    "id": "b36",
+    "kod": "C 19",
+    "wykr": "B-36 zakaz zatrzymywania się",
+    "kwal": "art. 92 § 1 k.w.",
+    "przepis": ""
+   },
+   {
+    "id": "p17",
+    "kod": "C 20",
+    "wykr": "P-17 linia przystankowa",
+    "kwal": "art. 92 § 1 k.w.",
+    "przepis": ""
+   },
+   {
+    "id": "p20",
+    "kod": "C 20",
+    "wykr": "P-20 koperta (bez P-24)",
+    "kwal": "art. 92 § 1 k.w.",
+    "przepis": ""
+   },
+   {
+    "id": "p21",
+    "kod": "C 20",
+    "wykr": "P-21 powierzchnia wyłączona",
+    "kwal": "art. 92 § 1 k.w.",
+    "przepis": ""
+   },
+   {
+    "id": "d19",
+    "kod": "C 20",
+    "wykr": "D-19 postój taxi",
+    "kwal": "art. 92 § 1 k.w.",
+    "przepis": ""
+   },
+   {
+    "id": "koperta",
+    "kod": "C 17",
+    "wykr": "D-18 + T-29 (miejsce dla niepełnosprawnych)",
+    "kwal": "art. 92 § 1 k.w.",
+    "przepis": ""
+   },
+   {
+    "id": "koperta",
+    "kod": "C 18",
+    "wykr": "P-18 / P-20 + P-24 (miejsce dla niepełnosprawnych)",
+    "kwal": "art. 92 § 1 k.w.",
+    "przepis": ""
+   },
+   {
+    "id": "kw90-2",
+    "kod": "A 08",
+    "wykr": "Tamowanie lub utrudnianie ruchu przez kierującego pojazdem mechanicznym",
+    "kwal": "art. 90 § 2 k.w.",
+    "przepis": ""
+   },
+   {
+    "id": "post-wjazd",
+    "kod": "H 28",
+    "wykr": "Blokowanie wjazdu/wyjazdu (brama, garaż, parking, wnęka postojowa)",
+    "kwal": "art. 97 k.w.",
+    "przepis": "art. 49 ust. 2 pkt 1 PoRD"
+   },
+   {
+    "id": "post-wjazd",
+    "kod": "H 28",
+    "wykr": "Utrudnianie dostępu do innego prawidłowo zaparkowanego pojazdu",
+    "kwal": "art. 97 k.w.",
+    "przepis": "art. 49 ust. 2 pkt 2 PoRD"
+   },
+   {
+    "id": "post-skrzyzowanie",
+    "kod": "H 19",
+    "wykr": "Na skrzyżowaniu lub bliżej niż 10 m od niego",
+    "kwal": "art. 97 k.w.",
+    "przepis": "art. 49 ust. 1 pkt 1 PoRD"
+   },
+   {
+    "id": "pord49-przejscie",
+    "kod": "H 18",
+    "wykr": "Na przejściu dla pieszych lub bliżej niż 10 m przed nim",
+    "kwal": "art. 97 k.w.",
+    "przepis": "art. 49 ust. 1 pkt 2 PoRD"
+   },
+   {
+    "id": "pord49-strefa",
+    "kod": "H 28",
+    "wykr": "D-40 strefa zamieszkania – postój poza miejscem wyznaczonym",
+    "kwal": "art. 97 k.w.",
+    "przepis": "art. 49 ust. 2 pkt 4 PoRD"
+   },
+   {
+    "id": "pord47",
+    "kod": "H 28",
+    "wykr": "Chodnik – nie zostaje 1,5 m dla pieszych",
+    "kwal": "art. 97 k.w.",
+    "przepis": "art. 47 ust. 1 pkt 2 PoRD"
+   },
+   {
+    "id": "pord49-rower",
+    "kod": "H 28",
+    "wykr": "Na drodze lub pasie dla rowerów",
+    "kwal": "art. 97 k.w.",
+    "przepis": "art. 49 ust. 1 pkt 11 PoRD"
+   },
+   {
+    "id": "pord49-przystanek",
+    "kod": "H 28",
+    "wykr": "Bliżej niż 15 m od słupka przystanku lub w zatoce",
+    "kwal": "art. 97 k.w.",
+    "przepis": "art. 49 ust. 1 pkt 9 PoRD"
+   },
+   {
+    "id": "post-linia",
+    "kod": "H 28",
+    "wykr": "Na jezdni przy linii ciągłej – inni muszą na nią najeżdżać",
+    "kwal": "art. 97 k.w.",
+    "przepis": "art. 49 ust. 1 pkt 4 PoRD"
+   },
+   {
+    "id": "post-ciezki",
+    "kod": "H 28",
+    "wykr": "Obszar zabudowany: pojazd o DMC > 16 t lub długości > 12 m",
+    "kwal": "art. 97 k.w.",
+    "przepis": "art. 49 ust. 2 pkt 5 PoRD"
+   },
+   {
+    "id": "kw96-3",
+    "kod": "",
+    "wykr": "Niewskazanie na żądanie organu, komu powierzono pojazd",
+    "kwal": "art. 96 § 3 k.w.",
+    "przepis": ""
+   },
+   {
+    "id": "kw144",
+    "kod": "",
+    "wykr": "Niszczenie roślinności na terenach użytku publicznego",
+    "kwal": "art. 144 § 1 k.w.",
+    "przepis": ""
+   }
+  ]
+ }
 }

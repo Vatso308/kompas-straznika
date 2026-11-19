@@ -158,6 +158,29 @@
       if (!lastQuery && matchMedia('(min-width:700px)').matches) q.focus();
     },
 
+    glowna() {
+      const open = [...DB.wpisy, ...DB.kafle].filter(openQ), nq = open.reduce((n, x) => n + openQ(x), 0);
+      const ver = DB.zmiany.find(z => /^Aplikacja v/.test(z.tytul)) || DB.zmiany[0];
+      const sc = DB.sciaga;
+      const gr = k => !k || k.typ === 'brak' ? '<span class="muted">zob.</span>' : k.typ === 'widelki' ? `${k.min}–${k.max}` : `${k.min}`;
+      const pk = (w, r) => !w.pkt ? '–' : w.pkt.brak ? '0' : w.pkt.max ? `${w.pkt.liczba}–${w.pkt.max}` : `${w.pkt.liczba}`;
+      view.innerHTML = `
+        <a class="stat" href="#pytania"><b>${nq}</b><span>otwartych pytań „Sprawdź i powiedz mi”<small>w ${open.length} wpisach – dotknij, by przejrzeć listę</small></span><i aria-hidden="true">›</i></a>
+        ${ver ? `<a class="answer ver" href="#zmiany"><div class="law">Najnowsza wersja · v${esc(DB.wersja)} · ${esc(ver.data)}</div>
+          <h3>${esc(ver.tytul.replace(/^Aplikacja v[\d.]+:\s*/, '').replace(/^./, c => c.toUpperCase()))}</h3><p class="small">${esc(ver.opis)}</p><span class="small more">Wszystkie zmiany ›</span></a>` : ''}
+        ${sc ? `<h2>${esc(sc.tytul)}</h2><p class="small muted" style="margin:-4px 0 8px">${esc(sc.opis)}</p>
+        <div class="sciaga" role="table" aria-label="${esc(sc.tytul)}">
+          <div class="srow shead" role="row"><span>Kod</span><span>Wykroczenie / kwalifikacja</span><span>Grzywna</span><span>Pkt</span></div>
+          ${sc.wiersze.map(r => { const w = byId(r.id); if (!w) return ''; return `
+          <button class="srow" role="row" data-open="${esc(r.id)}">
+            <span class="skod">${esc(r.kod || '–')}</span>
+            <span class="swykr"><b>${esc(r.wykr)}</b><small>${esc(r.kwal)}${r.przepis ? ` w zw. z ${esc(r.przepis)}` : ''}</small></span>
+            <span class="sgr">${gr(w.kwota)}</span>
+            <span class="spkt">${pk(w, r)}</span>
+          </button>`; }).join('')}
+        </div><p class="disclaimer">Grzywna w zł. „zob.” – brak sztywnej stawki, szczegóły po dotknięciu. Punkty tylko dla kierującego pojazdem silnikowym, motorowerem lub tramwajem.</p>` : ''}`;
+    },
+
     mandaty() {
       const sel = store.get('kat', 'wszystkie');
       const kats = ['wszystkie', ...Object.keys(KATS)];
@@ -190,6 +213,7 @@
       const city = store.get('miasto', 'wroclaw');
       view.innerHTML = `<h1>Więcej</h1>
         <div class="tiles">
+          <a class="tile" href="#znaki" style="text-decoration:none"><b>Znaki drogowe</b><span>znak → wykroczenie → mandat</span></a>
           <button class="tile" data-kafel="spb-katalog"><b>Środki przymusu bezpośredniego</b><span>katalog, zasady</span></button>
           <a class="tile" href="#miejscowe" style="text-decoration:none"><b>Prawo miejscowe</b><span>Wrocław</span></a>
           <a class="tile" href="#zmiany" style="text-decoration:none"><b>Zmiany w prawie</b><span>${DB.zmiany.length} pozycje</span></a>
@@ -199,7 +223,7 @@
         <h2>Moje miasto</h2>
         <select id="city"><option value="wroclaw"${city === 'wroclaw' ? ' selected' : ''}>Wrocław</option><option value="brak"${city === 'brak' ? ' selected' : ''}>Tylko przepisy krajowe</option></select>
         <h2>O aplikacji</h2>
-        <button class="btn" id="show-start" style="width:100%;background:var(--card);color:var(--ink);border:1px solid var(--line);margin-bottom:8px">Pokaż ekran startowy</button>
+        <button class="btn" id="show-start" style="width:100%;background:var(--card);color:var(--ink);border:1px solid var(--line);margin-bottom:8px">Pokaż ekran powitalny</button>
         <p class="small">Nieoficjalne narzędzie informacyjne i szkoleniowe grupy aplikantów. Nie jest powiązane ze Strażą Miejską, Strażą Gminną ani organem administracji. Nie jest wiążącą wykładnią prawa. Bez konta, bez reklam, bez śledzenia, bez AI w działaniu. Wyniki pochodzą z zapisanej bazy.</p>
         <p class="small muted">Baza: ${esc(DB.wersja)} z dnia ${esc(DB.dataBazy)} · ${DB.wpisy.length} wpisów, ${DB.kafle.length} kafli</p>`;
       $('#city').addEventListener('change', e => store.set('miasto', e.target.value));
@@ -309,13 +333,13 @@
   });
 
   /* ---------- routing ---------- */
-  const TAB_OF = { miejscowe: 'wiecej', zmiany: 'wiecej', zrodla: 'wiecej', pytania: 'wiecej' };
+  const TAB_OF = { znaki: 'wiecej', miejscowe: 'wiecej', zmiany: 'wiecej', zrodla: 'wiecej', pytania: 'wiecej' };
   function route() {
-    const name = (location.hash || '#szukaj').slice(1);
+    const name = (location.hash || '#glowna').slice(1);
     const fn = views[name] || views.szukaj;
     closeSheet();
     fn();
-    const tab = TAB_OF[name] || (views[name] ? name : 'szukaj');
+    const tab = TAB_OF[name] || (views[name] ? name : 'glowna');
     document.querySelectorAll('.tabs a').forEach(a => a.dataset.tab === tab ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
     window.scrollTo(0, 0);
   }

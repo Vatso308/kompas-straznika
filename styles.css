@@ -146,3 +146,26 @@ ul.checks li::before{content:"✓";position:absolute;left:2px;color:var(--ok);fo
 .parsec.focus{border-top-color:var(--accent)}
 .parlabel{display:inline-block;font-weight:750;font-size:13px;color:#fff;background:var(--accent);border-radius:99px;padding:2px 10px;margin-bottom:6px}
 .partitle{margin:4px 0 10px;font-size:18px}
+
+/* ekran Start */
+.stat{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;padding:12px 14px;margin:4px 0 12px;border-radius:var(--r);
+  background:var(--warn-bg);color:var(--warn);text-decoration:none;border:1px solid color-mix(in srgb,var(--warn) 25%,transparent)}
+.stat b{font-size:34px;line-height:1;font-weight:800}
+.stat span{font-weight:650;font-size:15px;line-height:1.3}
+.stat small{display:block;font-weight:400;font-size:12.5px;opacity:.85;margin-top:2px}
+.stat i{font-style:normal;font-size:26px}
+.answer.ver{display:block;text-decoration:none;color:inherit}
+.answer.ver h3{margin:4px 0}
+.answer.ver p{margin:4px 0 6px}
+.answer.ver .more{color:var(--accent);font-weight:600}
+.sciaga{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.srow{display:grid;grid-template-columns:44px 1fr 66px 30px;gap:8px;align-items:start;width:100%;text-align:left;background:none;border:0;
+  border-top:1px solid var(--line);padding:9px 10px;color:inherit;font:inherit;cursor:pointer}
+.srow:active{background:var(--bg)}
+.srow.shead{border-top:0;background:var(--bg);font-size:11.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.02em;cursor:default;padding:7px 10px}
+.skod{font-weight:750;font-size:13px;color:var(--accent);font-variant-numeric:tabular-nums}
+.swykr b{display:block;font-size:14px;font-weight:600;line-height:1.3}
+.swykr small{display:block;font-size:12px;color:var(--muted);margin-top:2px;line-height:1.3}
+.sgr{font-weight:700;font-size:14px;text-align:right;font-variant-numeric:tabular-nums}
+.spkt{font-weight:750;font-size:14px;text-align:center}
+.srow.shead span:nth-child(3){text-align:right}.srow.shead span:nth-child(4){text-align:center}
