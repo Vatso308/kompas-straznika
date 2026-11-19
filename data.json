@@ -2561,19 +2561,23 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 96 § 3 (ust. 1) i art. 96 § 1 pkt 2 (ust. 2)”"
    },
    "kwota": {
-    "typ": "brak",
+    "typ": "widelki",
+    "min": 500,
+    "max": 8000,
     "lp": "lp. M 266–269",
-    "uwaga": "Stawka zależy od czynu, którego dotyczy żądanie (lp. M 266–269 – min. 4000 / 2000 zł albo podwójna stawka, nie mniej niż 800 / 500 zł)."
+    "uwaga": "Karta jednostki: 500–8000 zł. Stawka zależy od czynu, którego dotyczy żądanie (lp. M 266–269 – min. 4000 / 2000 zł albo podwójna stawka, nie mniej niż 800 / 500 zł)."
    },
    "sprawdzono": [
     "k.w. art. 96 § 1 pkt 2 i § 3 k.w.: § 1 pkt 2: ograniczenie wolności albo grzywna nie niższa niż 1000 zł; § 3: grzywna",
     "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 96 § 3 (ust. 1) i art. 96 § 1 pkt 2 (ust. 2)",
     "k.p.w. art. 96 § 1ad: rozdział XI k.w. – mandat do 5000 zł (zbieg: 6000 zł)",
     "PoRD art. 129b ust. 3 pkt 7: żądanie wskazania, komu powierzono pojazd",
-    "Mandatownik lp. 266–269: art. 96 § 3 – stawki zależne od czynu"
+    "Mandatownik lp. 266–269: art. 96 § 3 – stawki zależne od czynu",
+    "Karta jednostki (ściąga drogowa): art. 96 § 3 k.w. – 500–8000 zł"
    ],
    "sprawdz": [
-    "Sprawdź i powiedz mi: lp. M 266–269 odczytałem skrótowo. Potwierdź, który wiersz dotyczy którego przypadku (4000 / 2000 / podwójna stawka min. 800 / 500 zł)."
+    "Sprawdź i powiedz mi: lp. M 266–269 odczytałem skrótowo. Potwierdź, który wiersz dotyczy którego przypadku (4000 / 2000 / podwójna stawka min. 800 / 500 zł).",
+    "Karta podaje górną granicę 8000 zł, a art. 96 § 1ad k.p.w. daje limit mandatu 5000 zł (zbieg 6000 zł). Z jakiego przepisu wynika 8000 zł przy art. 96 § 3?"
    ],
    "zrodla": [
     "kw",
@@ -2971,14 +2975,17 @@
     "podstawa": "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1 – „art. 144 § 1 i 2”"
    },
    "kwota": {
-    "typ": "brak",
-    "uwaga": "Taryfikator nie podaje stawki. Kwota w granicach sankcji i limitu mandatu."
+    "typ": "widelki",
+    "min": 20,
+    "max": 500,
+    "uwaga": "Karta jednostki: 20–500 zł (§ 1). Taryfikator nie podaje stawki – kwota w granicach grzywny i limitu mandatu (art. 96 § 1 k.p.w.: 500 zł)."
    },
    "sprawdzono": [
     "k.w. art. 144 § 1–2 k.w.: § 1: grzywna do 1000 zł albo nagana; § 2: areszt, ograniczenie wolności albo grzywna",
     "Rozp. MSWiA (t.j. Dz.U. 2026 poz. 167) § 2 ust. 1 pkt 1: art. 144 § 1 i 2",
     "k.p.w. art. 96 § 1: mandat do 500 zł (zbieg: 1000 zł)",
-    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu"
+    "Taryfikator tab. A (pełna lista lp. 1–84): brak wiersza dla tego artykułu",
+    "Karta jednostki (ściąga drogowa): art. 144 § 1 k.w. – 20–500 zł"
    ],
    "sprawdz": [],
    "zrodla": [
